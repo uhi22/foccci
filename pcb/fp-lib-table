@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pcb")(type "KiCad")(uri "C:/UwesTechnik/QCA7000board/pcb.pretty")(options "")(descr ""))
+)
