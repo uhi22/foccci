@@ -31,15 +31,22 @@ Originally designed https://github.com/Millisman/QCA7000, forked to https://gith
 
 ## Todos
 
-- How big are the RBIAS and BIAS_REF in the CCM?
+- Takeover from CCM:
+   - RBIAS (pin 51) CCM R19 is 2,5k.
+   - BIAS_REF (pin 40) CCM R23 is 6,2k.
 - The use of the LEDs on GPIO0 to 3 is not clear. Are they used in the automotive firmware at all?
-- Check boot config on GPIO0 to 2. How they are configured in the CCM?
--- GPIO0: High during boot to boot from the SPI Flash.
--- GPIO1: must be pulled low during reset.
--- GPIO2: 0=legacy SPI, 1=burst SPI. Which is used in the CCM?
+- Check boot config on GPIO 0 to 2.
+    - GPIO0: High during boot to boot from the SPI Flash. (pin60) CCM: R9 is 3k3 to 3V3.
+    - GPIO1: must be pulled low during reset. (pin61) CCM: R11 is 3k3 to ground.
+    - GPIO2: 0=legacy SPI, 1=burst SPI. Which is used in the CCM? (pin62) CCM: R10 is 3k3 to 3V3, and the not-populated R27 into direction of µC.
+    - GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms).
 
 - check all pins
 - check the QCA footprint
 - assign footprint to all components in the schematic
 - re-layout the board
+- change to 4 layers?
+- add CP logic
+- add microcontroller
+- add power supply
 - ...
