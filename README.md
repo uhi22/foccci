@@ -50,3 +50,21 @@ Originally designed https://github.com/Millisman/QCA7000, forked to https://gith
 - add microcontroller
 - add power supply
 - ...
+
+## Programming the SPI Flash
+
+An introduction how to use a Raspberry to program the SPI flash is here:
+https://www.rototron.info/recover-bricked-bios-using-flashrom-on-a-raspberry-pi/
+The connection is quite simple: SPI_FLASH_programming_with_Raspberry.jpg
+
+Make sure that SPI is enabled in the settings of the Raspberry.
+Install the flashrom tool: `sudo apt-get install flashrom`
+The docu of flashrom is here: https://www.flashrom.org/Flashrom
+
+Check whether the device is detected: `flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=2000 -V`
+
+Binary is available here: https://github.com/uhi22/Ioniq28Investigations/blob/main/CCM_ChargeControlModule_PLC_CCS/CCM_FlashDump_SpiFlash_2MB_Ioniq_00_33_79.bin
+
+For viewing the binary, a hex editor can be used, e.g. http://www.funduc.com/fshexedit.htm
+
+To flash the binary file to the SPI flash: `flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=2000 -w myfile.bin` In the case that to tool complains that multiple flash chip definitions match the detected chip, choose the correct one with the option `-c "MX25L...something...`
