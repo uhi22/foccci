@@ -39,13 +39,13 @@ Originally designed https://github.com/Millisman/QCA7000, forked to https://gith
     - GPIO0: High during boot to boot from the SPI Flash. (pin60) CCM: R9 is 3k3 to 3V3.
     - GPIO1: must be pulled low during reset. (pin61) CCM: R11 is 3k3 to ground.
     - GPIO2: 0=legacy SPI, 1=burst SPI. Which is used in the CCM? (pin62) CCM: R10 is 3k3 to 3V3, and the not-populated R27 into direction of µC.
-        - [ ] connect the GPIO2 with pullup to 3V3
+        - [x] connect the GPIO2 with pullup to 3V3
     - GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms).
 
-- [ ] larger footprint for L10
+- [x] larger footprint for L10: From 1206 to 1812
 - [ ] check all pins
 - [ ] check the QCA footprint
-- [ ] assign footprint to all components in the schematic
+- [x] assign footprint to all components in the schematic
 - [ ] re-layout the board
 - [ ] change to 4 layers?
 - [ ] add CP logic
@@ -92,6 +92,9 @@ From https://github.com/jsphuebner/stm32-vcu/blob/master/Hardware/Zombie/ZombieV
     - e.g. SMD 12x12x7mm
     - e.g. https://de.aliexpress.com/item/4000079812764.html?spm=a2g0o.detail.0.0.1db9fSpGfSpGmG&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.281175.0&scm_id=1007.40050.281175.0&scm-url=1007.40050.281175.0&pvid=03c46a0a-7aed-47f8-b4c4-6e97bc2d985f&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.281175.0,pvid:03c46a0a-7aed-47f8-b4c4-6e97bc2d985f,tpp_buckets:668%232846%238114%231999&isseo=y&pdp_npi=3%40dis%21EUR%211.84%211.84%21%21%21%21%21%40211b613116886252208597357e08be%2110000000209047381%21rec%21DE%21
     
+
+### Plan
+- Diodes:  SS54B-HF, 40V, 5A.
 
 ## Programming the SPI Flash
 
