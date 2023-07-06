@@ -43,14 +43,19 @@ Originally designed https://github.com/Millisman/QCA7000, forked to https://gith
     - GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms).
 
 - [ ] larger footprint for L10
-- check all pins
-- check the QCA footprint
-- assign footprint to all components in the schematic
-- re-layout the board
-- change to 4 layers?
-- add CP logic
-- add microcontroller
-- add power supply
+- [ ] check all pins
+- [ ] check the QCA footprint
+- [ ] assign footprint to all components in the schematic
+- [ ] re-layout the board
+- [ ] change to 4 layers?
+- [ ] add CP logic
+- [ ] add microcontroller
+- [ ] add power supply
+- [ ] add contactor driver outputs
+- [ ] add port temperature sensor inputs
+- [ ] add port locking driver
+- [ ] add PP detection
+- [ ] add LEDs for functional check
 - ...
 
 ## Power supply options
