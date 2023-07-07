@@ -93,8 +93,28 @@ From https://github.com/jsphuebner/stm32-vcu/blob/master/Hardware/Zombie/ZombieV
     - e.g. https://de.aliexpress.com/item/4000079812764.html?spm=a2g0o.detail.0.0.1db9fSpGfSpGmG&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.281175.0&scm_id=1007.40050.281175.0&scm-url=1007.40050.281175.0&pvid=03c46a0a-7aed-47f8-b4c4-6e97bc2d985f&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.281175.0,pvid:03c46a0a-7aed-47f8-b4c4-6e97bc2d985f,tpp_buckets:668%232846%238114%231999&isseo=y&pdp_npi=3%40dis%21EUR%211.84%211.84%21%21%21%21%21%40211b613116886252208597357e08be%2110000000209047381%21rec%21DE%21
     
 
+### The Catphish supply
+From https://openinverter.org/forum/viewtopic.php?p=58555#p58555
+- TPS54302 as step down from (6V to 28V) to 5V
+    - voltage is flexible by resistor divider
+    - output 3A
+    - 400kHz fix frequency
+    - SOT-23 (6) package
+    - no external diode on the output required
+    - https://www.ti.com/lit/gpn/tps54302 
+- L 10uH, JLC C408412
+- TLV75733PDBV linear from 5V to 3V3
+    - 1A
+    - SOT-23 5pin
+    - https://www.ti.com/lit/ds/symlink/tlv757p.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1688651505013&ref_url=https%253A%252F%252Fwww.mouser.co.uk%252F
+
 ### Plan
-- Diodes:  SS54B-HF, 40V, 5A.
+- Reverse-polarity diode:  SS54B-HF, 40V, 5A.
+
+## CAN Transceiver
+- SN65HVD234
+    - https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1688711367456&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn65hvd230
+
 
 ## Programming the SPI Flash
 
