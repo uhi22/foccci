@@ -31,20 +31,21 @@ Originally designed https://github.com/Millisman/QCA7000, forked to https://gith
 
 ## Todos
 
-- Takeover from CCM:
-   - RBIAS (pin 51) CCM R19 is 2,5k.
-   - BIAS_REF (pin 40) CCM R23 is 6,2k.
+- [x] Takeover from CCM:
+   - [x] RBIAS (pin 51, R9). In the CCM this is R19 with 2,5k. Used 3k || 15k, this is exactly 2k5.
+   - [x] BIAS_REF (pin 40, R6). In the CCM this is R23 with 6,2k. -> Changed from 2k5 to 6k2 in the schematic. Populated 6k8.
 - The use of the LEDs on GPIO0 to 3 is not clear. Are they used in the automotive firmware at all?
 - Check boot config on GPIO 0 to 2.
-    - GPIO0: High during boot to boot from the SPI Flash. (pin60) CCM: R9 is 3k3 to 3V3.
-    - GPIO1: must be pulled low during reset. (pin61) CCM: R11 is 3k3 to ground.
-    - GPIO2: 0=legacy SPI, 1=burst SPI. Which is used in the CCM? (pin62) CCM: R10 is 3k3 to 3V3, and the not-populated R27 into direction of µC.
+    - [x] GPIO0: High during boot to boot from the SPI Flash. (pin60) CCM: R9 is 3k3 to 3V3.
+    - [x] GPIO1: must be pulled low during reset. (pin61) CCM: R11 is 3k3 to ground.
+    - [x] GPIO2: 0=legacy SPI, 1=burst SPI. Which is used in the CCM? (pin62) CCM: R10 is 3k3 to 3V3, and the not-populated R27 into direction of µC.
         - [x] connect the GPIO2 with pullup to 3V3
     - GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms).
+        - [ ] measure the pin
 
 - [x] larger footprint for L10: From 1206 to 1812
-- [ ] check all pins
-- [ ] check the QCA footprint
+- [x] check all pins -> all plausible with the data sheet.
+- [x] check the QCA footprint -> fits.
 - [x] assign footprint to all components in the schematic
 - [ ] re-layout the board
 - [ ] change to 4 layers?
@@ -114,6 +115,39 @@ From https://openinverter.org/forum/viewtopic.php?p=58555#p58555
 ## CAN Transceiver
 - SN65HVD234
     - https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1688711367456&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn65hvd230
+
+
+## Controller
+
+STM32 selection:
+
+https://www.st.com/en/microcontrollers-microprocessors/stm32f103.html
+- STM32F103C8T6 ("blue pill") 64kB Flash and 20kB RAM too small. -> FAIL
+- STM32F401CC ("black pill") 256kB Flash and 64k RAM. No CAN -> FAIL
+    - https://www.st.com/en/microcontrollers-microprocessors/stm32f401cc.html
+- STM32F103RC 256k Flash, 48k RAM, CAN 
+- STM32F103RD 384k Flash, 64k RAM, CAN (10 pieces 22 euro on Aliexpress)
+- STM32F103RE 512k Flash, 64k RAM, CAN (10 pieces 24 euro on Aliexpress)
+- STM32F303RE (Nucleo demo board available) (STM32F303RET6) 512K Flash, 80k RAM, LQFP-64, 1 CAN. (6 euro on Aliexpress)
+
+Programming:
+- en.st-stm32cubeide_1.12.1_16088_20230420_1057_x86_64.exe
+
+## First run of the June 2023 version
+
+- Starting with power suppy connected to the 3V3, but set to 0V. Slowly increase the voltage to 0.5V. Observe the current. No current is good.
+- Measure, whether the DVDD pins of the QCA and 3 pins of the Flash have 0.5V.
+- Connect multimeter to 1V2, and turn the power supply slowly up.
+- With 2V, the board draws 4.5mA.
+- At 2.7V, the current jumps from 6mA to 13mA. This is when the 1.2V regulator starts delivering its intended output voltage.
+- At 3.3V, the current is 20mA. This does not look like normal operating current.
+- On the L10 input, there is a 0V/3.3V quare wave with 600ns cycle time. This looks normal for the step-down-converter.
+- On the R6 (both sides), there is the 25MHz clock, with ~1V amplitude.
+- The Reset line is 3.3V (no reset). When pulling it to ground, the current consumption increases from 20.8mA to 23mA.
+- The CS of the Flash is permanent high. This means, the QCA does not want to load its programm code from the Flash. Something is wrong.
+- The RBIAS and R_BIASREF were not populated. Added them.
+- Looks better: At 3V3, the current is 80mA. At the CS of the Flash there is activity for one second after power-on. Seems the QCA is fetching its program code.
+- Connect the ESP32 with the ccs32berta via SPI, using 220 ohm protection resistors in all four SPI lines. ESP powered via USB, QCA powered from 3.3V bench power supply. Result: The Berta finds the modem and starts the SLAC.
 
 
 ## Programming the SPI Flash
