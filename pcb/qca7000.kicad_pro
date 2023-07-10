@@ -407,10 +407,10 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -450,8 +450,7 @@
     },
     "net_colors": {
       "+1V2_C": "rgb(226, 255, 22)",
-      "+3V3_A": "rgb(108, 255, 7)",
-      "+3V3_D": "rgb(255, 10, 174)"
+      "+3V3_A": "rgb(108, 255, 7)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
@@ -523,6 +522,14 @@
     [
       "81db238c-e53f-4d52-98ea-36a1df697651",
       "powersupply"
+    ],
+    [
+      "539ec63d-ac7e-42ea-858e-ff2bf33430ea",
+      "outputdrivers"
+    ],
+    [
+      "93c6207c-4203-4bc7-a590-e5e89c0d3d27",
+      "inputs"
     ]
   ],
   "text_variables": {}
