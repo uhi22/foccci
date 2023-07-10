@@ -515,6 +515,14 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "5666e7cf-6b6c-4583-8335-aa3be69ccd45",
+      "controller"
+    ],
+    [
+      "81db238c-e53f-4d52-98ea-36a1df697651",
+      "powersupply"
     ]
   ],
   "text_variables": {}

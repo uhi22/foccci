@@ -121,6 +121,8 @@ From https://openinverter.org/forum/viewtopic.php?p=58555#p58555
 
 STM32 selection:
 
+Overview: http://stefanfrings.de/stm32/stm32f1.html
+
 https://www.st.com/en/microcontrollers-microprocessors/stm32f103.html
 - STM32F103C8T6 ("blue pill") 64kB Flash and 20kB RAM too small. -> FAIL
 - STM32F401CC ("black pill") 256kB Flash and 64k RAM. No CAN -> FAIL
