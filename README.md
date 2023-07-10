@@ -1,10 +1,36 @@
-# QCA7000/7005
+# foccci - The Fully Open CCS Charge Controller Interface
 
-Originally designed https://github.com/Millisman/QCA7000, forked to https://github.com/uhi22/QCA7000board
+Charge Controller that enables CCS charging of homebrew electric vehicles.
+Driven by the OpenInverter forum community, https://openinverter.org/forum/
+Based on the QCA7005 PLC modem and an STM32 microcontroller.
 
-## Changes
+# News
 
-### Schematic
+## 2023-07-09 The board starts talking
+
+After the PCBs and QCAs arrived, the soldering was the next challenge. It went well, and the board started talking to
+the ESP32 running ccs32berta https://github.com/uhi22/ccs32berta
+
+https://openinverter.org/forum/viewtopic.php?p=58627#p58627
+
+## 2023-06-21 First PCB with the QCA7005
+
+...is ready in KiCad and is sent to JLCPCB. It is a two-layer, and has so many capacitors, that they do not really fit
+to the place where they would make sense. Caused by taking the schematic from the Millisman design, but changing
+the size to 1206 for easy hand soldering. Btw: Below five dollars for five PCBs, including shipping, duties and taxes.
+
+## 2023-06-14 The Idea Is Born
+
+...and the discussion is starting on the OpenInverter forum
+https://openinverter.org/forum/viewtopic.php?p=57643#p57643
+
+# Background
+
+The QCA7005 schematic and board was originally designed by Millisman https://github.com/Millisman/QCA7000, then forked to https://github.com/uhi22/QCA7000board and then renamed to https://github.com/uhi22/foccci
+
+# Changes to the original Millisman design
+
+## Schematic
 - removed JTAG completely
 - removed connector for SPI flash, added testpoints instead
 
@@ -15,12 +41,12 @@ Originally designed https://github.com/Millisman/QCA7000, forked to https://gith
 - RSVD06 and 07 are "do not connect". Removed the test points.
 - Bugfix: The ground was missing between C13 and C14.
 
-### symbol QCA7000:
+## symbol QCA7000:
  - RSVD01 changed to power_in, because connected to 3.3V
  - RSVD04 changed to power_in, because connected to 1.2V
  - TCK changed from output to input, because this is the test clock driven by debugger. Even if the data sheet says "output".
  
-### Footprints in Schematic
+## Footprints in Schematic
 
 - changed the 100nF to 1206 for easy handsoldering
 - changed the 10µF to 1210
@@ -29,7 +55,7 @@ Originally designed https://github.com/Millisman/QCA7000, forked to https://gith
 
 
 
-## Todos
+# Todos
 
 - [x] Takeover from CCM:
    - [x] RBIAS (pin 51, R9). In the CCM this is R19 with 2,5k. Used 3k || 15k, this is exactly 2k5.
@@ -59,9 +85,9 @@ Originally designed https://github.com/Millisman/QCA7000, forked to https://gith
 - [ ] add LEDs for functional check
 - ...
 
-## Power supply options
+# Power supply options
 
-### The OpenInverter VCU supply
+## The OpenInverter VCU supply
 From openinverter VCU (https://github.com/jsphuebner/stm32-vcu/blob/master/Hardware/GS450H_VCU_V3%20-%20Schematic.pdf)
 - MP2359DJ as step down from (6V to 24V) to 5V.
     - datasheet https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2359/document_id/228
@@ -81,7 +107,7 @@ From openinverter VCU (https://github.com/jsphuebner/stm32-vcu/blob/master/Hardw
     - datasheet https://datasheet.lcsc.com/szlcsc/2001081204_Shikues-AMS1117-1-2_C475600.pdf
 Conclusion: Seems ok for feeding the QCA7005 and ESP32 plus other small consumers.
 
-### The zombieverter supply
+## The zombieverter supply
 From https://github.com/jsphuebner/stm32-vcu/blob/master/Hardware/Zombie/ZombieVerter_V1%20-%20Schematic.pdf
 - XL1509-5.0 as step down from (6V to 40V) to 5V
     - https://datasheet.lcsc.com/lcsc/1809050422_XLSEMI-XL1509-5-0E1_C61063.pdf
@@ -94,7 +120,7 @@ From https://github.com/jsphuebner/stm32-vcu/blob/master/Hardware/Zombie/ZombieV
     - e.g. https://de.aliexpress.com/item/4000079812764.html?spm=a2g0o.detail.0.0.1db9fSpGfSpGmG&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.281175.0&scm_id=1007.40050.281175.0&scm-url=1007.40050.281175.0&pvid=03c46a0a-7aed-47f8-b4c4-6e97bc2d985f&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.281175.0,pvid:03c46a0a-7aed-47f8-b4c4-6e97bc2d985f,tpp_buckets:668%232846%238114%231999&isseo=y&pdp_npi=3%40dis%21EUR%211.84%211.84%21%21%21%21%21%40211b613116886252208597357e08be%2110000000209047381%21rec%21DE%21
     
 
-### The Catphish supply
+## The Catphish supply
 From https://openinverter.org/forum/viewtopic.php?p=58555#p58555
 - TPS54302 as step down from (6V to 28V) to 5V
     - voltage is flexible by resistor divider
@@ -109,15 +135,30 @@ From https://openinverter.org/forum/viewtopic.php?p=58555#p58555
     - SOT-23 5pin
     - https://www.ti.com/lit/ds/symlink/tlv757p.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1688651505013&ref_url=https%253A%252F%252Fwww.mouser.co.uk%252F
 
-### Plan
+## Plan
 - Reverse-polarity diode:  SS54B-HF, 40V, 5A.
 
-## CAN Transceiver
+# CAN Transceiver
 - SN65HVD234
     - https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1688711367456&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn65hvd230
 
+# Requirements
+- [ ] 8V to 30V power supply
+- [ ] PLC communication
+- [ ] CAN communication
+- [ ] CP level handling (and -detection?)
+- [ ] PP detection
+- [ ] 12V highside LED drivers (for RGB LEDs as in BMW LIM)
+- [ ] Contactor driver (with PWM?) for two contactors
+- [ ] Charge port temperature sensing (2 channels, either NTC or PT1000)
+- [ ] Connector lock motor bridge and connector lock feedback
+- Optional:
+    - [ ] Analog input for HV voltage sensor at the charging port
+    - [ ] fuel flap switch
+    - [ ] button to start/stop the charging process
+    - [ ] HV contactor feedback
 
-## Controller
+# Controller
 
 STM32 selection:
 
@@ -135,7 +176,7 @@ https://www.st.com/en/microcontrollers-microprocessors/stm32f103.html
 Programming:
 - en.st-stm32cubeide_1.12.1_16088_20230420_1057_x86_64.exe
 
-## First run of the June 2023 version
+# First run of the June 2023 version
 
 - Starting with power suppy connected to the 3V3, but set to 0V. Slowly increase the voltage to 0.5V. Observe the current. No current is good.
 - Measure, whether the DVDD pins of the QCA and 3 pins of the Flash have 0.5V.
@@ -152,7 +193,7 @@ Programming:
 - Connect the ESP32 with the ccs32berta via SPI, using 220 ohm protection resistors in all four SPI lines. ESP powered via USB, QCA powered from 3.3V bench power supply. Result: The Berta finds the modem and starts the SLAC.
 
 
-## Programming the SPI Flash
+# Programming the SPI Flash
 
 An introduction how to use a Raspberry to program the SPI flash is here:
 https://www.rototron.info/recover-bricked-bios-using-flashrom-on-a-raspberry-pi/
