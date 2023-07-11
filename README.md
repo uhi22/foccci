@@ -48,10 +48,10 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
  
 ## Footprints in Schematic
 
-- changed the 100nF to 1206 for easy handsoldering
+- changed the 100nF to 1206 for easy handsoldering (and back to 0805 for some, to safe space)
 - changed the 10µF to 1210
 - changed other 0603 Cs to 0805
-- changed L and Rs to 1206
+- changed L and Rs to 1206 (and the beads back to 0805)
 
 
 
@@ -75,14 +75,14 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 - [x] assign footprint to all components in the schematic
 - [ ] re-layout the board
 - [ ] change to 4 layers?
-- [ ] add CP logic
-- [ ] add microcontroller
-- [ ] add power supply
-- [ ] add contactor driver outputs
-- [ ] add port temperature sensor inputs
+- [x] add CP logic
+- [x] add microcontroller
+- [x] add power supply
+- [x] add contactor driver outputs
+- [x] add port temperature sensor inputs
 - [ ] add port locking driver
 - [ ] add PP detection
-- [ ] add LEDs for functional check
+- [x] add LEDs for functional check
 - ...
 
 # Power supply options
