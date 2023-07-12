@@ -55,35 +55,61 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 
 
-# Todos
+## Todos for now
 
-- [x] Takeover from CCM:
-   - [x] RBIAS (pin 51, R9). In the CCM this is R19 with 2,5k. Used 3k || 15k, this is exactly 2k5.
-   - [x] BIAS_REF (pin 40, R6). In the CCM this is R23 with 6,2k. -> Changed from 2k5 to 6k2 in the schematic. Populated 6k8.
-- The use of the LEDs on GPIO0 to 3 is not clear. Are they used in the automotive firmware at all?
-- Check boot config on GPIO 0 to 2.
+- [ ]
+
+## Todos for Later
+
+- [ ] The use of the LEDs on GPIO0 to 3 is not clear. Are they used in the automotive firmware at all? GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms). Measure the pin.
+- [ ] add port locking driver
+- [ ] add PP detection
+- [ ] CP sensing
+- [ ] check/remove/correct the JLCPCB part numbers for all parts
+- [ ] Regarding AMS1117-3.3 for the 3v3 regulators. These are tried and tested, but you may wish to avoid the polarized capacitor by using a more modern regulator. Consider TLV75733PDBV "Stable With a 1-μF Ceramic Output Capacitor"
+- [ ] change to 4 layers? -> re-layout the board
+- [ ] One of your AMS1117 seems to have a 100nF output cap and the other doesn't.
+- [ ] The STM32F103 seems to meet the requirements and it's popular but be aware that it has a basic ARM core with no FPU. And: Do we need a low-power variant (stm32L4 series)?
+- [ ] Low-power concept is missing. Is the unit permanently powered? Do we need sleep/wakeup via inputs and/or CAN?
+- [ ] What's the plan for the PLC coupling circuit between J7 and J1, have you found a suitable transformer? The Pulse BMU6201NL transformer might do (it's qualified for the qca700x, see https://www.pulseelectronics.com/wideband-power-line-communication-plc-transformers/) and is available from Mouser
+- [ ] The QCA7005 is labelled QCA7000.
+- [ ] missing the JTAG port pull down resistors on the QCA
+- [ ] Could do with one more processor decoupler so that a cap can be dropped right against every package power pin.
+- [ ] Would be worth adding lines to the QCA7005 Reset (so that is can be reset without a power cycle) and the Int pins (just in case it's needed in the future).
+- [ ] HCT04: Risk of activating the contactors if the controller power fails. Find a better solution.
+- [ ] Clarify expected contactor current and use appropriate drivers
+- [ ] TVS at the 12V. SMAJ18A ?
+- [ ] TVS at the CP
+- [ ] 470u input cap is an electrolytic?
+- [ ] Might put a Schottky protection diode on the temperate sense inputs.
+
+
+## Finished Todos
+- [x] Check boot config on GPIO 0 to 2.
     - [x] GPIO0: High during boot to boot from the SPI Flash. (pin60) CCM: R9 is 3k3 to 3V3.
     - [x] GPIO1: must be pulled low during reset. (pin61) CCM: R11 is 3k3 to ground.
     - [x] GPIO2: 0=legacy SPI, 1=burst SPI. Which is used in the CCM? (pin62) CCM: R10 is 3k3 to 3V3, and the not-populated R27 into direction of µC.
         - [x] connect the GPIO2 with pullup to 3V3
-    - GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms).
-        - [ ] measure the pin
-
+- [x] add LEDs for functional check
+- [x] add mounting holes
+- [x] correct voltage divider in the TPS54302
+- [x] 3V3_uC and NRST on connectors for debugger
+- [x] removed the wrong part number and datasheet for the 8MHz XTAL
 - [x] larger footprint for L10: From 1206 to 1812
 - [x] check all pins -> all plausible with the data sheet.
 - [x] check the QCA footprint -> fits.
 - [x] assign footprint to all components in the schematic
-- [ ] re-layout the board
-- [ ] change to 4 layers?
 - [x] add CP logic
 - [x] add microcontroller
 - [x] add power supply
 - [x] add contactor driver outputs
 - [x] add port temperature sensor inputs
-- [ ] add port locking driver
-- [ ] add PP detection
-- [x] add LEDs for functional check
-- ...
+- [x] Takeover from CCM:
+   - [x] RBIAS (pin 51, R9). In the CCM this is R19 with 2,5k. Used 3k || 15k, this is exactly 2k5.
+   - [x] BIAS_REF (pin 40, R6). In the CCM this is R23 with 6,2k. -> Changed from 2k5 to 6k2 in the schematic. Populated 6k8.
+- [x] What's going on with the missing processor Gnd pins, are they mapped within the part? Yes, in the layout they are correct.
+- [x] Add LIM-like current input for HVDC voltage measuring, https://openinverter.org/forum/viewtopic.php?p=58839#p58839
+
 
 # Power supply options
 

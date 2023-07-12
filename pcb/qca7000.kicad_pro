@@ -530,6 +530,10 @@
     [
       "93c6207c-4203-4bc7-a590-e5e89c0d3d27",
       "inputs"
+    ],
+    [
+      "97d456cc-2984-45c2-9f4f-55359f773ff4",
+      "spareArea"
     ]
   ],
   "text_variables": {}
