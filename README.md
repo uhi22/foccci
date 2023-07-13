@@ -82,6 +82,12 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 - [ ] TVS at the CP
 - [ ] 470u input cap is an electrolytic?
 - [ ] Might put a Schottky protection diode on the temperate sense inputs.
+- [ ] Clarify interface (electrically and mechanically)
+    - [ ] Which connector?
+        - E.g. DTM13-12PA-12PB-R008 (i love this thing) or Modice ME-MX connector / enclosure. https://openinverter.org/forum/viewtopic.php?p=58697#p58697
+        - other options?
+    - [ ] Electrically: Interface ideas here: https://openinverter.org/forum/viewtopic.php?p=58697#p58697
+- [ ] supply voltage measurement (to be able to adjust the PWM for contactors according to the supply voltage, and just for info)
 
 
 ## Finished Todos
@@ -110,6 +116,36 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 - [x] What's going on with the missing processor Gnd pins, are they mapped within the part? Yes, in the layout they are correct.
 - [x] Add LIM-like current input for HVDC voltage measuring, https://openinverter.org/forum/viewtopic.php?p=58839#p58839
 
+# Interface
+(This is just a draft. Work in progress. This is NOT matching the interface of the current draft board.)
+1. Supply 12V (not decided whether switched or permanent)
+2. Supply Ground. Also wired to PE of the CCS inlet.
+3. CANH
+4. CANL
+5. CP (CCS inlet)
+6. PP (CCS inlet)
+7. Contactor1 (low-side switch 2A permanent, 5A peak)
+8. Contactor2 (low-side switch 2A permanent, 5A peak)
+7. Sensor ground (for temperature sensors and analog inputs)
+8. Temperature1 (CCS inlet) NTC or PT1000
+9. Temperature2 (CCS inlet) NTC or PT1000
+10. Temperature3 (CCS inlet) NTC or PT1000
+11. Analog_in1, connector lock feedback. Internal pull-up, external resistor to ground.
+12. Digital_in1, charge stop button. Internal pull-up, external switch to ground.
+13. HVDC_in (current input for HV DC voltage measurement, LIM compatible)
+14. LED_RED (Charge port/button colored illumination) 12V highside output
+15. LED_GREEN (Charge port/button colored illumination) 12V highside output
+16. LED_BLUE (Charge port/button colored illumination) 12V highside output
+17. Connector Lock Motor 1 (12V=lock)
+18. Connector Lock Motor 2 (12V=unlock)
+
+Optional / to discuss
+19. Input for fuel flap feedback switch
+20. Output for fuel flap opening actuator
+21. Input for HV contactor feedback
+22. Charge port illumination (RGB WS2812?)
+23. GPIO spare (12V capable input and low-side output driver)
+24. Analog input spare (0 to 20V capable input)
 
 # Power supply options
 
