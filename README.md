@@ -6,6 +6,16 @@ Based on the QCA7005 PLC modem and an STM32 microcontroller.
 
 # News
 
+## 2023-07-28 Charging Loop Reached
+
+The foccci board version 2023-07-12 runs the STM32F103 and the QCA7005, and successfully enters
+the charging loop, with simulated evse by pyPLC. It provides the checkpoint number and some other
+informations via CAN with 500kBaud. On the other side of the CAN sits an ESP32 Wifi-Kit-32, with
+a CAN transceiver added. It shows the data of the CAN on its OLED display.
+
+![image](doc/2023-07-28_first_democharging.jpg)
+
+
 ## 2023-07-09 The board starts talking
 
 After the PCBs and QCAs arrived, the soldering was the next challenge. It went well, and the board started talking to
@@ -57,7 +67,13 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
-- [ ]
+- [ ] Footprints for the bigger capacitors too small
+- [ ] Many texts in the silk screen are not readable due to overlap with solder or components
+- [ ] Some of the many capacitors on the supply lines could be removed
+- [ ] Use 0805 for all 100nF, instead of mixing 0805 and 1206?
+- [ ] The EN pin of the CAN transceiver should have the flexibility to solder-bridge to GND and 3V3, to allow different type of transceivers.
+- [ ] Change footprint of the test points for flash programming, so that squared connector pins fit into.
+- [ ] Docu: add details of step-by-step bring-up, incl current consumption
 
 ## Todos for Later
 
@@ -272,3 +288,6 @@ Binary is available here: https://github.com/uhi22/Ioniq28Investigations/blob/ma
 For viewing the binary, a hex editor can be used, e.g. http://www.funduc.com/fshexedit.htm
 
 To flash the binary file to the SPI flash: `flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=2000 -w myfile.bin` In the case that to tool complains that multiple flash chip definitions match the detected chip, choose the correct one with the option `-c "MX25L...something...`
+
+![image](doc/2023-07-28_foto_flash_progr_with_raspberry.jpg)
+![image](doc/SPI_FLASH_programming_with_Raspberry.jpg)
