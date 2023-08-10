@@ -67,14 +67,15 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
-- [ ] Footprints for the bigger capacitors too small
-- [ ] Many texts in the silk screen are not readable due to overlap with solder or components
-- [ ] Some of the many capacitors on the supply lines could be removed
+- [x] Footprints for the bigger capacitors too small. -> Use 1210 for C65, C66, C67, 
+- [x] Many texts in the silk screen are not readable due to overlap with solder or components
+- [x] Some of the many capacitors on the supply lines could be removed
 - [ ] Use 0805 for all 100nF, instead of mixing 0805 and 1206?
-- [ ] The EN pin of the CAN transceiver should have the flexibility to solder-bridge to GND and 3V3, to allow different type of transceivers.
+- [x] The EN pin of the CAN transceiver should have the flexibility to solder-bridge to GND and 3V3, to allow different type of transceivers.
 - [ ] Change footprint of the test points for flash programming, so that squared connector pins fit into.
 - [ ] Docu: add details of step-by-step bring-up, incl current consumption
-- [ ] VDDA of the STM32 needs additional 1µF according to STM application note AN2834. https://www.st.com/resource/en/application_note/an2834-how-to-get-the-best-adc-accuracy-in-stm32-microcontrollers-stmicroelectronics.pdf chapter 4.2.1
+- [x] highside LED drivers for RGB button
+- [x] VDDA of the STM32 needs additional 1µF according to STM application note AN2834. https://www.st.com/resource/en/application_note/an2834-how-to-get-the-best-adc-accuracy-in-stm32-microcontrollers-stmicroelectronics.pdf chapter 4.2.1 -> C14 added.
 
 
 ## Todos for Later
@@ -86,7 +87,7 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 - [ ] check/remove/correct the JLCPCB part numbers for all parts
 - [ ] Regarding AMS1117-3.3 for the 3v3 regulators. These are tried and tested, but you may wish to avoid the polarized capacitor by using a more modern regulator. Consider TLV75733PDBV "Stable With a 1-μF Ceramic Output Capacitor"
 - [ ] change to 4 layers? -> re-layout the board
-- [ ] One of your AMS1117 seems to have a 100nF output cap and the other doesn't.
+- [x] One of your AMS1117 seems to have a 100nF output cap and the other doesn't.
 - [ ] The STM32F103 seems to meet the requirements and it's popular but be aware that it has a basic ARM core with no FPU. And: Do we need a low-power variant (stm32L4 series)?
 - [ ] Low-power concept is missing. Is the unit permanently powered? Do we need sleep/wakeup via inputs and/or CAN?
 - [ ] What's the plan for the PLC coupling circuit between J7 and J1, have you found a suitable transformer? The Pulse BMU6201NL transformer might do (it's qualified for the qca700x, see https://www.pulseelectronics.com/wideband-power-line-communication-plc-transformers/) and is available from Mouser
@@ -94,21 +95,19 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 - [ ] missing the JTAG port pull down resistors on the QCA
 - [ ] Could do with one more processor decoupler so that a cap can be dropped right against every package power pin.
 - [ ] Would be worth adding lines to the QCA7005 Reset (so that is can be reset without a power cycle) and the Int pins (just in case it's needed in the future).
-- [ ] HCT04: Risk of activating the contactors if the controller power fails. Find a better solution.
 - [ ] Clarify expected contactor current and use appropriate drivers
 - [ ] TVS at the 12V. SMAJ18A ?
 - [ ] TVS at the CP
 - [ ] 470u input cap is an electrolytic?
 - [ ] Might put a Schottky protection diode on the temperate sense inputs.
 - [ ] Clarify interface (electrically and mechanically)
-    - [ ] Which connector?
-        - E.g. DTM13-12PA-12PB-R008 (i love this thing) or Modice ME-MX connector / enclosure. https://openinverter.org/forum/viewtopic.php?p=58697#p58697
-        - other options?
     - [ ] Electrically: Interface ideas here: https://openinverter.org/forum/viewtopic.php?p=58697#p58697
 - [ ] supply voltage measurement (to be able to adjust the PWM for contactors according to the supply voltage, and just for info)
 
 
 ## Finished Todos
+- [x] Which connector? DTM13-12PA-12PB-R008 https://openinverter.org/forum/viewtopic.php?p=58697#p58697
+- [x] HCT04: Risk of activating the contactors if the controller power fails. Find a better solution.
 - [x] Check boot config on GPIO 0 to 2.
     - [x] GPIO0: High during boot to boot from the SPI Flash. (pin60) CCM: R9 is 3k3 to 3V3.
     - [x] GPIO1: must be pulled low during reset. (pin61) CCM: R11 is 3k3 to ground.
