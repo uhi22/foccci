@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "pcb")(type "KiCad")(uri "C:/UwesTechnik/QCA7000board/pcb.pretty")(options "")(descr ""))
+  (lib (name "DTM1312PA12PBR008")(type "KiCad")(uri "${KIPRJMOD}/externLibs/DTM1312PA12PBR008")(options "")(descr ""))
+  (lib (name "EEC-325X4B")(type "KiCad")(uri "${KIPRJMOD}/externLibs/EEC-325X4B")(options "")(descr ""))
 )

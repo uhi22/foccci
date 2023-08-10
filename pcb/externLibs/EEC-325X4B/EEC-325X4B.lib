@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# EEC-325X4B
+#
+DEF EEC-325X4B U 0 40 N N 1 L N
+F0 "U" -200 200 50 H V L BNN
+F1 "EEC-325X4B" -200 -300 50 H V L BNN
+F2 "TE_EEC-325X4B" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "F" 0 0 50 H I L BNN "PARTREV"
+F5 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F6 "TE Connectivity" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+T 0 -100 0 50 0 0 0 EEC-325X4B Normal 0 L B
+S -200 -200 400 200 0 0 10 f
+ENDDRAW
+ENDDEF
+#
+# End Library

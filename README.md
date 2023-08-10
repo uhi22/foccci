@@ -165,6 +165,16 @@ Optional / to discuss
 23. GPIO spare (12V capable input and low-side output driver)
 24. Analog input spare (0 to 20V capable input)
 
+# Connector and Housing
+
+Ideas: https://openinverter.org/forum/viewtopic.php?p=59972#p59972
+
+Plan:
+- use the DTM13-12PA-12PB-R008 - 2 x 12 pins
+- data sheet: https://www.te.com/usa-en/product-DTM1312PA12PBR008.html (mentioned here: https://openinverter.org/forum/viewtopic.php?p=60064#p60064)
+- Enclosure: https://www.te.com/usa-en/product-EEC-325X4B.html
+
+
 # Power supply options
 
 ## The OpenInverter VCU supply

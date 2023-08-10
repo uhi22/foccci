@@ -534,6 +534,10 @@
     [
       "97d456cc-2984-45c2-9f4f-55359f773ff4",
       "spareArea"
+    ],
+    [
+      "23ec3d7a-4d8b-4fb1-94c6-debe6172b9c6",
+      "Connectors"
     ]
   ],
   "text_variables": {}

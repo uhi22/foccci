@@ -1,3 +1,6 @@
 (sym_lib_table
+  (version 7)
   (lib (name "QualcommAtheros")(type "KiCad")(uri "${KIPRJMOD}/QualcommAtheros.kicad_sym")(options "")(descr ""))
+  (lib (name "DTM1312PA12PBR008")(type "Legacy")(uri "${KIPRJMOD}/externLibs/DTM1312PA12PBR008/DTM1312PA12PBR008.lib")(options "")(descr ""))
+  (lib (name "EEC-325X4B")(type "Legacy")(uri "${KIPRJMOD}/externLibs/EEC-325X4B/EEC-325X4B.lib")(options "")(descr ""))
 )
