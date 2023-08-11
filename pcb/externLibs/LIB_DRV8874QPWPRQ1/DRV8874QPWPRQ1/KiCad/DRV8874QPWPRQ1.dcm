@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8874QPWPRQ1
+D Motor Drives Automotive 38-V, 6-A, H-bridge motor driver with integrated current sensing & current sense feedback
+K
+F https://www.ti.com/lit/gpn/drv8874-q1?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes
+$ENDCMP
+#
+#End Doc Library

@@ -9961,6 +9961,11 @@
       (stroke (width 0.127) (type solid)) (fill solid) (layer "F.CrtYd") (tstamp 57fdc99e-8acd-4926-9c48-4eadd02d8bb5))
     (fp_line (start -41.275 -14) (end 41.275 -14)
       (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 48fc1c2a-c1db-46a2-82a6-92bde8044af8))
+    (model "${KIPRJMOD}/externLibs/EEC-325X4B/EEC-325X4B.step"
+      (offset (xyz 0 100 8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")

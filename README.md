@@ -76,6 +76,7 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 - [ ] Docu: add details of step-by-step bring-up, incl current consumption
 - [x] highside LED drivers for RGB button
 - [x] VDDA of the STM32 needs additional 1µF according to STM application note AN2834. https://www.st.com/resource/en/application_note/an2834-how-to-get-the-best-adc-accuracy-in-stm32-microcontrollers-stmicroelectronics.pdf chapter 4.2.1 -> C14 added.
+- [ ] Complete the schematic and the layout for the DRV8874 h-bridge driver
 
 
 ## Todos for Later

@@ -3,4 +3,5 @@
   (lib (name "pcb")(type "KiCad")(uri "C:/UwesTechnik/QCA7000board/pcb.pretty")(options "")(descr ""))
   (lib (name "DTM1312PA12PBR008")(type "KiCad")(uri "${KIPRJMOD}/externLibs/DTM1312PA12PBR008")(options "")(descr ""))
   (lib (name "EEC-325X4B")(type "KiCad")(uri "${KIPRJMOD}/externLibs/EEC-325X4B")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/externLibs/LIB_DRV8874QPWPRQ1/DRV8874QPWPRQ1/KiCad")(options "")(descr ""))
 )

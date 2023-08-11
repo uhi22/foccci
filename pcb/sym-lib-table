@@ -3,4 +3,5 @@
   (lib (name "QualcommAtheros")(type "KiCad")(uri "${KIPRJMOD}/QualcommAtheros.kicad_sym")(options "")(descr ""))
   (lib (name "DTM1312PA12PBR008")(type "Legacy")(uri "${KIPRJMOD}/externLibs/DTM1312PA12PBR008/DTM1312PA12PBR008.lib")(options "")(descr ""))
   (lib (name "EEC-325X4B")(type "Legacy")(uri "${KIPRJMOD}/externLibs/EEC-325X4B/EEC-325X4B.lib")(options "")(descr ""))
+  (lib (name "DRV8874QPWPRQ1")(type "Legacy")(uri "${KIPRJMOD}/externLibs/LIB_DRV8874QPWPRQ1/DRV8874QPWPRQ1/KiCad/DRV8874QPWPRQ1.lib")(options "")(descr ""))
 )
