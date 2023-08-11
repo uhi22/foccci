@@ -9961,6 +9961,11 @@
       (stroke (width 0.127) (type solid)) (fill solid) (layer "F.CrtYd") (tstamp 57fdc99e-8acd-4926-9c48-4eadd02d8bb5))
     (fp_line (start -41.275 -14) (end 41.275 -14)
       (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 48fc1c2a-c1db-46a2-82a6-92bde8044af8))
+    (model "${KIPRJMOD}/externLibs/EEC-325X4B/EEC-325X4B.step"
+      (offset (xyz 0 100 8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
@@ -12258,8 +12263,17 @@
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp edf33c7d-ae93-4826-94f1-2376ff1af56e))
   (gr_line (start 92.1395 116.67) (end 92.14 115.87)
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp ef43627b-f215-412a-9854-d2065b25048e))
-  (gr_rect (start 54.04 55.47) (end 154.06 138.01)
-    (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp b12b3f40-16cc-4963-a3a4-69780c9c957d))
+  (gr_poly
+    (pts
+      (xy 58.09 55.445)
+      (xy 154.06 55.47)
+      (xy 154.06 138.01)
+      (xy 58.065 137.995)
+      (xy 54.04 133.945)
+      (xy 54.04 59.42)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp d4d24913-52e3-4aec-b899-4871339c89fd))
   (gr_rect (start 54.04 55.47) (end 154.05 137.97)
     (stroke (width 0.15) (type solid)) (fill none) (layer "Margin") (tstamp 8f608f15-d461-4c62-8761-a00d38544b15))
   (gr_text "A1" (at 152.79 112.395) (layer "B.SilkS") (tstamp 1890a0ff-8bf0-4d4f-bd3c-2a3d1874530a)
