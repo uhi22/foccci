@@ -67,28 +67,16 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
-- [x] Footprints for the bigger capacitors too small. -> Use 1210 for C65, C66, C67, 
-- [x] Many texts in the silk screen are not readable due to overlap with solder or components
-- [x] Some of the many capacitors on the supply lines could be removed
-- [ ] Use 0805 for all 100nF, instead of mixing 0805 and 1206?
-- [x] The EN pin of the CAN transceiver should have the flexibility to solder-bridge to GND and 3V3, to allow different type of transceivers.
-- [ ] Change footprint of the test points for flash programming, so that squared connector pins fit into.
 - [ ] Docu: add details of step-by-step bring-up, incl current consumption
-- [x] highside LED drivers for RGB button
-- [x] VDDA of the STM32 needs additional 1µF according to STM application note AN2834. https://www.st.com/resource/en/application_note/an2834-how-to-get-the-best-adc-accuracy-in-stm32-microcontrollers-stmicroelectronics.pdf chapter 4.2.1 -> C14 added.
-- [ ] Complete the schematic and the layout for the DRV8874 h-bridge driver
+
 
 
 ## Todos for Later
 
 - [ ] The use of the LEDs on GPIO0 to 3 is not clear. Are they used in the automotive firmware at all? GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms). Measure the pin.
-- [ ] add port locking driver
-- [ ] add PP detection
 - [ ] CP sensing
 - [ ] check/remove/correct the JLCPCB part numbers for all parts
 - [ ] Regarding AMS1117-3.3 for the 3v3 regulators. These are tried and tested, but you may wish to avoid the polarized capacitor by using a more modern regulator. Consider TLV75733PDBV "Stable With a 1-μF Ceramic Output Capacitor"
-- [ ] change to 4 layers? -> re-layout the board
-- [x] One of your AMS1117 seems to have a 100nF output cap and the other doesn't.
 - [ ] The STM32F103 seems to meet the requirements and it's popular but be aware that it has a basic ARM core with no FPU. And: Do we need a low-power variant (stm32L4 series)?
 - [ ] Low-power concept is missing. Is the unit permanently powered? Do we need sleep/wakeup via inputs and/or CAN?
 - [ ] What's the plan for the PLC coupling circuit between J7 and J1, have you found a suitable transformer? The Pulse BMU6201NL transformer might do (it's qualified for the qca700x, see https://www.pulseelectronics.com/wideband-power-line-communication-plc-transformers/) and is available from Mouser
@@ -99,7 +87,6 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 - [ ] Clarify expected contactor current and use appropriate drivers
 - [ ] TVS at the 12V. SMAJ18A ?
 - [ ] TVS at the CP
-- [ ] 470u input cap is an electrolytic?
 - [ ] Might put a Schottky protection diode on the temperate sense inputs.
 - [ ] Clarify interface (electrically and mechanically)
     - [ ] Electrically: Interface ideas here: https://openinverter.org/forum/viewtopic.php?p=58697#p58697
@@ -107,6 +94,20 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 
 ## Finished Todos
+- [x] Footprints for the bigger capacitors too small. -> Use 1210 for C65, C66, C67, 
+- [x] Many texts in the silk screen are not readable due to overlap with solder or components
+- [x] Some of the many capacitors on the supply lines could be removed
+- [x] Use 0805 for all 100nF, instead of mixing 0805 and 1206.
+- [x] The EN pin of the CAN transceiver should have the flexibility to solder-bridge to GND and 3V3, to allow different type of transceivers.
+- [x] Change footprint of the test points for flash programming, so that squared connector pins fit into.
+- [x] highside LED drivers for RGB button
+- [x] VDDA of the STM32 needs additional 1µF according to STM application note AN2834. https://www.st.com/resource/en/application_note/an2834-how-to-get-the-best-adc-accuracy-in-stm32-microcontrollers-stmicroelectronics.pdf chapter 4.2.1 -> C14 added.
+- [x] add port locking driver
+- [x] Complete the schematic and the layout for the DRV8874 h-bridge driver
+- [x] add PP detection
+- [x] change to 4 layers
+- [x] One of your AMS1117 seems to have a 100nF output cap and the other doesn't.
+- [x] 470u input cap is an electrolytic? Yes.
 - [x] Which connector? DTM13-12PA-12PB-R008 https://openinverter.org/forum/viewtopic.php?p=58697#p58697
 - [x] HCT04: Risk of activating the contactors if the controller power fails. Find a better solution.
 - [x] Check boot config on GPIO 0 to 2.
