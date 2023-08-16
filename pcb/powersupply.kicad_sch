@@ -724,10 +724,20 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 74fda8f4-2baf-4d00-ac30-6b02c6195690)
   )
+  (text "The bulk capacitor is especially\nimportant when switching high\ncurrents, see DRV8874 data\nsheet."
+    (at 40.64 71.12 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7a613e95-570f-49cc-95ef-c1092deb7637)
+  )
   (text "Option 3 of the power supply\n(Catphish's stepdown, 3A, 400kHz)"
     (at 87.63 36.83 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bbbedaba-c387-45e3-ae9f-4d82844d6940)
+  )
+  (text "SS54B is rated for 5A.\nThis is at the border,\nif we drive 6A in the\nlock/unlock motor."
+    (at 29.21 40.64 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e5aee4ef-a209-47cd-8829-13ca60d55663)
   )
 
   (global_label "3V3_D" (shape input) (at 100.33 83.82 0) (fields_autoplaced)
