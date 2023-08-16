@@ -1863,10 +1863,15 @@
     (uuid feaaf91b-4413-4f35-b2cc-fb18953e8b0f)
   )
 
-  (text "IMode=GND leads to Fixed Off-time\nand automatic retry"
-    (at 171.45 157.48 0)
+  (text "IMode=GND leads\nto Fixed Off-time\nand automatic retry"
+    (at 195.58 160.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0835eff0-2822-41e6-b80a-d6806978ced2)
+  )
+  (text "IPROPI is 450µA/A.\nWith 6A peak output this is 2.7mA.\nWith R=1k we get 2.7V for the 6A.\n\nOn VREF, we have 3.3V divided by 560 ohms and 2k7,\nthis results in 2.73V.\n\nThis means, the current limitation will\njump in when the output current is above 6A."
+    (at 128.27 167.64 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0d1be003-1753-46ee-8dcb-5d69e5e1fb11)
   )
   (text "HCT as level shifter from 3.3V to 5V, because the NCV needs at least 5V\ngate voltage.\n\nNon-inverting is important, so that a fail of the 3V3 will lead to \"contactors off\"."
     (at 26.67 82.55 0)
@@ -2464,7 +2469,7 @@
     (property "Value" "DRV8874QPWPRQ1" (at 217.17 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP65P640X120-17N" (at 231.14 124.46 0)
+    (property "Footprint" "KiCad:SOP65P640X120-17N" (at 231.14 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/gpn/drv8874-q1?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes" (at 231.14 127 0)
@@ -2617,7 +2622,7 @@
     (property "Reference" "R3" (at 172.72 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "3k3" (at 170.18 124.46 90)
+    (property "Value" "560" (at 170.18 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 171.45 130.81 0)
@@ -2713,7 +2718,7 @@
     (property "Reference" "R3" (at 158.75 146.05 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "220" (at 157.48 142.24 90)
+    (property "Value" "1k" (at 157.48 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 160.02 142.24 0)
@@ -3124,7 +3129,7 @@
     (property "Reference" "R3" (at 173.99 135.89 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 172.72 138.43 90)
+    (property "Value" "2k7" (at 172.72 138.43 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 168.91 137.16 0)
