@@ -74,7 +74,6 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 ## Todos for Later
 
 - [ ] The use of the LEDs on GPIO0 to 3 is not clear. Are they used in the automotive firmware at all? GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms). Measure the pin.
-- [ ] CP sensing
 - [ ] check/remove/correct the JLCPCB part numbers for all parts
 - [ ] Regarding AMS1117-3.3 for the 3v3 regulators. These are tried and tested, but you may wish to avoid the polarized capacitor by using a more modern regulator. Consider TLV75733PDBV "Stable With a 1-μF Ceramic Output Capacitor"
 - [ ] The STM32F103 seems to meet the requirements and it's popular but be aware that it has a basic ARM core with no FPU. And: Do we need a low-power variant (stm32L4 series)?
@@ -84,7 +83,6 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 - [ ] missing the JTAG port pull down resistors on the QCA
 - [ ] Could do with one more processor decoupler so that a cap can be dropped right against every package power pin.
 - [ ] Would be worth adding lines to the QCA7005 Reset (so that is can be reset without a power cycle) and the Int pins (just in case it's needed in the future).
-- [ ] Clarify expected contactor current and use appropriate drivers
 - [ ] TVS at the 12V. SMAJ18A ?
 - [ ] TVS at the CP
 - [ ] Might put a Schottky protection diode on the temperate sense inputs.
@@ -94,6 +92,9 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 
 ## Finished Todos
+- [x] CP sensing
+- [x] 5V on the connector for supply of the muehlpower high voltage sense board
+- [x] Clarify expected contactor current and use appropriate drivers
 - [x] Footprints for the bigger capacitors too small. -> Use 1210 for C65, C66, C67, 
 - [x] Many texts in the silk screen are not readable due to overlap with solder or components
 - [x] Some of the many capacitors on the supply lines could be removed
