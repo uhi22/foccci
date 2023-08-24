@@ -67,6 +67,10 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
+- [ ] move as much as possible bottom layer components to upper layer, to allow population by JLBPCB
+- [ ] TVS at the 12V. SMAJ18A ?
+- [ ] TVS at the CP
+- [ ] adapt layout for changed footprints
 - [ ] Docu: add details of step-by-step bring-up, incl current consumption
 
 
@@ -74,7 +78,6 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 ## Todos for Later
 
 - [ ] The use of the LEDs on GPIO0 to 3 is not clear. Are they used in the automotive firmware at all? GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms). Measure the pin.
-- [ ] check/remove/correct the JLCPCB part numbers for all parts
 - [ ] Regarding AMS1117-3.3 for the 3v3 regulators. These are tried and tested, but you may wish to avoid the polarized capacitor by using a more modern regulator. Consider TLV75733PDBV "Stable With a 1-μF Ceramic Output Capacitor"
 - [ ] The STM32F103 seems to meet the requirements and it's popular but be aware that it has a basic ARM core with no FPU. And: Do we need a low-power variant (stm32L4 series)?
 - [ ] Low-power concept is missing. Is the unit permanently powered? Do we need sleep/wakeup via inputs and/or CAN?
@@ -83,8 +86,6 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 - [ ] missing the JTAG port pull down resistors on the QCA
 - [ ] Could do with one more processor decoupler so that a cap can be dropped right against every package power pin.
 - [ ] Would be worth adding lines to the QCA7005 Reset (so that is can be reset without a power cycle) and the Int pins (just in case it's needed in the future).
-- [ ] TVS at the 12V. SMAJ18A ?
-- [ ] TVS at the CP
 - [ ] Might put a Schottky protection diode on the temperate sense inputs.
 - [ ] Clarify interface (electrically and mechanically)
     - [ ] Electrically: Interface ideas here: https://openinverter.org/forum/viewtopic.php?p=58697#p58697
@@ -92,6 +93,8 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 
 ## Finished Todos
+- [x] check/remove/correct the JLCPCB part numbers for all parts. Most parts now 0805.
+- [x] add protection diode for CP sense
 - [x] CP sensing
 - [x] 5V on the connector for supply of the muehlpower high voltage sense board
 - [x] Clarify expected contactor current and use appropriate drivers
