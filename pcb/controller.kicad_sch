@@ -1923,7 +1923,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c3012bb0-8f10-4b82-9342-e18a651f2504)
   )
-  (text "Todo: XTAL frequency, footprint, Cs" (at 67.31 85.09 0)
+  (text "8MHz would be \"standard\" as on the NUCLEO.\nBut 8MHz is not available at JLCPCB, so\nwe go for 12MHz."
+    (at 29.21 74.93 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da3dab1f-0862-47fc-b5f3-55c4364aac30)
   )
