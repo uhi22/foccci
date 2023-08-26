@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\UwesTechnik\foccci\pcb\qca7000.kicad_sch</source>
-    <date>8/16/2023 2:23:07 PM</date>
+    <date>8/26/2023 11:25:00 PM</date>
     <tool>Eeschema 7.0.2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -136,10 +136,12 @@
       <value>1.5nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C1595</field>
+        <field name="LCSC">C1717</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/2069-0805B152K500NT/C1717</field>
       </fields>
       <libsource lib="" part="C_Small_20" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1595"/>
+      <property name="LCSC" value="C1717"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/2069-0805B152K500NT/C1717"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -151,10 +153,12 @@
       <value>220pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C1603</field>
+        <field name="LCSC">C107145</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB221/C107145</field>
       </fields>
       <libsource lib="" part="C_Small_41" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1603"/>
+      <property name="LCSC" value="C107145"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB221/C107145"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -166,10 +170,12 @@
       <value>220pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C1603</field>
+        <field name="LCSC">C107145</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB221/C107145</field>
       </fields>
       <libsource lib="" part="C_Small_41" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1603"/>
+      <property name="LCSC" value="C107145"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB221/C107145"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -181,10 +187,12 @@
       <value>1.5nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C1595</field>
+        <field name="LCSC">C1717</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/2069-0805B152K500NT/C1717</field>
       </fields>
       <libsource lib="" part="C_Small_20" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1595"/>
+      <property name="LCSC" value="C1717"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/2069-0805B152K500NT/C1717"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -196,10 +204,12 @@
       <value>1.5nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C1595</field>
+        <field name="LCSC">C1717</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/2069-0805B152K500NT/C1717</field>
       </fields>
       <libsource lib="" part="C_Small_20" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1595"/>
+      <property name="LCSC" value="C1717"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/2069-0805B152K500NT/C1717"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -211,10 +221,12 @@
       <value>220pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C1603</field>
+        <field name="LCSC">C107145</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB221/C107145</field>
       </fields>
       <libsource lib="" part="C_Small_41" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1603"/>
+      <property name="LCSC" value="C107145"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB221/C107145"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -226,10 +238,12 @@
       <value>220pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C1603</field>
+        <field name="LCSC">C107145</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB221/C107145</field>
       </fields>
       <libsource lib="" part="C_Small_41" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1603"/>
+      <property name="LCSC" value="C107145"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB221/C107145"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -241,10 +255,12 @@
       <value>1.5nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C1595</field>
+        <field name="LCSC">C1717</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/2069-0805B152K500NT/C1717</field>
       </fields>
       <libsource lib="" part="C_Small_20" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1595"/>
+      <property name="LCSC" value="C1717"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/2069-0805B152K500NT/C1717"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -256,10 +272,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_26" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -271,10 +289,12 @@
       <value>220pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C1603</field>
+        <field name="LCSC">C107145</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB221/C107145</field>
       </fields>
       <libsource lib="" part="C_Small_41" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1603"/>
+      <property name="LCSC" value="C107145"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB221/C107145"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -286,10 +306,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_16" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -301,10 +323,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_15" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -316,10 +340,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_16" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -331,10 +357,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_44" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -344,13 +372,15 @@
     </comp>
     <comp ref="C17">
       <value>6.8pF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811061822_FH-Guangdong-Fenghua-Advanced-Tech-0603CG6R8C500NT_C1679.pdf</datasheet>
       <fields>
         <field name="LCSC">C1679</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/2031-0603CG6R8C500NT/C1679</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1679"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/2031-0603CG6R8C500NT/C1679"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -359,14 +389,16 @@
       <tstamps>9c5d5885-cb60-4ecb-83ed-5b470dc18528</tstamps>
     </comp>
     <comp ref="C19">
-      <value>10uF 10V</value>
-      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <value>10uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811110921_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf</datasheet>
       <fields>
-        <field name="LCSC">C19702</field>
+        <field name="LCSC">C15850</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C19702"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -375,14 +407,16 @@
       <tstamps>4a49968a-d270-48ca-9d6b-8f64c0d2db7c</tstamps>
     </comp>
     <comp ref="C22">
-      <value>10uF 10V</value>
-      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <value>10uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811110921_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf</datasheet>
       <fields>
-        <field name="LCSC">C19702</field>
+        <field name="LCSC">C15850</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C19702"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -391,14 +425,16 @@
       <tstamps>ee1099ba-290b-4c74-a490-0688382849b9</tstamps>
     </comp>
     <comp ref="C24">
-      <value>10uF 10V</value>
-      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <value>10uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811110921_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf</datasheet>
       <fields>
-        <field name="LCSC">C19702</field>
+        <field name="LCSC">C15850</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C19702"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -407,14 +443,16 @@
       <tstamps>26d04e89-5e9d-4e28-9cb0-54f30d7268cf</tstamps>
     </comp>
     <comp ref="C26">
-      <value>10uF 10V</value>
-      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <value>10uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811110921_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf</datasheet>
       <fields>
-        <field name="LCSC">C19702</field>
+        <field name="LCSC">C15850</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C19702"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -426,10 +464,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_22" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -439,13 +479,15 @@
     </comp>
     <comp ref="C29">
       <value>6.8pF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811061822_FH-Guangdong-Fenghua-Advanced-Tech-0603CG6R8C500NT_C1679.pdf</datasheet>
       <fields>
         <field name="LCSC">C1679</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/2031-0603CG6R8C500NT/C1679</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1679"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/2031-0603CG6R8C500NT/C1679"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -454,14 +496,16 @@
       <tstamps>6de73da3-9dc9-4233-a0d1-87a21df66a8e</tstamps>
     </comp>
     <comp ref="C30">
-      <value>10uF 10V</value>
-      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <value>10uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811110921_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf</datasheet>
       <fields>
-        <field name="LCSC">C19702</field>
+        <field name="LCSC">C15850</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C19702"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -473,10 +517,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_23" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -488,10 +534,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_1" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -503,10 +551,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_2" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -515,14 +565,16 @@
       <tstamps>882424a1-75a4-446a-9666-a97ae58669f8</tstamps>
     </comp>
     <comp ref="C36">
-      <value>10uF 10V</value>
-      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <value>10uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811110921_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf</datasheet>
       <fields>
-        <field name="LCSC">C19702</field>
+        <field name="LCSC">C15850</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C19702"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -534,10 +586,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_4" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -549,10 +603,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_31" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -564,10 +620,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_8" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -579,10 +637,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_35" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -594,10 +654,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_36" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -609,10 +671,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_28" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -624,10 +688,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_6" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -639,10 +705,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_5" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -654,10 +722,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_30" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -669,10 +739,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_3" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -684,10 +756,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_29" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -699,10 +773,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_9" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -714,10 +790,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_12" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -729,10 +807,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -744,10 +824,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_14" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -759,10 +841,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_10" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -776,9 +860,11 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
       <fields>
         <field name="LCSC">C2500</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Nexperia-BAV99215/C2500</field>
       </fields>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
       <property name="LCSC" value="C2500"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Nexperia-BAV99215/C2500"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="BAV99 High-speed switching diodes, SOT-23"/>
@@ -792,9 +878,11 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
       <fields>
         <field name="LCSC">C2500</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Nexperia-BAV99215/C2500</field>
       </fields>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
       <property name="LCSC" value="C2500"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Nexperia-BAV99215/C2500"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="BAV99 High-speed switching diodes, SOT-23"/>
@@ -807,9 +895,11 @@
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <fields>
         <field name="LCSC">C8598</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/9093-B5819WSL/C8598</field>
       </fields>
       <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
       <property name="LCSC" value="C8598"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/9093-B5819WSL/C8598"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
@@ -822,9 +912,11 @@
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <fields>
         <field name="LCSC">C8598</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/9093-B5819WSL/C8598</field>
       </fields>
       <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
       <property name="LCSC" value="C8598"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/9093-B5819WSL/C8598"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
@@ -836,10 +928,12 @@
       <value>3V9</value>
       <footprint>Diode_SMD:D_SMA</footprint>
       <fields>
-        <field name="LCSC"> C438352</field>
+        <field name="LCSC">C438352</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/436866-1SMA4730A/C438352</field>
       </fields>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
-      <property name="LCSC" value=" C438352"/>
+      <property name="LCSC" value="C438352"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/436866-1SMA4730A/C438352"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Zener diode"/>
@@ -852,9 +946,11 @@
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <fields>
         <field name="LCSC">C8598</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/9093-B5819WSL/C8598</field>
       </fields>
       <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
       <property name="LCSC" value="C8598"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/9093-B5819WSL/C8598"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
@@ -867,9 +963,11 @@
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <fields>
         <field name="LCSC">C8598</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/9093-B5819WSL/C8598</field>
       </fields>
       <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
       <property name="LCSC" value="C8598"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/9093-B5819WSL/C8598"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
@@ -911,12 +1009,14 @@
     </comp>
     <comp ref="L1">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C381901</field>
+        <field name="LCSC">C281081</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Microgate-MGFI2012AR27KTLF/C281081</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="LCSC" value="C381901"/>
+      <property name="LCSC" value="C281081"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Microgate-MGFI2012AR27KTLF/C281081"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -929,10 +1029,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811091241_Sunlord-GZ1608D601TF_C1002.pdf</datasheet>
       <fields>
-        <field name="LCSC">C1002</field>
+        <field name="LCSC">C1017</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Sunlord-GZ2012D601TF/C1017</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="LCSC" value="C1002"/>
+      <property name="LCSC" value="C1017"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Sunlord-GZ2012D601TF/C1017"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -942,12 +1044,14 @@
     </comp>
     <comp ref="L3">
       <value>1.8uH</value>
-      <footprint>Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
         <field name="LCSC">C78153</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Sunlord-SDFL1608Q1R8KTF/C78153</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="LCSC" value="C78153"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Sunlord-SDFL1608Q1R8KTF/C78153"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -957,12 +1061,14 @@
     </comp>
     <comp ref="L4">
       <value>1.8uH</value>
-      <footprint>Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
         <field name="LCSC">C78153</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Sunlord-SDFL1608Q1R8KTF/C78153</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="LCSC" value="C78153"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Sunlord-SDFL1608Q1R8KTF/C78153"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -972,12 +1078,14 @@
     </comp>
     <comp ref="L5">
       <value>1.8uH</value>
-      <footprint>Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
         <field name="LCSC">C78153</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Sunlord-SDFL1608Q1R8KTF/C78153</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="LCSC" value="C78153"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Sunlord-SDFL1608Q1R8KTF/C78153"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -987,12 +1095,14 @@
     </comp>
     <comp ref="L6">
       <value>1.8uH</value>
-      <footprint>Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
         <field name="LCSC">C78153</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Sunlord-SDFL1608Q1R8KTF/C78153</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="LCSC" value="C78153"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Sunlord-SDFL1608Q1R8KTF/C78153"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -1002,12 +1112,14 @@
     </comp>
     <comp ref="L7">
       <value>1.8uH</value>
-      <footprint>Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
         <field name="LCSC">C78153</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Sunlord-SDFL1608Q1R8KTF/C78153</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="LCSC" value="C78153"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Sunlord-SDFL1608Q1R8KTF/C78153"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -1017,12 +1129,14 @@
     </comp>
     <comp ref="L8">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C381901</field>
+        <field name="LCSC">C281081</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Microgate-MGFI2012AR27KTLF/C281081</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="LCSC" value="C381901"/>
+      <property name="LCSC" value="C281081"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Microgate-MGFI2012AR27KTLF/C281081"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -1035,10 +1149,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811091241_Sunlord-GZ1608D601TF_C1002.pdf</datasheet>
       <fields>
-        <field name="LCSC">C1002</field>
+        <field name="LCSC">C1017</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Sunlord-GZ2012D601TF/C1017</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="LCSC" value="C1002"/>
+      <property name="LCSC" value="C1017"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Sunlord-GZ2012D601TF/C1017"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -1051,10 +1167,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811091241_Sunlord-GZ1608D601TF_C1002.pdf</datasheet>
       <fields>
-        <field name="LCSC">C1002</field>
+        <field name="LCSC">C1017</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Sunlord-GZ2012D601TF/C1017</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="LCSC" value="C1002"/>
+      <property name="LCSC" value="C1017"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Sunlord-GZ2012D601TF/C1017"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -1068,9 +1186,11 @@
       <datasheet>https://datasheet.lcsc.com/lcsc/1810231814_Murata-Electronics-LQM31PN4R7M00L_C162588.pdf</datasheet>
       <fields>
         <field name="LCSC">C162588</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/MurataElectronics-LQM31PN4R7M00L/C162588</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="LCSC" value="C162588"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/MurataElectronics-LQM31PN4R7M00L/C162588"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -1080,12 +1200,14 @@
     </comp>
     <comp ref="R1">
       <value>22</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C23345</field>
+        <field name="LCSC">C17561</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18249-0805W8F220JT5E/C17561</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C23345"/>
+      <property name="LCSC" value="C17561"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18249-0805W8F220JT5E/C17561"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1095,12 +1217,14 @@
     </comp>
     <comp ref="R2">
       <value>22</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C23345</field>
+        <field name="LCSC">C17561</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18249-0805W8F220JT5E/C17561</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C23345"/>
+      <property name="LCSC" value="C17561"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18249-0805W8F220JT5E/C17561"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1110,13 +1234,15 @@
     </comp>
     <comp ref="R3">
       <value>3.3K</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C26010</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/26753-0805W8F3301T5E/C26010</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C26010"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/26753-0805W8F3301T5E/C26010"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1126,13 +1252,15 @@
     </comp>
     <comp ref="R4">
       <value>3.3K</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C26010</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/26753-0805W8F3301T5E/C26010</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C26010"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/26753-0805W8F3301T5E/C26010"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1142,13 +1270,15 @@
     </comp>
     <comp ref="R5">
       <value>33</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811081710_UNI-ROYAL-Uniroyal-Elec-0603WAF330JT5E_C23140.pdf</datasheet>
       <fields>
-        <field name="LCSC">C23140</field>
+        <field name="LCSC">C17634</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18322-0805W8F330JT5E/C17634</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C23140"/>
+      <property name="LCSC" value="C17634"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18322-0805W8F330JT5E/C17634"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1158,12 +1288,14 @@
     </comp>
     <comp ref="R6">
       <value>6k2</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C304065</field>
+        <field name="LCSC">C17767</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18455-0805W8F6201T5E/C17767</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C304065"/>
+      <property name="LCSC" value="C17767"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18455-0805W8F6201T5E/C17767"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1173,12 +1305,14 @@
     </comp>
     <comp ref="R7">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17414</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1188,12 +1322,14 @@
     </comp>
     <comp ref="R8">
       <value>100</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C23345</field>
+        <field name="LCSC">C17408</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18096-0805W8F1000T5E/C17408</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C23345"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18096-0805W8F1000T5E/C17408"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1202,13 +1338,15 @@
       <tstamps>e3a0bd6b-3c26-4093-b7ed-c1972ef5d774</tstamps>
     </comp>
     <comp ref="R9">
-      <value>2.5k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C304065</field>
+        <field name="LCSC">C17520</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18208-0805W8F2201T5E/C17520</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C304065"/>
+      <property name="LCSC" value="C17520"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18208-0805W8F2201T5E/C17520"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1218,12 +1356,14 @@
     </comp>
     <comp ref="R10">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17414</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1233,18 +1373,37 @@
     </comp>
     <comp ref="R44">
       <value>100</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C23345</field>
+        <field name="LCSC">C17408</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18096-0805W8F1000T5E/C17408</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C23345"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18096-0805W8F1000T5E/C17408"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a82d4fe0-7524-45f3-8189-2362046fa261</tstamps>
+    </comp>
+    <comp ref="R59">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17630</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18318-0805W8F3300T5E/C17630</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18318-0805W8F3300T5E/C17630"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="qca7000.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>084ae4c1-d5e6-49d7-bf77-a43dda0c5ee3</tstamps>
     </comp>
     <comp ref="TP1">
       <value>1V2</value>
@@ -1328,9 +1487,11 @@
       <footprint>Package_SO:SOP-8_5.28x5.23mm_P1.27mm</footprint>
       <fields>
         <field name="LCSC">C115407</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/WinbondElec-W25Q16JVSNIQ/C115407</field>
       </fields>
       <libsource lib="Memory_Flash" part="AT25SF081-SSHD-X" description="8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8"/>
       <property name="LCSC" value="C115407"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/WinbondElec-W25Q16JVSNIQ/C115407"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8"/>
@@ -1344,9 +1505,11 @@
       <datasheet>https://datasheet.lcsc.com/lcsc/2103291203_Yangxing-Tech-X322525MOB4SI_C9006.pdf</datasheet>
       <fields>
         <field name="LCSC">C9006</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/YangxingTech-X322525MOB4SI/C9006</field>
       </fields>
       <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
       <property name="LCSC" value="C9006"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/YangxingTech-X322525MOB4SI/C9006"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="qca7000.kicad_sch"/>
       <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
@@ -1356,12 +1519,14 @@
     </comp>
     <comp ref="C14">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">tbd</field>
+        <field name="LCSC">C28323</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/29074-CL21B105KBFNNNE/C28323</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="tbd"/>
+      <property name="LCSC" value="C28323"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/29074-CL21B105KBFNNNE/C28323"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1374,10 +1539,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1390,10 +1557,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1406,10 +1575,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1422,10 +1593,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1438,10 +1611,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1454,10 +1629,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1467,14 +1644,16 @@
       <tstamps>59136d17-596d-49b0-89e5-3bded11fc999</tstamps>
     </comp>
     <comp ref="C62">
-      <value>22p</value>
+      <value>22pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811061822_FH-Guangdong-Fenghua-Advanced-Tech-0603CG6R8C500NT_C1679.pdf</datasheet>
       <fields>
-        <field name="LCSC">C1679</field>
+        <field name="LCSC">C1804</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/2156-CL21C220JBANNNC/C1804</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1679"/>
+      <property name="LCSC" value="C1804"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/2156-CL21C220JBANNNC/C1804"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1484,14 +1663,16 @@
       <tstamps>6a96368a-ff13-442b-b251-f358c07a5960</tstamps>
     </comp>
     <comp ref="C63">
-      <value>22p</value>
+      <value>22pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811061822_FH-Guangdong-Fenghua-Advanced-Tech-0603CG6R8C500NT_C1679.pdf</datasheet>
       <fields>
-        <field name="LCSC">C1679</field>
+        <field name="LCSC">C1804</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/2156-CL21C220JBANNNC/C1804</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1679"/>
+      <property name="LCSC" value="C1804"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/2156-CL21C220JBANNNC/C1804"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1503,7 +1684,13 @@
     <comp ref="D9">
       <value>PWR</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2296</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Hubei_KentoElec-C2296/C2296</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C2296"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Hubei_KentoElec-C2296/C2296"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1515,7 +1702,13 @@
     <comp ref="D10">
       <value>ALIVE</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2296</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Hubei_KentoElec-C2296/C2296</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C2296"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Hubei_KentoElec-C2296/C2296"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1527,7 +1720,13 @@
     <comp ref="D11">
       <value>STATEC</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2296</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Hubei_KentoElec-C2296/C2296</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C2296"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Hubei_KentoElec-C2296/C2296"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1539,7 +1738,13 @@
     <comp ref="D12">
       <value>CONTACTOR1</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2296</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Hubei_KentoElec-C2296/C2296</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C2296"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Hubei_KentoElec-C2296/C2296"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1551,7 +1756,13 @@
     <comp ref="D15">
       <value>UARTTX</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2296</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Hubei_KentoElec-C2296/C2296</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C2296"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Hubei_KentoElec-C2296/C2296"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1649,10 +1860,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811091241_Sunlord-GZ1608D601TF_C1002.pdf</datasheet>
       <fields>
-        <field name="LCSC">C1002</field>
+        <field name="LCSC">C1017</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Sunlord-GZ2012D601TF/C1017</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="LCSC" value="C1002"/>
+      <property name="LCSC" value="C1017"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Sunlord-GZ2012D601TF/C1017"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1711,13 +1924,15 @@
     </comp>
     <comp ref="R11">
       <value>220</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17557</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17557"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1728,13 +1943,15 @@
     </comp>
     <comp ref="R12">
       <value>220</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17557</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17557"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1745,13 +1962,15 @@
     </comp>
     <comp ref="R13">
       <value>220</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17557</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17557"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1762,13 +1981,15 @@
     </comp>
     <comp ref="R14">
       <value>220</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17557</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17557"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1779,13 +2000,15 @@
     </comp>
     <comp ref="R15">
       <value>33</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811081710_UNI-ROYAL-Uniroyal-Elec-0603WAF330JT5E_C23140.pdf</datasheet>
       <fields>
-        <field name="LCSC">C23140</field>
+        <field name="LCSC">C17634</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18322-0805W8F330JT5E/C17634</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C23140"/>
+      <property name="LCSC" value="C17634"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18322-0805W8F330JT5E/C17634"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1796,13 +2019,15 @@
     </comp>
     <comp ref="R16">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17513</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1813,13 +2038,15 @@
     </comp>
     <comp ref="R17">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17513</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1830,13 +2057,15 @@
     </comp>
     <comp ref="R18">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17513</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1847,13 +2076,15 @@
     </comp>
     <comp ref="R19">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17513</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1864,13 +2095,15 @@
     </comp>
     <comp ref="R20">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17513</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1881,13 +2114,15 @@
     </comp>
     <comp ref="R21">
       <value>220</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17557</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17557"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1898,13 +2133,15 @@
     </comp>
     <comp ref="R22">
       <value>220</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17557</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17557"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1915,13 +2152,15 @@
     </comp>
     <comp ref="R37">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17513</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2013,18 +2252,6 @@
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/controller/" tstamps="/5666e7cf-6b6c-4583-8335-aa3be69ccd45/"/>
       <tstamps>2aadd7c9-c23c-44a9-9be5-ad3e5e765a05</tstamps>
-    </comp>
-    <comp ref="TP20">
-      <value>~</value>
-      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value="controller"/>
-      <property name="Sheetfile" value="controller.kicad_sch"/>
-      <property name="Field2" value=""/>
-      <property name="ki_description" value="test point"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <sheetpath names="/controller/" tstamps="/5666e7cf-6b6c-4583-8335-aa3be69ccd45/"/>
-      <tstamps>9b62939c-bbfd-491d-8eb3-03aa51044a78</tstamps>
     </comp>
     <comp ref="TP23">
       <value>~</value>
@@ -2135,10 +2362,16 @@
       <tstamps>2b3f8e9e-78c8-48bf-b994-ab3c09f7bfb4</tstamps>
     </comp>
     <comp ref="U2">
-      <value>SN65HVD234</value>
+      <value>SN65HVD230</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C12084</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/TexasInstruments-SN65HVD230DR/C12084</field>
+      </fields>
       <libsource lib="Interface_CAN_LIN" part="SN65HVD234" description="CAN Bus Transceiver, 3.3V, 1Mbps, Enable feature, SOIC-8"/>
+      <property name="LCSC" value="C12084"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/TexasInstruments-SN65HVD230DR/C12084"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2151,7 +2384,13 @@
       <value>STM32F103RETx</value>
       <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/stm32f103re.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8322</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F103RET6/C8322</field>
+      </fields>
       <libsource lib="MCU_ST_STM32F1" part="STM32F103RETx" description="STMicroelectronics Arm Cortex-M3 MCU, 512KB flash, 64KB RAM, 72 MHz, 2.0-3.6V, 51 GPIO, LQFP64"/>
+      <property name="LCSC" value="C8322"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F103RET6/C8322"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2161,14 +2400,16 @@
       <tstamps>8a4e6b76-da90-4f7c-8551-0739008db583</tstamps>
     </comp>
     <comp ref="Y2">
-      <value>8MHz</value>
+      <value>12MHz</value>
       <footprint>Crystal:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm</footprint>
       <datasheet>tbd</datasheet>
       <fields>
-        <field name="LCSC">tbd</field>
+        <field name="LCSC">C9002</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/YangxingTech-X322512MSB4SI/C9002</field>
       </fields>
       <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
-      <property name="LCSC" value="tbd"/>
+      <property name="LCSC" value="C9002"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/YangxingTech-X322512MSB4SI/C9002"/>
       <property name="Sheetname" value="controller"/>
       <property name="Sheetfile" value="controller.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2177,14 +2418,33 @@
       <sheetpath names="/controller/" tstamps="/5666e7cf-6b6c-4583-8335-aa3be69ccd45/"/>
       <tstamps>ee7dc336-7254-41a3-a83f-ed3720dcbe67</tstamps>
     </comp>
+    <comp ref="C27">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C1804</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/2156-CL21C220JBANNNC/C1804</field>
+      </fields>
+      <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1804"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/2156-CL21C220JBANNNC/C1804"/>
+      <property name="Sheetname" value="powersupply"/>
+      <property name="Sheetfile" value="powersupply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/powersupply/" tstamps="/81db238c-e53f-4d52-98ea-36a1df697651/"/>
+      <tstamps>88cf45ae-1920-456d-82db-d93c94ef68e4</tstamps>
+    </comp>
     <comp ref="C64">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2193,13 +2453,15 @@
       <tstamps>dfed4231-7298-4683-8bef-6200a32255c2</tstamps>
     </comp>
     <comp ref="C65">
-      <value>10uF</value>
-      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <value>10uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C15850</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2211,10 +2473,12 @@
       <value>22uF</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C12891</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/13537-CL31A226KAHNNNE/C12891</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C12891"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/13537-CL31A226KAHNNNE/C12891"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2226,10 +2490,12 @@
       <value>22uF</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C12891</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/13537-CL31A226KAHNNNE/C12891</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C12891"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/13537-CL31A226KAHNNNE/C12891"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2238,13 +2504,15 @@
       <tstamps>8c7edcd8-9561-488e-83df-1c26d8af1b3f</tstamps>
     </comp>
     <comp ref="C68">
-      <value>68pF</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C14857</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/15529-CL21C470JBANNNC/C14857</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C14857"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/15529-CL21C470JBANNNC/C14857"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2255,7 +2523,13 @@
     <comp ref="C69">
       <value>470uF</value>
       <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <fields>
+        <field name="LCSC">C4747956</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Knscha-RST470UF25V032/C4747956</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC" value="C4747956"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Knscha-RST470UF25V032/C4747956"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -2267,10 +2541,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2282,10 +2558,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2296,7 +2574,13 @@
     <comp ref="C75">
       <value>100uF</value>
       <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <fields>
+        <field name="LCSC">C59937</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/60989-HV101M010E055ETR/C59937</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC" value="C59937"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/60989-HV101M010E055ETR/C59937"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -2308,7 +2592,13 @@
       <value>SS54B-HF</value>
       <footprint>Diode_SMD:D_SMB_Handsoldering</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/80/20190806170503-2505092.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3014033</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Fosan-SS54B/C3014033</field>
+      </fields>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C3014033"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Fosan-SS54B/C3014033"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Schottky diode"/>
@@ -2320,11 +2610,8 @@
       <value>10uH</value>
       <footprint>Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810231814_Murata-Electronics-LQM31PN4R7M00L_C162588.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C162588</field>
-      </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="LCSC" value="C162588"/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -2334,12 +2621,14 @@
     </comp>
     <comp ref="R23">
       <value>100k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C149504</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/160838-0805W8F1003T5E/C149504</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C149504"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/160838-0805W8F1003T5E/C149504"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2349,12 +2638,14 @@
     </comp>
     <comp ref="R24">
       <value>33k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17633</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18321-0805W8F3302T5E/C17633</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17633"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18321-0805W8F3302T5E/C17633"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2364,12 +2655,14 @@
     </comp>
     <comp ref="R38">
       <value>22k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17560</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18248-0805W8F2202T5E/C17560</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17560"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18248-0805W8F2202T5E/C17560"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2381,10 +2674,12 @@
       <value>0</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17888</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18576-1206W4F0000T5E/C17888</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18576-1206W4F0000T5E/C17888"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2418,7 +2713,13 @@
       <value>TPS54302</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tps54302.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C311983</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/TexasInstruments-TPS54302DDCR/C311983</field>
+      </fields>
       <libsource lib="Regulator_Switching" part="TPS54302" description="3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"/>
+      <property name="LCSC" value="C311983"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/TexasInstruments-TPS54302DDCR/C311983"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"/>
@@ -2430,7 +2731,13 @@
       <value>AMS1117-3.3</value>
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C6186</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Advanced_MonolithicSystems-AMS1117_33/C6186</field>
+      </fields>
       <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="LCSC" value="C6186"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Advanced_MonolithicSystems-AMS1117_33/C6186"/>
       <property name="Sheetname" value="powersupply"/>
       <property name="Sheetfile" value="powersupply.kicad_sch"/>
       <property name="ki_description" value="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
@@ -2442,10 +2749,12 @@
       <value>22nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">tbd</field>
+        <field name="LCSC">C1729</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/2081-CL21B223KBANNNC/C1729</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="tbd"/>
+      <property name="LCSC" value="C1729"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/2081-CL21B223KBANNNC/C1729"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2458,10 +2767,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">tbd</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="tbd"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2474,10 +2785,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2491,10 +2804,12 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811061822_FH-Guangdong-Fenghua-Advanced-Tech-0603CG6R8C500NT_C1679.pdf</datasheet>
       <fields>
-        <field name="LCSC">C1679</field>
+        <field name="LCSC">C46653</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/47657-CL21B102KBCNNNC/C46653</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1679"/>
+      <property name="LCSC" value="C46653"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/47657-CL21B102KBCNNNC/C46653"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2504,16 +2819,20 @@
       <tstamps>38d21c65-1df6-4603-9da1-1e1db3a38a8f</tstamps>
     </comp>
     <comp ref="D14">
-      <value>1N4148W</value>
+      <value>B5819W</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8598</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/9093-B5819WSL/C8598</field>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
       </fields>
       <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="LCSC" value="C8598"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/9093-B5819WSL/C8598"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2522,6 +2841,29 @@
       <sheetpath names="/outputdrivers/" tstamps="/539ec63d-ac7e-42ea-858e-ff2bf33430ea/"/>
       <tstamps>b7466a70-f099-4d87-aa46-228bf491a428</tstamps>
     </comp>
+    <comp ref="D16">
+      <value>B5819W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/9093-B5819WSL/C8598</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="LCSC" value="C8598"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/9093-B5819WSL/C8598"/>
+      <property name="Sheetname" value="outputdrivers"/>
+      <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/outputdrivers/" tstamps="/539ec63d-ac7e-42ea-858e-ff2bf33430ea/"/>
+      <tstamps>77c310f0-8231-432d-9c22-adab5bf8d0cd</tstamps>
+    </comp>
     <comp ref="IC1">
       <value>DRV8874QPWPRQ1</value>
       <footprint>KiCad:SOP65P640X120-17N</footprint>
@@ -2529,6 +2871,8 @@
       <fields>
         <field name="Description">Motor Drives Automotive 38-V, 6-A, H-bridge motor driver with integrated current sensing &amp; current sense feedback</field>
         <field name="Height">1.2</field>
+        <field name="LCSC">C1855818</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/TexasInstruments-DRV8874PWPR/C1855818</field>
         <field name="Manufacturer_Name">Texas Instruments</field>
         <field name="Manufacturer_Part_Number">DRV8874QPWPRQ1</field>
         <field name="Mouser Part Number">595-DRV8874QPWPRQ1</field>
@@ -2541,6 +2885,8 @@
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8874QPWPRQ1?qs=mAH9sUMRCttZUT1myh3Itg%3D%3D"/>
       <property name="Manufacturer_Name" value="Texas Instruments"/>
       <property name="Manufacturer_Part_Number" value="DRV8874QPWPRQ1"/>
+      <property name="LCSC" value="C1855818"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/TexasInstruments-DRV8874PWPR/C1855818"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2576,7 +2922,13 @@
       <value>BC846</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3037601</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Foshan_Blue_RocketElec-BC846/C3037601</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC846" description="0.1A Ic, 65V Vce, NPN Transistor, SOT-23"/>
+      <property name="LCSC" value="C3037601"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Foshan_Blue_RocketElec-BC846/C3037601"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2589,7 +2941,13 @@
       <value>NCV8402xST</value>
       <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/NCV8402-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C236053</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Onsemi-NCV8402ASTT3G/C236053</field>
+      </fields>
       <libsource lib="Driver_FET" part="NCV8402xST" description="Self-Protected Low Side Driver with Temperature and Current Limit, SOT−223"/>
+      <property name="LCSC" value="C236053"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Onsemi-NCV8402ASTT3G/C236053"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2602,7 +2960,13 @@
       <value>NCV8402xST</value>
       <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/NCV8402-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C236053</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Onsemi-NCV8402ASTT3G/C236053</field>
+      </fields>
       <libsource lib="Driver_FET" part="NCV8402xST" description="Self-Protected Low Side Driver with Temperature and Current Limit, SOT−223"/>
+      <property name="LCSC" value="C236053"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Onsemi-NCV8402ASTT3G/C236053"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2614,7 +2978,13 @@
     <comp ref="Q4">
       <value>DTA143Z</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C2910150</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/3189169-DTA143ZCA/C2910150</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="DTA143Z" description="Digital PNP Transistor, 4k7/47k, SOT-23"/>
+      <property name="LCSC" value="C2910150"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/3189169-DTA143ZCA/C2910150"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2626,7 +2996,13 @@
     <comp ref="Q5">
       <value>DTA143Z</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C2910150</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/3189169-DTA143ZCA/C2910150</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="DTA143Z" description="Digital PNP Transistor, 4k7/47k, SOT-23"/>
+      <property name="LCSC" value="C2910150"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/3189169-DTA143ZCA/C2910150"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2638,7 +3014,13 @@
     <comp ref="Q6">
       <value>DTA143Z</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C2910150</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/3189169-DTA143ZCA/C2910150</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="DTA143Z" description="Digital PNP Transistor, 4k7/47k, SOT-23"/>
+      <property name="LCSC" value="C2910150"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/3189169-DTA143ZCA/C2910150"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2650,7 +3032,13 @@
     <comp ref="Q7">
       <value>DTC114E</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C475671</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Shikues-DTC114EE/C475671</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="DTC114E" description="Digital NPN Transistor, 10k/10k, SOT-23"/>
+      <property name="LCSC" value="C475671"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Shikues-DTC114EE/C475671"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2662,7 +3050,13 @@
     <comp ref="Q8">
       <value>DTC114E</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C475671</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Shikues-DTC114EE/C475671</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="DTC113Z" description="Digital NPN Transistor, 1k/10k, SOT-23"/>
+      <property name="LCSC" value="C475671"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Shikues-DTC114EE/C475671"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2674,7 +3068,13 @@
     <comp ref="Q9">
       <value>DTC114E</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C475671</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Shikues-DTC114EE/C475671</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="DTC113Z" description="Digital NPN Transistor, 1k/10k, SOT-23"/>
+      <property name="LCSC" value="C475671"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Shikues-DTC114EE/C475671"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2685,13 +3085,15 @@
     </comp>
     <comp ref="R25">
       <value>180</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C25270</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/26013-0805W8F1800T5E/C25270</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C25270"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/26013-0805W8F1800T5E/C25270"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2702,13 +3104,15 @@
     </comp>
     <comp ref="R26">
       <value>2k7</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17530</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18218-0805W8F2701T5E/C17530</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17530"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18218-0805W8F2701T5E/C17530"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2719,13 +3123,15 @@
     </comp>
     <comp ref="R27">
       <value>1k2</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17379</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18067-0805W8F1201T5E/C17379</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17379"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18067-0805W8F1201T5E/C17379"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2736,13 +3142,15 @@
     </comp>
     <comp ref="R28">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17414</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2753,12 +3161,14 @@
     </comp>
     <comp ref="R29">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17414</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2769,12 +3179,14 @@
     </comp>
     <comp ref="R30">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17414</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2785,13 +3197,15 @@
     </comp>
     <comp ref="R45">
       <value>220</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">todo</field>
+        <field name="LCSC">C17557</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="todo"/>
+      <property name="LCSC" value="C17557"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2802,13 +3216,15 @@
     </comp>
     <comp ref="R46">
       <value>220</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17557</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17557"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2819,13 +3235,15 @@
     </comp>
     <comp ref="R47">
       <value>220</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17557</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17557"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2836,13 +3254,15 @@
     </comp>
     <comp ref="R48">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">todo</field>
+        <field name="LCSC">C17513</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="todo"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2853,13 +3273,15 @@
     </comp>
     <comp ref="R49">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">todo</field>
+        <field name="LCSC">C17414</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="todo"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2870,13 +3292,15 @@
     </comp>
     <comp ref="R50">
       <value>560</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">todo</field>
+        <field name="LCSC">C28636</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/29388-0805W8F5600T5E/C28636</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="todo"/>
+      <property name="LCSC" value="C28636"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/29388-0805W8F5600T5E/C28636"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2887,13 +3311,15 @@
     </comp>
     <comp ref="R51">
       <value>2k7</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">todo</field>
+        <field name="LCSC">C17530</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18218-0805W8F2701T5E/C17530</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="todo"/>
+      <property name="LCSC" value="C17530"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18218-0805W8F2701T5E/C17530"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2902,27 +3328,54 @@
       <sheetpath names="/outputdrivers/" tstamps="/539ec63d-ac7e-42ea-858e-ff2bf33430ea/"/>
       <tstamps>9287b055-aa5a-456d-94b6-fd1125cf80c7</tstamps>
     </comp>
+    <comp ref="R58">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C149504</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/160838-0805W8F1003T5E/C149504</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C149504"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/160838-0805W8F1003T5E/C149504"/>
+      <property name="Sheetname" value="outputdrivers"/>
+      <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/outputdrivers/" tstamps="/539ec63d-ac7e-42ea-858e-ff2bf33430ea/"/>
+      <tstamps>db8127c1-39a8-4d46-8303-303877a0fc4a</tstamps>
+    </comp>
     <comp ref="U7">
       <value>74HCT04</value>
       <footprint>Package_SO:SO-14_3.9x8.65mm_P1.27mm</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C672096</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Nexperia-74HCT04D653/C672096</field>
+      </fields>
       <libsource lib="74xx" part="74HCT04" description="Hex Inverter"/>
+      <property name="LCSC" value="C672096"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Nexperia-74HCT04D653/C672096"/>
       <property name="Sheetname" value="outputdrivers"/>
       <property name="Sheetfile" value="outputdrivers.kicad_sch"/>
       <property name="Field2" value=""/>
       <property name="ki_description" value="Hex Inverter"/>
       <property name="ki_keywords" value="HCTMOS not inv"/>
       <sheetpath names="/outputdrivers/" tstamps="/539ec63d-ac7e-42ea-858e-ff2bf33430ea/"/>
-      <tstamps>1a871762-7802-4d35-b34e-11870d06fa89 8dd2e28e-dd1c-483e-872c-a51a32ab6ebf 21b81d11-e297-424b-a39f-8bae87ffdbd3 2972e457-1d4b-4120-bacf-cfd71ca1470d d8b34376-f7f8-44b4-a85e-c09ea1b89916 92de3c8c-48bc-4255-9269-3dc1ee61beba 02f39ada-c35d-4256-a3fa-6cec35bfc7b1</tstamps>
+      <tstamps>21b81d11-e297-424b-a39f-8bae87ffdbd3 1a871762-7802-4d35-b34e-11870d06fa89 8dd2e28e-dd1c-483e-872c-a51a32ab6ebf 2972e457-1d4b-4120-bacf-cfd71ca1470d 92de3c8c-48bc-4255-9269-3dc1ee61beba d8b34376-f7f8-44b4-a85e-c09ea1b89916 02f39ada-c35d-4256-a3fa-6cec35bfc7b1</tstamps>
     </comp>
     <comp ref="C20">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2934,10 +3387,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2949,10 +3404,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2962,12 +3419,14 @@
     </comp>
     <comp ref="C71">
       <value>1nF</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C46653</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/47657-CL21B102KBCNNNC/C46653</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C46653"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/47657-CL21B102KBCNNNC/C46653"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2979,10 +3438,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2994,10 +3455,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -3009,10 +3472,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -3024,10 +3489,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C49678</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678</field>
       </fields>
       <libsource lib="" part="C_Small_13" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C14663"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -3037,12 +3504,14 @@
     </comp>
     <comp ref="R31">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17414</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3052,12 +3521,14 @@
     </comp>
     <comp ref="R32">
       <value>47k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17713</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17713"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3067,12 +3538,14 @@
     </comp>
     <comp ref="R33">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17414</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3082,12 +3555,14 @@
     </comp>
     <comp ref="R34">
       <value>47k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17713</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17713"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3097,12 +3572,14 @@
     </comp>
     <comp ref="R35">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17414</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3112,12 +3589,14 @@
     </comp>
     <comp ref="R36">
       <value>47k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17713</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17713"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3127,13 +3606,15 @@
     </comp>
     <comp ref="R39">
       <value>240</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">C22978</field>
+        <field name="LCSC">C17572</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18260-0805W8F2400T5E/C17572</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C22978"/>
+      <property name="LCSC" value="C17572"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18260-0805W8F2400T5E/C17572"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3143,13 +3624,15 @@
     </comp>
     <comp ref="R40">
       <value>240</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">tbd</field>
+        <field name="LCSC">C17572</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18260-0805W8F2400T5E/C17572</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="tbd"/>
+      <property name="LCSC" value="C17572"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18260-0805W8F2400T5E/C17572"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3159,13 +3642,15 @@
     </comp>
     <comp ref="R41">
       <value>47k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">tbd</field>
+        <field name="LCSC">C17713</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="tbd"/>
+      <property name="LCSC" value="C17713"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3175,13 +3660,15 @@
     </comp>
     <comp ref="R42">
       <value>22k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf</datasheet>
       <fields>
-        <field name="LCSC">tbd</field>
+        <field name="LCSC">C17560</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18248-0805W8F2202T5E/C17560</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="tbd"/>
+      <property name="LCSC" value="C17560"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18248-0805W8F2202T5E/C17560"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3191,12 +3678,14 @@
     </comp>
     <comp ref="R52">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17414</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3206,12 +3695,14 @@
     </comp>
     <comp ref="R53">
       <value>47k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17713</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17713"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3221,12 +3712,14 @@
     </comp>
     <comp ref="R54">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17414</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3236,12 +3729,14 @@
     </comp>
     <comp ref="R55">
       <value>47k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17713</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17713"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3251,12 +3746,14 @@
     </comp>
     <comp ref="R56">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">todo</field>
+        <field name="LCSC">C17513</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="todo"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3266,12 +3763,14 @@
     </comp>
     <comp ref="R57">
       <value>47k</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C25804</field>
+        <field name="LCSC">C17713</field>
+        <field name="LINK">https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25804"/>
+      <property name="LCSC" value="C17713"/>
+      <property name="LINK" value="https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713"/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="Inputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -4991,6 +5490,7 @@
       <node ref="C74" pin="2" pintype="passive"/>
       <node ref="C75" pin="1" pintype="passive"/>
       <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="IC1" pin="3" pinfunction="NSLEEP" pintype="passive"/>
       <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
@@ -5015,10 +5515,12 @@
       <node ref="U6" pin="2" pinfunction="VO" pintype="power_out"/>
     </net>
     <net code="7" name="5V">
+      <node ref="C27" pin="2" pintype="passive"/>
       <node ref="C66" pin="2" pintype="passive"/>
       <node ref="C67" pin="2" pintype="passive"/>
       <node ref="C68" pin="2" pintype="passive"/>
       <node ref="C73" pin="2" pintype="passive"/>
+      <node ref="J20" pin="A11" pinfunction="A11" pintype="passive"/>
       <node ref="L13" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="TP5V1" pin="1" pinfunction="1" pintype="passive"/>
@@ -5154,20 +5656,25 @@
       <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J20" pin="A6" pinfunction="A6" pintype="passive"/>
     </net>
-    <net code="33" name="DRV_FAULT">
+    <net code="33" name="CP_SENSE">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R58" pin="1" pintype="passive"/>
+      <node ref="U3" pin="50" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="DRV_FAULT">
       <node ref="IC1" pin="4" pinfunction="NFAULT" pintype="passive"/>
       <node ref="R49" pin="1" pintype="passive"/>
       <node ref="U3" pin="35" pinfunction="PB14" pintype="bidirectional"/>
     </net>
-    <net code="34" name="DRV_IN1">
+    <net code="35" name="DRV_IN1">
       <node ref="IC1" pin="1" pinfunction="EN/IN1" pintype="passive"/>
       <node ref="U3" pin="37" pinfunction="PC6" pintype="bidirectional"/>
     </net>
-    <net code="35" name="DRV_IN2">
+    <net code="36" name="DRV_IN2">
       <node ref="IC1" pin="2" pinfunction="PH/IN2" pintype="passive"/>
       <node ref="U3" pin="38" pinfunction="PC7" pintype="bidirectional"/>
     </net>
-    <net code="36" name="GND">
+    <net code="37" name="GND">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C14" pin="1" pintype="passive"/>
@@ -5279,8 +5786,8 @@
       <node ref="R42" pin="1" pintype="passive"/>
       <node ref="R48" pin="1" pintype="passive"/>
       <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="R59" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
       <node ref="TP39" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
@@ -5301,104 +5808,115 @@
       <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y2" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="37" name="GPIO_1">
+    <net code="38" name="GPIO_1">
       <node ref="D8" pin="61" pinfunction="GPIO_1" pintype="bidirectional"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="38" name="GPIO_2">
+    <net code="39" name="GPIO_2">
       <node ref="D8" pin="62" pinfunction="GPIO_2" pintype="bidirectional"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="39" name="IN_U_HV">
+    <net code="40" name="IN_U_HV">
       <node ref="C71" pin="2" pintype="passive"/>
       <node ref="J20" pin="A5" pinfunction="A5" pintype="passive"/>
       <node ref="R39" pin="2" pintype="passive"/>
       <node ref="R41" pin="2" pintype="passive"/>
     </net>
-    <net code="40" name="LED_ALIVE">
+    <net code="41" name="LED_ALIVE">
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="U3" pin="59" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="41" name="LED_BLUE">
+    <net code="42" name="LED_BLUE">
       <node ref="J20" pin="B11" pinfunction="B11" pintype="passive"/>
       <node ref="R47" pin="1" pintype="passive"/>
     </net>
-    <net code="42" name="LED_CTL_BLUE">
+    <net code="43" name="LED_CTL_BLUE">
       <node ref="Q9" pin="1" pinfunction="B" pintype="input"/>
       <node ref="U3" pin="30" pinfunction="PB11" pintype="bidirectional"/>
     </net>
-    <net code="43" name="LED_CTL_GREEN">
+    <net code="44" name="LED_CTL_GREEN">
       <node ref="Q8" pin="1" pinfunction="B" pintype="input"/>
       <node ref="U3" pin="29" pinfunction="PB10" pintype="bidirectional"/>
     </net>
-    <net code="44" name="LED_CTL_RED">
+    <net code="45" name="LED_CTL_RED">
       <node ref="Q7" pin="1" pinfunction="B" pintype="input"/>
       <node ref="U3" pin="28" pinfunction="PB2" pintype="bidirectional"/>
     </net>
-    <net code="45" name="LED_GREEN">
+    <net code="46" name="LED_GREEN">
       <node ref="J20" pin="B10" pinfunction="B10" pintype="passive"/>
       <node ref="R46" pin="1" pintype="passive"/>
     </net>
-    <net code="46" name="LED_RED">
+    <net code="47" name="LED_RED">
       <node ref="J20" pin="B9" pinfunction="B9" pintype="passive"/>
       <node ref="R45" pin="1" pintype="passive"/>
     </net>
-    <net code="47" name="MODEM_RF">
+    <net code="48" name="MODEM_RF">
       <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R25" pin="2" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(C1-Pad1)">
+    <net code="49" name="Net-(#FLG04-pwr)">
+      <node ref="D8" pin="10" pinfunction="SW_VDD_OUT" pintype="power_in"/>
+      <node ref="D8" pin="9" pinfunction="SW_VDD_OUT" pintype="power_in"/>
+      <node ref="L11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(#FLG07-pwr)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C61" pin="2" pintype="passive"/>
+      <node ref="L12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="VDDA" pintype="power_in"/>
+    </net>
+    <net code="51" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(C1-Pad2)">
+    <net code="52" name="Net-(C1-Pad2)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="50" name="Net-(C6-Pad2)">
+    <net code="53" name="Net-(C6-Pad2)">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="L6" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="51" name="Net-(C8-Pad1)">
+    <net code="54" name="Net-(C8-Pad1)">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="L8" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(C10-Pad1)">
+    <net code="55" name="Net-(C10-Pad1)">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(C10-Pad2)">
+    <net code="56" name="Net-(C10-Pad2)">
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="R44" pin="2" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(C29-Pad2)">
+    <net code="57" name="Net-(C29-Pad2)">
       <node ref="C29" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(C63-Pad2)">
+    <net code="58" name="Net-(C63-Pad2)">
       <node ref="C63" pin="2" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(C76-Pad2)">
+    <net code="59" name="Net-(C76-Pad2)">
       <node ref="C76" pin="2" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(D1-A)">
+    <net code="60" name="Net-(D1-A)">
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(D4-K)">
+    <net code="61" name="Net-(D4-K)">
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
@@ -5406,438 +5924,426 @@
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="L9" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="59" name="Net-(D8-RBIAS)">
+    <net code="62" name="Net-(D8-RBIAS)">
       <node ref="D8" pin="51" pinfunction="RBIAS" pintype="bidirectional"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="60" name="Net-(D8-RSVD02)">
+    <net code="63" name="Net-(D8-RSVD02)">
       <node ref="C51" pin="2" pintype="passive"/>
       <node ref="D8" pin="48" pinfunction="RSVD02" pintype="bidirectional"/>
       <node ref="D8" pin="52" pinfunction="RSVD05" pintype="bidirectional"/>
     </net>
-    <net code="61" name="Net-(D8-RSVD03)">
+    <net code="64" name="Net-(D8-RSVD03)">
       <node ref="C46" pin="2" pintype="passive"/>
       <node ref="D8" pin="49" pinfunction="RSVD03" pintype="bidirectional"/>
     </net>
-    <net code="62" name="Net-(D8-SW_VDD_OUT-Pad10)">
-      <node ref="D8" pin="10" pinfunction="SW_VDD_OUT" pintype="power_in"/>
-      <node ref="D8" pin="9" pinfunction="SW_VDD_OUT" pintype="power_in"/>
-      <node ref="L11" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="63" name="Net-(D8-XTAL_IN)">
+    <net code="65" name="Net-(D8-XTAL_IN)">
       <node ref="C17" pin="2" pintype="passive"/>
       <node ref="D8" pin="37" pinfunction="XTAL_IN" pintype="input"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="64" name="Net-(D8-XTAL_OUT)">
+    <net code="66" name="Net-(D8-XTAL_OUT)">
       <node ref="D8" pin="38" pinfunction="XTAL_OUT" pintype="output"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="65" name="Net-(D9-A)">
+    <net code="67" name="Net-(D9-A)">
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
     </net>
-    <net code="66" name="Net-(D10-A)">
+    <net code="68" name="Net-(D10-A)">
       <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
     </net>
-    <net code="67" name="Net-(D11-A)">
+    <net code="69" name="Net-(D11-A)">
       <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
     </net>
-    <net code="68" name="Net-(D12-A)">
+    <net code="70" name="Net-(D12-A)">
       <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
     </net>
-    <net code="69" name="Net-(D14-K)">
+    <net code="71" name="Net-(D14-K)">
       <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R26" pin="2" pintype="passive"/>
       <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R58" pin="2" pintype="passive"/>
     </net>
-    <net code="70" name="Net-(D15-K)">
+    <net code="72" name="Net-(D15-K)">
       <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R37" pin="2" pintype="passive"/>
     </net>
-    <net code="71" name="Net-(IC1-CPH)">
+    <net code="73" name="Net-(IC1-CPH)">
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="IC1" pin="13" pinfunction="CPH" pintype="passive"/>
     </net>
-    <net code="72" name="Net-(IC1-CPL)">
+    <net code="74" name="Net-(IC1-CPL)">
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="IC1" pin="14" pinfunction="CPL" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(IC1-IPROPI)">
+    <net code="75" name="Net-(IC1-IPROPI)">
       <node ref="IC1" pin="6" pinfunction="IPROPI" pintype="passive"/>
       <node ref="R48" pin="2" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(IC1-VCP)">
+    <net code="76" name="Net-(IC1-VCP)">
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="IC1" pin="12" pinfunction="VCP" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(IC1-VREF)">
+    <net code="77" name="Net-(IC1-VREF)">
       <node ref="IC1" pin="5" pinfunction="VREF" pintype="passive"/>
       <node ref="R50" pin="1" pintype="passive"/>
       <node ref="R51" pin="2" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(J5-Pin_1)">
+    <net code="78" name="Net-(J5-Pin_1)">
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(J5-Pin_3)">
+    <net code="79" name="Net-(J5-Pin_3)">
       <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R21" pin="2" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(Q1-B)">
+    <net code="80" name="Net-(Q1-B)">
       <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R28" pin="2" pintype="passive"/>
     </net>
-    <net code="79" name="Net-(Q1-C)">
+    <net code="81" name="Net-(Q1-C)">
       <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(Q2-G)">
+    <net code="82" name="Net-(Q2-G)">
       <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
       <node ref="U7" pin="6" pintype="output"/>
     </net>
-    <net code="81" name="Net-(Q3-G)">
+    <net code="83" name="Net-(Q3-G)">
       <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="U7" pin="8" pintype="output"/>
     </net>
-    <net code="82" name="Net-(Q4-B)">
+    <net code="84" name="Net-(Q4-B)">
       <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
       <node ref="Q7" pin="3" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="83" name="Net-(Q4-C)">
+    <net code="85" name="Net-(Q4-C)">
       <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R45" pin="2" pintype="passive"/>
     </net>
-    <net code="84" name="Net-(Q5-B)">
+    <net code="86" name="Net-(Q5-B)">
       <node ref="Q5" pin="1" pinfunction="B" pintype="input"/>
       <node ref="Q8" pin="3" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="85" name="Net-(Q5-C)">
+    <net code="87" name="Net-(Q5-C)">
       <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R46" pin="2" pintype="passive"/>
     </net>
-    <net code="86" name="Net-(Q6-B)">
+    <net code="88" name="Net-(Q6-B)">
       <node ref="Q6" pin="1" pinfunction="B" pintype="input"/>
       <node ref="Q9" pin="3" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="87" name="Net-(Q6-C)">
+    <net code="89" name="Net-(Q6-C)">
       <node ref="Q6" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R47" pin="2" pintype="passive"/>
     </net>
-    <net code="88" name="Net-(R39-Pad1)">
+    <net code="90" name="Net-(R39-Pad1)">
       <node ref="R39" pin="1" pintype="passive"/>
       <node ref="R40" pin="2" pintype="passive"/>
     </net>
-    <net code="89" name="Net-(U3-PA1)">
+    <net code="91" name="Net-(R59-Pad1)">
+      <node ref="R59" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(U3-PA1)">
       <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="15" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="90" name="Net-(U3-PA2)">
+    <net code="93" name="Net-(U3-PA2)">
       <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="16" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="91" name="Net-(U3-PA3)">
+    <net code="94" name="Net-(U3-PA3)">
       <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="17" pinfunction="PA3" pintype="bidirectional"/>
     </net>
-    <net code="92" name="Net-(U3-PA8)">
+    <net code="95" name="Net-(U3-PA8)">
       <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="41" pinfunction="PA8" pintype="bidirectional"/>
     </net>
-    <net code="93" name="Net-(U3-PA9)">
+    <net code="96" name="Net-(U3-PA9)">
       <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="42" pinfunction="PA9" pintype="bidirectional"/>
     </net>
-    <net code="94" name="Net-(U3-PA10)">
+    <net code="97" name="Net-(U3-PA10)">
       <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="43" pinfunction="PA10" pintype="bidirectional"/>
     </net>
-    <net code="95" name="Net-(U3-PA15)">
-      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U3" pin="50" pinfunction="PA15" pintype="bidirectional"/>
-    </net>
-    <net code="96" name="Net-(U3-PB0)">
+    <net code="98" name="Net-(U3-PB0)">
       <node ref="TP23" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="26" pinfunction="PB0" pintype="bidirectional"/>
     </net>
-    <net code="97" name="Net-(U3-PB1)">
+    <net code="99" name="Net-(U3-PB1)">
       <node ref="TP24" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="27" pinfunction="PB1" pintype="bidirectional"/>
     </net>
-    <net code="98" name="Net-(U3-PB5)">
+    <net code="100" name="Net-(U3-PB5)">
       <node ref="PB5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="57" pinfunction="PB5" pintype="bidirectional"/>
     </net>
-    <net code="99" name="Net-(U3-PB6)">
+    <net code="101" name="Net-(U3-PB6)">
       <node ref="PB6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="58" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="100" name="Net-(U3-PB8)">
+    <net code="102" name="Net-(U3-PB8)">
       <node ref="TP30" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="61" pinfunction="PB8" pintype="bidirectional"/>
     </net>
-    <net code="101" name="Net-(U3-PB9)">
+    <net code="103" name="Net-(U3-PB9)">
       <node ref="TP31" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="62" pinfunction="PB9" pintype="bidirectional"/>
     </net>
-    <net code="102" name="Net-(U3-PB12)">
+    <net code="104" name="Net-(U3-PB12)">
       <node ref="PB12" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="33" pinfunction="PB12" pintype="bidirectional"/>
     </net>
-    <net code="103" name="Net-(U3-PB13)">
+    <net code="105" name="Net-(U3-PB13)">
       <node ref="PB13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="34" pinfunction="PB13" pintype="bidirectional"/>
     </net>
-    <net code="104" name="Net-(U3-PB15)">
+    <net code="106" name="Net-(U3-PB15)">
       <node ref="TP38" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="36" pinfunction="PB15" pintype="bidirectional"/>
     </net>
-    <net code="105" name="Net-(U3-PC12)">
+    <net code="107" name="Net-(U3-PC12)">
       <node ref="TP26" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="53" pinfunction="PC12" pintype="bidirectional"/>
     </net>
-    <net code="106" name="Net-(U3-PC13)">
+    <net code="108" name="Net-(U3-PC13)">
       <node ref="TP27" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="PC13" pintype="bidirectional"/>
     </net>
-    <net code="107" name="Net-(U3-PC14)">
+    <net code="109" name="Net-(U3-PC14)">
       <node ref="TP28" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="PC14" pintype="bidirectional"/>
     </net>
-    <net code="108" name="Net-(U3-PC15)">
+    <net code="110" name="Net-(U3-PC15)">
       <node ref="TP29" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="PC15" pintype="bidirectional"/>
     </net>
-    <net code="109" name="Net-(U3-PD2)">
+    <net code="111" name="Net-(U3-PD2)">
       <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="54" pinfunction="PD2" pintype="bidirectional"/>
     </net>
-    <net code="110" name="Net-(U3-VDDA)">
-      <node ref="C14" pin="2" pintype="passive"/>
-      <node ref="C61" pin="2" pintype="passive"/>
-      <node ref="L12" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U3" pin="13" pinfunction="VDDA" pintype="power_in"/>
-    </net>
-    <net code="111" name="Net-(U4-BOOT)">
+    <net code="112" name="Net-(U4-BOOT)">
       <node ref="C64" pin="2" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="BOOT" pintype="passive"/>
     </net>
-    <net code="112" name="Net-(U4-FB)">
+    <net code="113" name="Net-(U4-FB)">
+      <node ref="C27" pin="1" pintype="passive"/>
       <node ref="C68" pin="1" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="R38" pin="2" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="113" name="Net-(U4-SW)">
+    <net code="114" name="Net-(U4-SW)">
       <node ref="C64" pin="1" pintype="passive"/>
       <node ref="L13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="SW" pintype="power_out"/>
     </net>
-    <net code="114" name="Net-(U7-Pad4)">
+    <net code="115" name="Net-(U7-Pad4)">
       <node ref="U7" pin="4" pintype="output"/>
       <node ref="U7" pin="5" pintype="input"/>
     </net>
-    <net code="115" name="Net-(U7-Pad10)">
+    <net code="116" name="Net-(U7-Pad10)">
       <node ref="U7" pin="10" pintype="output"/>
       <node ref="U7" pin="9" pintype="input"/>
     </net>
-    <net code="116" name="PP">
+    <net code="117" name="PP">
       <node ref="J20" pin="A10" pinfunction="A10" pintype="passive"/>
       <node ref="R56" pin="2" pintype="passive"/>
       <node ref="R57" pin="1" pintype="passive"/>
     </net>
-    <net code="117" name="RESET#">
+    <net code="118" name="RESET#">
       <node ref="C44" pin="1" pintype="passive"/>
       <node ref="D8" pin="5" pinfunction="RESET_L" pintype="input"/>
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="TP40" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="118" name="RXIN_N">
+    <net code="119" name="RXIN_N">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="D2" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D8" pin="29" pinfunction="RXIN_N" pintype="input"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="119" name="RXIN_P">
+    <net code="120" name="RXIN_P">
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="D1" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D8" pin="30" pinfunction="RXIN_P" pintype="input"/>
       <node ref="L7" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="L8" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="120" name="RX_N">
+    <net code="121" name="RX_N">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="121" name="RX_P">
+    <net code="122" name="RX_P">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="122" name="SERIAL_IO_0_INT">
+    <net code="123" name="SERIAL_IO_0_INT">
       <node ref="D8" pin="20" pinfunction="SERIAL_IO[0]" pintype="bidirectional"/>
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
-    <net code="123" name="SERIAL_IO_1_CLK">
+    <net code="124" name="SERIAL_IO_1_CLK">
       <node ref="D8" pin="19" pinfunction="SERIAL_IO[1]" pintype="bidirectional"/>
       <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
     </net>
-    <net code="124" name="SERIAL_IO_2_CS">
+    <net code="125" name="SERIAL_IO_2_CS">
       <node ref="D8" pin="16" pinfunction="SERIAL_IO[2]" pintype="bidirectional"/>
       <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="125" name="SERIAL_IO_3_MISO">
+    <net code="126" name="SERIAL_IO_3_MISO">
       <node ref="D8" pin="15" pinfunction="SERIAL_IO[3]" pintype="bidirectional"/>
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
     </net>
-    <net code="126" name="SERIAL_IO_4_MOSI">
+    <net code="127" name="SERIAL_IO_4_MOSI">
       <node ref="D8" pin="14" pinfunction="SERIAL_IO[4]" pintype="bidirectional"/>
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="127" name="SPI1_CLK">
+    <net code="128" name="SPI1_CLK">
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U3" pin="21" pinfunction="PA5" pintype="bidirectional"/>
     </net>
-    <net code="128" name="SPI1_MISO">
+    <net code="129" name="SPI1_MISO">
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U3" pin="22" pinfunction="PA6" pintype="bidirectional"/>
     </net>
-    <net code="129" name="SPI1_MOSI">
+    <net code="130" name="SPI1_MOSI">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="U3" pin="23" pinfunction="PA7" pintype="bidirectional"/>
     </net>
-    <net code="130" name="SPI1_NSS">
+    <net code="131" name="SPI1_NSS">
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="U3" pin="20" pinfunction="PA4" pintype="bidirectional"/>
     </net>
-    <net code="131" name="SPI_CLK">
+    <net code="132" name="SPI_CLK">
       <node ref="D8" pin="67" pinfunction="SPI_CLK" pintype="output"/>
       <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="SCK" pintype="input"/>
     </net>
-    <net code="132" name="SPI_CS_L">
+    <net code="133" name="SPI_CS_L">
       <node ref="D8" pin="65" pinfunction="SPI_CS_L" pintype="output"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="~{CS}" pintype="input"/>
     </net>
-    <net code="133" name="SPI_DI">
+    <net code="134" name="SPI_DI">
       <node ref="D8" pin="3" pinfunction="SPI_DI" pintype="input"/>
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="SO/IO1" pintype="bidirectional"/>
     </net>
-    <net code="134" name="SPI_DO">
+    <net code="135" name="SPI_DO">
       <node ref="D8" pin="66" pinfunction="SPI_D0" pintype="output"/>
       <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="SI/IO0" pintype="bidirectional"/>
     </net>
-    <net code="135" name="STATE_C_CONTROL">
+    <net code="136" name="STATE_C_CONTROL">
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="R28" pin="1" pintype="passive"/>
       <node ref="U3" pin="56" pinfunction="PB4" pintype="bidirectional"/>
     </net>
-    <net code="136" name="SWCLK">
+    <net code="137" name="SWCLK">
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U3" pin="49" pinfunction="PA14" pintype="bidirectional"/>
     </net>
-    <net code="137" name="SWDIO">
+    <net code="138" name="SWDIO">
       <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U3" pin="46" pinfunction="PA13" pintype="bidirectional"/>
     </net>
-    <net code="138" name="SWO">
+    <net code="139" name="SWO">
       <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U3" pin="55" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="139" name="TEMP1">
+    <net code="140" name="TEMP1">
       <node ref="J20" pin="A1" pinfunction="A1" pintype="passive"/>
       <node ref="R31" pin="2" pintype="passive"/>
       <node ref="R32" pin="1" pintype="passive"/>
     </net>
-    <net code="140" name="TEMP2">
+    <net code="141" name="TEMP2">
       <node ref="J20" pin="A2" pinfunction="A2" pintype="passive"/>
       <node ref="R33" pin="2" pintype="passive"/>
       <node ref="R34" pin="1" pintype="passive"/>
     </net>
-    <net code="141" name="TEMP3">
+    <net code="142" name="TEMP3">
       <node ref="J20" pin="A3" pinfunction="A3" pintype="passive"/>
       <node ref="R35" pin="2" pintype="passive"/>
       <node ref="R36" pin="1" pintype="passive"/>
     </net>
-    <net code="142" name="TXOUT_N">
+    <net code="143" name="TXOUT_N">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D8" pin="31" pinfunction="TXOUT_N" pintype="output"/>
     </net>
-    <net code="143" name="TXOUT_P">
+    <net code="144" name="TXOUT_P">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D8" pin="33" pinfunction="TXOUT_P" pintype="output"/>
     </net>
-    <net code="144" name="TX_N">
+    <net code="145" name="TX_N">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="145" name="TX_P">
+    <net code="146" name="TX_P">
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R44" pin="1" pintype="passive"/>
     </net>
-    <net code="146" name="UART4_RX">
+    <net code="147" name="UART4_RX">
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="U3" pin="52" pinfunction="PC11" pintype="bidirectional"/>
     </net>
-    <net code="147" name="UART4_TX">
+    <net code="148" name="UART4_TX">
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="R37" pin="1" pintype="passive"/>
       <node ref="U3" pin="51" pinfunction="PC10" pintype="bidirectional"/>
     </net>
-    <net code="148" name="uC_NRST">
+    <net code="149" name="uC_NRST">
       <node ref="C60" pin="2" pintype="passive"/>
       <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U3" pin="7" pinfunction="NRST" pintype="input"/>
     </net>
-    <net code="149" name="unconnected-(D8-ATB_N-Pad34)">
+    <net code="150" name="unconnected-(D8-ATB_N-Pad34)">
       <node ref="D8" pin="34" pinfunction="ATB_N" pintype="input+no_connect"/>
     </net>
-    <net code="150" name="unconnected-(D8-ATB_P-Pad35)">
+    <net code="151" name="unconnected-(D8-ATB_P-Pad35)">
       <node ref="D8" pin="35" pinfunction="ATB_P" pintype="input+no_connect"/>
     </net>
-    <net code="151" name="unconnected-(D8-GPIO_0-Pad60)">
+    <net code="152" name="unconnected-(D8-GPIO_0-Pad60)">
       <node ref="D8" pin="60" pinfunction="GPIO_0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="152" name="unconnected-(D8-GPIO_3-Pad63)">
+    <net code="153" name="unconnected-(D8-GPIO_3-Pad63)">
       <node ref="D8" pin="63" pinfunction="GPIO_3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="153" name="unconnected-(D8-PLL_BYPASS-Pad44)">
+    <net code="154" name="unconnected-(D8-PLL_BYPASS-Pad44)">
       <node ref="D8" pin="44" pinfunction="PLL_BYPASS" pintype="input+no_connect"/>
     </net>
-    <net code="154" name="unconnected-(D8-RSVD06-Pad53)">
+    <net code="155" name="unconnected-(D8-RSVD06-Pad53)">
       <node ref="D8" pin="53" pinfunction="RSVD06" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="155" name="unconnected-(D8-RSVD07-Pad54)">
+    <net code="156" name="unconnected-(D8-RSVD07-Pad54)">
       <node ref="D8" pin="54" pinfunction="RSVD07" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="156" name="unconnected-(D8-RTCK-Pad26)">
+    <net code="157" name="unconnected-(D8-RTCK-Pad26)">
       <node ref="D8" pin="26" pinfunction="RTCK" pintype="output+no_connect"/>
     </net>
-    <net code="157" name="unconnected-(D8-TDO-Pad24)">
+    <net code="158" name="unconnected-(D8-TDO-Pad24)">
       <node ref="D8" pin="24" pinfunction="TDO" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="158" name="unconnected-(IC1-PMODE-Pad16)">
+    <net code="159" name="unconnected-(IC1-PMODE-Pad16)">
       <node ref="IC1" pin="16" pinfunction="PMODE" pintype="passive+no_connect"/>
-    </net>
-    <net code="159" name="unconnected-(J20-PadA11)">
-      <node ref="J20" pin="A11" pinfunction="A11" pintype="passive+no_connect"/>
     </net>
     <net code="160" name="unconnected-(J20-PadB3)">
       <node ref="J20" pin="B3" pinfunction="B3" pintype="passive+no_connect"/>
