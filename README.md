@@ -316,3 +316,9 @@ In https://gist.github.com/arturo182/a8c4a4b96907cfccf616a1edb59d0389 we find, t
 This can be installed with the "Plugin and Content Manager" in the KiCad main window.
 Then, in the PCB editor, use the FabricationToolkit from the toolbar. This creates a new folder in <project>/production/, which
 contains a zip with Gerber and drill files, and also the BOM, positions and designator files.
+
+# JLCPCB offers
+
+Offer 2023-08-27: 5 PCBs, 2 populated.
+- Option A: All available components: $82, which includes Extended components fee: $45.30
+- Option B: Only basic components. $21. Plus shipping and duties, = $38.
