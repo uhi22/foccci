@@ -308,3 +308,11 @@ To flash the binary file to the SPI flash: `flashrom -p linux_spi:dev=/dev/spide
 
 ![image](doc/2023-07-28_foto_flash_progr_with_raspberry.jpg)
 ![image](doc/SPI_FLASH_programming_with_Raspberry.jpg)
+
+# Create Fabrication Output for JLCPCB
+
+Starting with KiCad7, the The xsltproc appears to have been removed. So the procedure to create the BOM needs to be adjusted.
+In https://gist.github.com/arturo182/a8c4a4b96907cfccf616a1edb59d0389 we find, that there is a plugin now: "Fabrication Toolkit".
+This can be installed with the "Plugin and Content Manager" in the KiCad main window.
+Then, in the PCB editor, use the FabricationToolkit from the toolbar. This creates a new folder in <project>/production/, which
+contains a zip with Gerber and drill files, and also the BOM, positions and designator files.
