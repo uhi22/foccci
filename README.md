@@ -322,3 +322,7 @@ contains a zip with Gerber and drill files, and also the BOM, positions and desi
 Offer 2023-08-27: 5 PCBs, 2 populated.
 - Option A: All available components: $82, which includes Extended components fee: $45.30
 - Option B: Only basic components. $21. Plus shipping and duties, = $38.
+
+Offer 2023-08-28: 5 PCBs, 5 populated.
+- Total $107 for 5 populated PCBs, plus shipping ($13) and duties and taxes ($23). Plus QCA, connector, inductor, transformator, housing.
+- Includes $42 extended components fee.
