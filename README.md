@@ -252,6 +252,17 @@ From https://openinverter.org/forum/viewtopic.php?p=58555#p58555
     - [ ] fuel flap switch
     - [ ] button to start/stop the charging process
     - [ ] HV contactor feedback
+    
+# Requirements for the low-power-mode
+
+- The foccci shall fall in low-power-mode, if not needed. The consumption shall be less than 5mA during this mode.
+- The foccci shall use the enable pin of the step down converter TPS54302 to shut down the power supply.
+- The following ways shall be used to activate the high-power-mode:
+    - CP line: A significant voltage (above 4V) for a significant time (at least some milliseconds).
+    - Button: A button to ground, internally pulled-up to 12V, if pressed long enough (at least some milliseconds).
+    - microcontroller: The STM32 shall be able to keep itself powered by using a toggle pin. In case of stuck to high or low, the foccci shall power-down.
+    - Not planned at the moment: Wakeup via CAN communication. This would be a helpful use case, if the user wakes the car via remote key (unlock), and the connector is unlocked by this activity.
+    
 
 # Controller
 
@@ -316,6 +327,15 @@ In https://gist.github.com/arturo182/a8c4a4b96907cfccf616a1edb59d0389 we find, t
 This can be installed with the "Plugin and Content Manager" in the KiCad main window.
 Then, in the PCB editor, use the FabricationToolkit from the toolbar. This creates a new folder in <project>/production/, which
 contains a zip with Gerber and drill files, and also the BOM, positions and designator files.
+
+The docu of the Fabrication Toolkit is here: https://github.com/bennymeg/JLC-Plugin-for-KiCad
+
+Some of the IC footprints have the wrong orientation in the JLCPCB viewer. The Fabrication toolkit offers the possibility to
+rotate (and shift, if necessary) the footprints, by adding in the schematic an attribute 'JLCPCB Rotation Offset'.
+Thanks to jrbe for the hint in https://openinverter.org/forum/viewtopic.php?p=61049#p61049
+
+
+
 
 # JLCPCB offers
 
