@@ -14666,7 +14666,7 @@
   (gr_text "A1" (at 150.84 110.17) (layer "F.SilkS") (tstamp 2ae6d99d-1cfa-45b4-a844-823ba559815a)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
   )
-  (gr_text "fully open CCS charge controller / github.com/uhi22/foccci / version 2023-08-26" (at 76.78 57.75) (layer "F.SilkS") (tstamp 354d9263-5755-4767-9b80-dafbfb748609)
+  (gr_text "fully open CCS charge controller / github.com/uhi22/foccci / version 2023-09-10" (at 76.78 57.75) (layer "F.SilkS") (tstamp 354d9263-5755-4767-9b80-dafbfb748609)
     (effects (font (size 0.9 0.9) (thickness 0.2) bold) (justify left bottom))
   )
   (gr_text "A12" (at 143.615 110.97) (layer "F.SilkS") (tstamp 3a927025-2757-4544-a88c-6a91eba2a29a)

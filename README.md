@@ -34,6 +34,46 @@ the size to 1206 for easy hand soldering. Btw: Below five dollars for five PCBs,
 ...and the discussion is starting on the OpenInverter forum
 https://openinverter.org/forum/viewtopic.php?p=57643#p57643
 
+# Board versions
+
+## V1 June 2023
+
+![image](doc/foccci_v1_june2023_foto​.jpg)
+- Just the QCA7005, exposing the SPI interface.
+- No controller, no voltage regulator, no CP logic.
+- Test result summary: Light-bulb-demo-charging works on alpitronics, with ccs32berta running on ESP32. (https://github.com/uhi22/ccs32berta)
+
+## V2 2023-07-12
+
+![image](doc/foccci_v2_2023-07-12_foto​.jpg)
+- STM32 controller
+- Power supply
+- CAN transceiver
+- CP logic
+- Two contactor drivers
+- Test result summary: Light-bulb-demo-charging works on alpitronics, with ccs32clara https://github.com/uhi22/ccs32clara running on the STM32.  https://openinverter.org/forum/viewtopic.php?p=59821#p59821
+
+## V3 2023-08-17
+
+![image](doc/foccci_v3_2023-08-17_foto.jpg)
+- HBridge driver DRV8874 for connector lock
+- discrete drivers for RGB LEDs
+- Deutsch Connector 2x12pins
+- added CP and PP sensing
+- changed from 2 layers to 4 layers
+- Test result summary: The new output drivers work with https://github.com/uhi22/ccs32clara. Other tests still in progress.
+
+## V4 2023-09-10
+
+![image](doc/foccci_v4_2023-09-10_3DView.jpg)
+- Prepared for assembling by JLCPCB
+- No 1206 size components anymore. Means: 0805 is the new default size now.
+- Test result summary: PCBs not ordered yet. No testing done yet.
+
+## V5 work in progress
+
+- main goal: sleep-wakeup-logic
+
 # Background
 
 The QCA7005 schematic and board was originally designed by Millisman https://github.com/Millisman/QCA7000, then forked to https://github.com/uhi22/QCA7000board and then renamed to https://github.com/uhi22/foccci
@@ -67,12 +107,9 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
-- [ ] move as much as possible bottom layer components to upper layer, to allow population by JLBPCB
 - [ ] TVS at the 12V. SMAJ18A ?
 - [ ] TVS at the CP
-- [ ] adapt layout for changed footprints
 - [ ] Docu: add details of step-by-step bring-up, incl current consumption
-
 
 
 ## Todos for Later
@@ -93,6 +130,8 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 
 ## Finished Todos
+- [x] move as much as possible bottom layer components to upper layer, to allow population by JLBPCB
+- [x] adapt layout for changed footprints
 - [x] check/remove/correct the JLCPCB part numbers for all parts. Most parts now 0805.
 - [x] add protection diode for CP sense
 - [x] CP sensing
