@@ -38,14 +38,14 @@ https://openinverter.org/forum/viewtopic.php?p=57643#p57643
 
 ## V1 June 2023
 
-![image](doc/foccci_v1_june2023_foto​.jpg)
+![image](doc/foccci_v1_june2023_foto.jpg)
 - Just the QCA7005, exposing the SPI interface.
 - No controller, no voltage regulator, no CP logic.
 - Test result summary: Light-bulb-demo-charging works on alpitronics, with ccs32berta running on ESP32. (https://github.com/uhi22/ccs32berta)
 
 ## V2 2023-07-12
 
-![image](doc/foccci_v2_2023-07-12_foto​.jpg)
+![image](doc/foccci_v2_2023-07-12_foto.jpg)
 - STM32 controller
 - Power supply
 - CAN transceiver
