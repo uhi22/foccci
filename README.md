@@ -62,6 +62,9 @@ https://openinverter.org/forum/viewtopic.php?p=57643#p57643
 - added CP and PP sensing
 - changed from 2 layers to 4 layers
 - Test result summary: The new output drivers work with https://github.com/uhi22/ccs32clara. Other tests still in progress.
+- Issues:
+    - Diode to 3V3 is missing in the CP sense path (R58). Need to be patched.
+    - There is a via near the pin1-corner of the QCA, which is very near to the metal frame at the corner, and may cause shortcut between 1V2 and ground.
 
 ## V4 2023-09-10
 
