@@ -21,6 +21,7 @@ Yes, this works. What do we need?
 ## Tested workflow
 
 Still untinned:
+
 ![image](2023-09-10_QCA7005_angleview_untinned.jpg)
 ![image](2023-09-10_QCA7005_sideview_untinned.jpg)
 
@@ -32,7 +33,7 @@ Still untinned:
 Tinned (left side) and untinned (right side) pins
 ![image](tinned_and_untinned_pins.jpg)
 
-5. Pre-tin the PCB. Use flux and a big drop of tin, and walk over the pads. Since the pads are a "level below" the surface of the solder mask, it may happen, that the tin does not reach the pad. Make sure to reach each pad, but using a pointed iron and move its tip on each pad.
+5. Pre-tin the PCB. Use flux and a big drop of tin, and walk over the pads. Since the pads are a "level below" the surface of the solder mask, it may happen, that the tin does not reach the pad. Make sure to reach each pad, by using a pointed iron and move its tip on each pad. This job is easier, if the PCB is pre-heated.
 6. Pre-tin the center pad on the PCB. For this you need a thicker iron, because the heat will flow away through the copper layers.
 7. Remove the tin on the center pad using solder wick.
 8. Clean the PCB with isopropanol and brush 
@@ -50,15 +51,19 @@ Tinned (left side) and untinned (right side) pins
 Typical faults:
 
 Pins not aligned to the pads
+
 ![image](solderfail_pins_not_aligned.jpg)
 
 Bridges
+
 ![image](solderfail_bridges.jpg)
 
 Unconnected pins
+
 ![image](solderfail_unconnectedpins.jpg)
 
 In case of unconnected pins due to too less tin, it is possible to add tin afterwards.
+
 19. Pre-heat the PCB as above.
 20. Use the solder iron, flux and tin to reach every joint. Better use too much tin, it is okay to create shortcuts in this step. The goal is to have on each joint the necessary temperature and the sufficient amount of tin, so that the tin makes a reliable connection.
 21. Use flux and solder wick to remove tin where it is too much.
