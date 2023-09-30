@@ -389,3 +389,7 @@ Offer 2023-08-27: 5 PCBs, 2 populated.
 Offer 2023-08-28: 5 PCBs, 5 populated.
 - Total $107 for 5 populated PCBs, plus shipping ($13) and duties and taxes ($23). Plus QCA, connector, inductor, transformator, housing.
 - Includes $42 extended components fee.
+
+# Soldering Lessons
+
+[solder_lessons.md](doc/solder_lessons.md)
