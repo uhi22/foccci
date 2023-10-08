@@ -6,6 +6,18 @@ Based on the QCA7005 PLC modem and an STM32 microcontroller.
 
 # News
 
+## 2023-10-08 Light-Bulb-Demo-Charging on Alpitronic and ABB works
+
+Using the foccci V3 board together with ccs32clara software, the muehlpower voltage sense board, a cheap chinese relay, the light-bulb-demo
+worked on the first attempt on alpitronics hypercharger and on an ABB triple charger.
+
+![image](doc/2023-10-08_foccci_on_alpi_with_bulb.jpg)
+
+![image](doc/2023-10-08_foccci_on_alpi_with_bulb_savvyCAN_graph.jpg)
+
+![image](doc/2023-10-08_foccci_on_ABB_with_bulb.jpg)
+
+
 ## 2023-07-28 Charging Loop Reached
 
 The foccci board version 2023-07-12 runs the STM32F103 and the QCA7005, and successfully enters
