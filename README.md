@@ -10,12 +10,12 @@ Based on the QCA7005 PLC modem and an STM32 microcontroller.
 
 Received four reservations on openinverter forum, and this was the trigger to create version v4.1 with minor layout
 improvements, and to order a batch of five
-at JLCPCB. Total cost for five: $127.32 including shipping, taxes and duties. The DRV8874 was out of stock,
+at JLCPCB. Total cost for five: $127.32 including shipping, taxes and duties. The NCV8402 was out of stock,
 and the QCA7005 is anyway not in their stock. So the material price is
 
 - 25€ JLCPCB populated PCB
 - 12€ QCA7005
-- 4€ 2 x DRV8874
+- 4€ 2 x NCV8402
 - 1€ RF transformator
 - <1€ connectors for programming and serial line
 
