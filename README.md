@@ -6,6 +6,19 @@ Based on the QCA7005 PLC modem and an STM32 microcontroller.
 
 # News
 
+## 2023-10-25 First Order of Populated Boards
+
+Received four reservations on openinverter forum, and this was the trigger to create version v4.1 with minor layout
+improvements, and to order a batch of five
+at JLCPCB. Total cost for five: $127.32 including shipping, taxes and duties. The DRV8874 was out of stock,
+and the QCA7005 is anyway not in their stock. So the material price is
+
+- 25€ JLCPCB populated PCB
+- 12€ QCA7005
+- 4€ 2 x DRV8874
+- 1€ RF transformator
+- <1€ connectors for programming and serial line
+
 ## 2023-10-08 Light-Bulb-Demo-Charging on Alpitronic and ABB works
 
 Using the foccci V3 board together with ccs32clara software, the muehlpower voltage sense board, a cheap chinese relay, the light-bulb-demo
@@ -84,6 +97,12 @@ https://openinverter.org/forum/viewtopic.php?p=57643#p57643
 - Prepared for assembling by JLCPCB
 - No 1206 size components anymore. Means: 0805 is the new default size now.
 - Test result summary: PCBs not ordered yet. No testing done yet.
+
+## V4.1 2023-10-25
+
+- functionally identical to V4
+- moved via away from QCA corner to avoid solder bridge
+- silk screen improvements: more component names and better readability
 
 ## V5 work in progress
 
