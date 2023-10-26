@@ -96,7 +96,7 @@ https://openinverter.org/forum/viewtopic.php?p=57643#p57643
 ![image](doc/foccci_v4_2023-09-10_3DView.jpg)
 - Prepared for assembling by JLCPCB
 - No 1206 size components anymore. Means: 0805 is the new default size now.
-- Test result summary: PCBs not ordered yet. No testing done yet.
+- Test result summary: PCBs ordered on 25/10/23. No testing done yet.
 
 ## V4.1 2023-10-25
 
@@ -129,7 +129,7 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
  - RSVD01 changed to power_in, because connected to 3.3V
  - RSVD04 changed to power_in, because connected to 1.2V
  - TCK changed from output to input, because this is the test clock driven by debugger. Even if the data sheet says "output".
- 
+
 ## Footprints in Schematic
 
 - changed the 100nF to 1206 for easy handsoldering (and back to 0805 for some, to safe space)
@@ -274,7 +274,7 @@ From openinverter VCU (https://github.com/jsphuebner/stm32-vcu/blob/master/Hardw
     - output 1A
     - cheap (10 parts 4 euros on ebay)
     - datasheet https://datasheet.lcsc.com/szlcsc/2001081204_Shikues-AMS1117-1-2_C475600.pdf
-Conclusion: Seems ok for feeding the QCA7005 and ESP32 plus other small consumers.
+    Conclusion: Seems ok for feeding the QCA7005 and ESP32 plus other small consumers.
 
 ## The zombieverter supply
 From https://github.com/jsphuebner/stm32-vcu/blob/master/Hardware/Zombie/ZombieVerter_V1%20-%20Schematic.pdf
