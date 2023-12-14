@@ -6,6 +6,11 @@ Based on the QCA7005 PLC modem and an STM32 microcontroller.
 
 # News
 
+## 2023-12-13 Supercharging works. Halve a dozen boards are spread around the world. 
+
+Johu is charging the Touran on the TESLA Supercharger using the hand-populated V3 board: https://openinverter.org/forum/viewtopic.php?p=64563#p64563 and https://www.youtube.com/watch?v=OKg3VUslol8
+The first JLC populated boards have been completed manually, only one bug in the schematic needed a small workaround. Boards are on the way to several enthusiasts for further testing. The software is growing thanks to the great openinverter community.
+
 ## 2023-10-25 First Order of Populated Boards
 
 Received four reservations on openinverter forum, and this was the trigger to create version v4.1 with minor layout
