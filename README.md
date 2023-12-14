@@ -97,12 +97,14 @@ https://openinverter.org/forum/viewtopic.php?p=57643#p57643
 - Prepared for assembling by JLCPCB
 - No 1206 size components anymore. Means: 0805 is the new default size now.
 - Test result summary: PCBs not ordered yet. No testing done yet.
+- Outdated, never produced.
 
 ## V4.1 2023-10-25
 
 - functionally identical to V4
 - moved via away from QCA corner to avoid solder bridge
 - silk screen improvements: more component names and better readability
+- Test result summary: one issue found (shortcut on the RX inputs to ground via inductors). After fixing this, everything works fine.
 
 ## V5 work in progress
 
@@ -141,19 +143,24 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
+- [ ] Remove DC-grounding of the RX inputs
+- [ ] Transformer (discussion here: https://openinverter.org/forum/viewtopic.php?p=64465#p64465), maybe https://jlcpcb.com/partdetail/3170710-CL4532A201/C2904734
+- [ ] Adapt the footprints / part numbers for the parts which JLC could not populate
+- [ ] Adapt the part number for the NCV8402 (discussed here: https://openinverter.org/forum/viewtopic.php?p=62903#p62903)
 - [ ] TVS at the 12V. SMAJ18A ?
 - [ ] TVS at the CP
-- [ ] Docu: add details of step-by-step bring-up, incl current consumption
+- [ ] Stepdown layout optimization (discussed here: https://openinverter.org/forum/viewtopic.php?p=61697#p61697)
+- [ ] Add additional mounting holes
+- [ ] add optional "Molex Mini-Fit Jr. Header, Dual Row" for the case, that the Deutsch is not needed in certain use cases.
+- [ ] Docu: add details of step-by-step bring-up, incl current consumption, and typical errors
 
 
 ## Todos for Later
 
-- [ ] Add additional mounting holes and and optional "Molex Mini-Fit Jr. Header, Dual Row" for the case, that the Deutsch is not needed in certain use cases.
 - [ ] The use of the LEDs on GPIO0 to 3 is not clear. Are they used in the automotive firmware at all? GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms). Measure the pin.
 - [ ] Regarding AMS1117-3.3 for the 3v3 regulators. These are tried and tested, but you may wish to avoid the polarized capacitor by using a more modern regulator. Consider TLV75733PDBV "Stable With a 1-μF Ceramic Output Capacitor"
 - [ ] The STM32F103 seems to meet the requirements and it's popular but be aware that it has a basic ARM core with no FPU. And: Do we need a low-power variant (stm32L4 series)?
 - [ ] Low-power concept is missing. Is the unit permanently powered? Do we need sleep/wakeup via inputs and/or CAN?
-- [ ] What's the plan for the PLC coupling circuit between J7 and J1, have you found a suitable transformer? The Pulse BMU6201NL transformer might do (it's qualified for the qca700x, see https://www.pulseelectronics.com/wideband-power-line-communication-plc-transformers/) and is available from Mouser
 - [ ] The QCA7005 is labelled QCA7000.
 - [ ] missing the JTAG port pull down resistors on the QCA
 - [ ] Could do with one more processor decoupler so that a cap can be dropped right against every package power pin.
