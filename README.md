@@ -148,6 +148,7 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
+- [ ] For C69, how to workaround the forced switch from "economy" to "standard" service?
 - [x] Remove DC-grounding of the RX inputs. Done: C32 and C33 added on the RX inputs.
 - [x] Transformer (discussion here: https://openinverter.org/forum/viewtopic.php?p=64465#p64465) see https://jlcpcb.com/partdetail/3170710-CL4532A201/C2904734 Done: Added into new lib transformerCL4532A-201 and to schematic and pcb.
 - [x] Adapt the part number for the NCV8402 (discussed here: https://openinverter.org/forum/viewtopic.php?p=62903#p62903). Done: Part number C77755 instead of C236053
@@ -155,7 +156,8 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
     - [x] U1 Flash: Old: Package_SO:SOP-8_5.28x5.23mm_P1.27mm, must be SOIC 150mil (order code SN), which is Package_SO:SOIC-8_3.9x4.9mm_P1.27mm.
     - [x] L11: The https://jlcpcb.com/partdetail/C162588 is normal 1206. Changed from Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder to Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder
 - [x] Add additional mounting holes
-- [x] Stepdown layout optimization (discussed here: https://openinverter.org/forum/viewtopic.php?p=61697#p61697), including smaller L, e.g. https://jlcpcb.com/partdetail/LantuMicro-SMS1050100MT/C5127462 instead of C3000379
+- [x] Stepdown layout optimization (discussed here: https://openinverter.org/forum/viewtopic.php?p=61697#p61697), including smaller L, e.g. https://jlcpcb.com/partdetail/LantuMicro-SMS1050100MT/C5127462 instead of C3000379. And, next step, even smaller
+https://jlcpcb.com/partdetail/Sunlord-MWSA0503S100MT/C408412 is 5.1 x 5.4mm.
 - [x] TVS at the 12V. SMAJ18A
 - [ ] TVS at the CP    
 - [ ] add optional "Molex Mini-Fit Jr. Header, Dual Row" for the case, that the Deutsch is not needed in certain use cases.
