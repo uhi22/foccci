@@ -7,4 +7,5 @@
   (lib (name "speciallib")(type "KiCad")(uri "${KIPRJMOD}/externLibs/speciallib.pretty")(options "")(descr ""))
   (lib (name "transformerCL4532A-201")(type "KiCad")(uri "${KIPRJMOD}/externLibs/transformerCL4532A-201.pretty")(options "")(descr ""))
   (lib (name "tvs")(type "KiCad")(uri "${KIPRJMOD}/externLibs/TVS_SMAJ18A")(options "")(descr ""))
+  (lib (name "OI_Logo")(type "KiCad")(uri "${KIPRJMOD}/externLibs/OI_Logo/OI_Logo.pretty")(options "")(descr ""))
 )
