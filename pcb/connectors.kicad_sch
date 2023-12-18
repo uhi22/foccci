@@ -519,6 +519,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 30.48 142.24 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 12641592-23f4-4aff-8bc8-bf0573f7ee84)
+    (property "Reference" "H5" (at 33.02 141.605 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 33.02 144.145 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 30.48 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 30.48 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "qca7000"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/23ec3d7a-4d8b-4fb1-94c6-debe6172b9c6"
+          (reference "H5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 44.45 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2dcf77ba-0e26-452a-82d3-c0fba641bcfd)
@@ -572,6 +596,30 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/23ec3d7a-4d8b-4fb1-94c6-debe6172b9c6"
           (reference "#PWR093") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 30.48 128.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 97fb0afb-6a2f-4227-b503-39f51067d5e0)
+    (property "Reference" "H3" (at 33.02 127.635 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 33.02 130.175 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 30.48 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 30.48 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "qca7000"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/23ec3d7a-4d8b-4fb1-94c6-debe6172b9c6"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -650,6 +698,54 @@
       (project "qca7000"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/23ec3d7a-4d8b-4fb1-94c6-debe6172b9c6"
           (reference "J20") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 30.48 121.92 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c2d468c9-aafa-4106-b563-649541891747)
+    (property "Reference" "H2" (at 33.02 121.285 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 33.02 123.825 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 30.48 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 30.48 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "qca7000"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/23ec3d7a-4d8b-4fb1-94c6-debe6172b9c6"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 30.48 134.62 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d15ea1a8-f74d-4f98-ad71-41dacb10ec85)
+    (property "Reference" "H4" (at 33.02 133.985 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 33.02 136.525 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 30.48 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 30.48 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "qca7000"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/23ec3d7a-4d8b-4fb1-94c6-debe6172b9c6"
+          (reference "H4") (unit 1)
         )
       )
     )

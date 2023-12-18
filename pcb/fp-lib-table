@@ -5,4 +5,6 @@
   (lib (name "EEC-325X4B")(type "KiCad")(uri "${KIPRJMOD}/externLibs/EEC-325X4B")(options "")(descr ""))
   (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/externLibs/LIB_DRV8874QPWPRQ1/DRV8874QPWPRQ1/KiCad")(options "")(descr ""))
   (lib (name "speciallib")(type "KiCad")(uri "${KIPRJMOD}/externLibs/speciallib.pretty")(options "")(descr ""))
+  (lib (name "transformerCL4532A-201")(type "KiCad")(uri "${KIPRJMOD}/externLibs/transformerCL4532A-201.pretty")(options "")(descr ""))
+  (lib (name "tvs")(type "KiCad")(uri "${KIPRJMOD}/externLibs/TVS_SMAJ18A")(options "")(descr ""))
 )
