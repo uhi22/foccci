@@ -148,7 +148,7 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
-- [ ] For C69, how to workaround the forced switch from "economy" to "standard" service?
+- [x] For C69, how to workaround the forced switch from "economy" to "standard" service? Workaround: use C3445244, discussed here: https://openinverter.org/forum/viewtopic.php?p=65016#p65016
 - [x] Remove DC-grounding of the RX inputs. Done: C32 and C33 added on the RX inputs.
 - [x] Transformer (discussion here: https://openinverter.org/forum/viewtopic.php?p=64465#p64465) see https://jlcpcb.com/partdetail/3170710-CL4532A201/C2904734 Done: Added into new lib transformerCL4532A-201 and to schematic and pcb.
 - [x] Adapt the part number for the NCV8402 (discussed here: https://openinverter.org/forum/viewtopic.php?p=62903#p62903). Done: Part number C77755 instead of C236053
