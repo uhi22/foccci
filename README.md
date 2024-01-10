@@ -162,6 +162,9 @@ https://jlcpcb.com/partdetail/Sunlord-MWSA0503S100MT/C408412 is 5.1 x 5.4mm.
 - [ ] TVS at the CP    
 - [ ] add optional "Molex Mini-Fit Jr. Header, Dual Row" for the case, that the Deutsch is not needed in certain use cases.
 - [ ] Docu: add details of step-by-step bring-up, incl current consumption, and typical errors
+- [ ] more copper cooling area for the NCVs
+- [ ] analog current feedback from the DRV8874 IPROPI to the controller
+- [ ] more temperature inputs (6, to support L1, L2, L3, N, DC+ and DC-)
 
 
 ## Todos for Later
