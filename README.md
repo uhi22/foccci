@@ -1,8 +1,14 @@
 # foccci - The Fully Open CCS Charge Controller Interface
 
-Charge Controller that enables CCS charging of homebrew electric vehicles.
-Driven by the OpenInverter forum community, https://openinverter.org/forum/
-Based on the QCA7005 PLC modem and an STM32 microcontroller.
+![image](doc/foccci_logo_colored.jpg) Hi, I'm Foccci. Just call me [Foksi] or [Fok-See] or just Foxi :-)
+My real name is "Fully Open CCS Charge Controller Interface", but that's just too difficult to remember.
+
+What I am? I'm a Charge Controller that enables CCS charging of homebrew electric vehicles.
+I was born in the OpenInverter forum community, https://openinverter.org/forum/viewtopic.php?t=3727, and I'm growing more and more due to the great people there.
+Inside, I have a QCA7005 PLC modem and an STM32 microcontroller. I'm a piece of hardware, and because hardware alone is quite boring,
+I'm in a team with Clara, https://github.com/uhi22/ccs32clara, which is dealing with the bits and bytes of our mission. And together, we can do a lot for you.
+
+![image](doc/foccci_and_clara_logo_colored.jpg)
 
 # News
 
@@ -444,3 +450,13 @@ Offer 2023-08-28: 5 PCBs, 5 populated.
 # Soldering Lessons
 
 [solder_lessons.md](doc/solder_lessons.md)
+
+# Credits
+
+Thanks to Millisman for the initial board design.
+
+Thanks to celeron55, mikeselectricstuff, Zieg, catphish, projectgus, chrskly, johu, Infant, muehlpower, crasbe, royhen99, asavage, Pete9008, P.S.Mangelsdorf, grgumxlm, royhen99, MeKe, mstegen, jrbe, Bigpie, xvyDFatih, olegiv, ns0708, f0ld, explorer232, dougyip, Gabriel, tom91, quentin42, maciek16c, apple2, CCSknowitall on the openinverter forum for the helpful discussions, proposals, reviews, tests and questions.
+
+Special thanks to projectgus for organizing the chips.
+
+Thanks to cookie_kater1 for the logos.
