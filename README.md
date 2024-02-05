@@ -154,6 +154,7 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
+- [ ] Add a version indication analog circuit. Discussed here: https://openinverter.org/forum/viewtopic.php?p=66745#p66745
 - [ ] Change the PP pull-up to 330 ohms and 5V, and optionally prepare pull-down 2k7. Use voltage divider to the controller, to be able to measure the full 0 to 5V range. Discussion here: https://openinverter.org/forum/viewtopic.php?p=66208#p66208
 - [x] For C69, how to workaround the forced switch from "economy" to "standard" service? Workaround: use C3445244, discussed here: https://openinverter.org/forum/viewtopic.php?p=65016#p65016
 - [x] Remove DC-grounding of the RX inputs. Done: C32 and C33 added on the RX inputs.
