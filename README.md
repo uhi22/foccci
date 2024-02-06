@@ -154,8 +154,10 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
+- [ ] analog current feedback from the DRV8874 IPROPI to the controller
 - [ ] Add a version indication analog circuit. Discussed here: https://openinverter.org/forum/viewtopic.php?p=66745#p66745
 - [ ] Change the PP pull-up to 330 ohms and 5V, and optionally prepare pull-down 2k7. Use voltage divider to the controller, to be able to measure the full 0 to 5V range. Discussion here: https://openinverter.org/forum/viewtopic.php?p=66208#p66208
+
 - [x] For C69, how to workaround the forced switch from "economy" to "standard" service? Workaround: use C3445244, discussed here: https://openinverter.org/forum/viewtopic.php?p=65016#p65016
 - [x] Remove DC-grounding of the RX inputs. Done: C32 and C33 added on the RX inputs.
 - [x] Transformer (discussion here: https://openinverter.org/forum/viewtopic.php?p=64465#p64465) see https://jlcpcb.com/partdetail/3170710-CL4532A201/C2904734 Done: Added into new lib transformerCL4532A-201 and to schematic and pcb.
@@ -171,7 +173,6 @@ https://jlcpcb.com/partdetail/Sunlord-MWSA0503S100MT/C408412 is 5.1 x 5.4mm.
 - [ ] add optional "Molex Mini-Fit Jr. Header, Dual Row" for the case, that the Deutsch is not needed in certain use cases.
 - [ ] Docu: add details of step-by-step bring-up, incl current consumption, and typical errors
 - [ ] more copper cooling area for the NCVs
-- [ ] analog current feedback from the DRV8874 IPROPI to the controller
 - [ ] more temperature inputs (6, to support L1, L2, L3, N, DC+ and DC-)
 
 
