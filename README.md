@@ -117,6 +117,19 @@ https://openinverter.org/forum/viewtopic.php?p=57643#p57643
 - silk screen improvements: more component names and better readability
 - Test result summary: one issue found (shortcut on the RX inputs to ground via inductors). After fixing this, everything works fine.
 
+## V4.2 2024-02-06
+
+- rx path grounding bug resolved
+- added RF transformer
+- proximity pilot input circuit corrected (330ohm pull-up to 5V instead of 1k to 3.3V)
+- hardware variant coding with two resistors on analog port added
+- routed the current measurement pin of the lock driver DRV8874 (IPROPI) to the ADC
+- more copper cooling area for the contactor drivers
+- more spare holes
+- added openinverter logo - and lost it later when transferring the schematics update to the PCB - sorry
+- added mounting holes
+- layout optimizations, footprint and part number corrections
+
 ## V5 work in progress
 
 - main goal: sleep-wakeup-logic
@@ -154,30 +167,14 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
-- [ ] analog current feedback from the DRV8874 IPROPI to the controller
-- [ ] Add a version indication analog circuit. Discussed here: https://openinverter.org/forum/viewtopic.php?p=66745#p66745
-- [ ] Change the PP pull-up to 330 ohms and 5V, and optionally prepare pull-down 2k7. Use voltage divider to the controller, to be able to measure the full 0 to 5V range. Discussion here: https://openinverter.org/forum/viewtopic.php?p=66208#p66208
-
-- [x] For C69, how to workaround the forced switch from "economy" to "standard" service? Workaround: use C3445244, discussed here: https://openinverter.org/forum/viewtopic.php?p=65016#p65016
-- [x] Remove DC-grounding of the RX inputs. Done: C32 and C33 added on the RX inputs.
-- [x] Transformer (discussion here: https://openinverter.org/forum/viewtopic.php?p=64465#p64465) see https://jlcpcb.com/partdetail/3170710-CL4532A201/C2904734 Done: Added into new lib transformerCL4532A-201 and to schematic and pcb.
-- [x] Adapt the part number for the NCV8402 (discussed here: https://openinverter.org/forum/viewtopic.php?p=62903#p62903). Done: Part number C77755 instead of C236053
-- [x] Adapt the footprints / part numbers for the parts which JLC could not populate
-    - [x] U1 Flash: Old: Package_SO:SOP-8_5.28x5.23mm_P1.27mm, must be SOIC 150mil (order code SN), which is Package_SO:SOIC-8_3.9x4.9mm_P1.27mm.
-    - [x] L11: The https://jlcpcb.com/partdetail/C162588 is normal 1206. Changed from Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder to Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder
-- [x] Add additional mounting holes
-- [x] Stepdown layout optimization (discussed here: https://openinverter.org/forum/viewtopic.php?p=61697#p61697), including smaller L, e.g. https://jlcpcb.com/partdetail/LantuMicro-SMS1050100MT/C5127462 instead of C3000379. And, next step, even smaller
-https://jlcpcb.com/partdetail/Sunlord-MWSA0503S100MT/C408412 is 5.1 x 5.4mm.
-- [x] TVS at the 12V. SMAJ18A
-- [ ] TVS at the CP    
-- [ ] add optional "Molex Mini-Fit Jr. Header, Dual Row" for the case, that the Deutsch is not needed in certain use cases.
-- [ ] Docu: add details of step-by-step bring-up, incl current consumption, and typical errors
-- [ ] more copper cooling area for the NCVs
-- [ ] more temperature inputs (6, to support L1, L2, L3, N, DC+ and DC-)
 
 
 ## Todos for Later
 
+- [ ] TVS at the CP    
+- [ ] add optional "Molex Mini-Fit Jr. Header, Dual Row" for the case, that the Deutsch is not needed in certain use cases.
+- [ ] Docu: add details of step-by-step bring-up, incl current consumption, and typical errors
+- [ ] more temperature inputs (6, to support L1, L2, L3, N, DC+ and DC-)
 - [ ] The use of the LEDs on GPIO0 to 3 is not clear. Are they used in the automotive firmware at all? GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms). Measure the pin.
 - [ ] Regarding AMS1117-3.3 for the 3v3 regulators. These are tried and tested, but you may wish to avoid the polarized capacitor by using a more modern regulator. Consider TLV75733PDBV "Stable With a 1-μF Ceramic Output Capacitor"
 - [ ] The STM32F103 seems to meet the requirements and it's popular but be aware that it has a basic ARM core with no FPU. And: Do we need a low-power variant (stm32L4 series)?
@@ -193,6 +190,22 @@ https://jlcpcb.com/partdetail/Sunlord-MWSA0503S100MT/C408412 is 5.1 x 5.4mm.
 
 
 ## Finished Todos
+- [x] more copper cooling area for the NCVs
+- [x] analog current feedback from the DRV8874 IPROPI to the controller
+- [x] Add a version indication analog circuit. Discussed here: https://openinverter.org/forum/viewtopic.php?p=66745#p66745
+- [x] Change the PP pull-up to 330 ohms and 5V, and optionally prepare pull-down 2k7. Use voltage divider to the controller, to be able to measure the full 0 to 5V range. Discussion here: https://openinverter.org/forum/viewtopic.php?p=66208#p66208
+
+- [x] For C69, how to workaround the forced switch from "economy" to "standard" service? Workaround: use C3445244, discussed here: https://openinverter.org/forum/viewtopic.php?p=65016#p65016
+- [x] Remove DC-grounding of the RX inputs. Done: C32 and C33 added on the RX inputs.
+- [x] Transformer (discussion here: https://openinverter.org/forum/viewtopic.php?p=64465#p64465) see https://jlcpcb.com/partdetail/3170710-CL4532A201/C2904734 Done: Added into new lib transformerCL4532A-201 and to schematic and pcb.
+- [x] Adapt the part number for the NCV8402 (discussed here: https://openinverter.org/forum/viewtopic.php?p=62903#p62903). Done: Part number C77755 instead of C236053
+- [x] Adapt the footprints / part numbers for the parts which JLC could not populate
+    - [x] U1 Flash: Old: Package_SO:SOP-8_5.28x5.23mm_P1.27mm, must be SOIC 150mil (order code SN), which is Package_SO:SOIC-8_3.9x4.9mm_P1.27mm.
+    - [x] L11: The https://jlcpcb.com/partdetail/C162588 is normal 1206. Changed from Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder to Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder
+- [x] Add additional mounting holes
+- [x] Stepdown layout optimization (discussed here: https://openinverter.org/forum/viewtopic.php?p=61697#p61697), including smaller L, e.g. https://jlcpcb.com/partdetail/LantuMicro-SMS1050100MT/C5127462 instead of C3000379. And, next step, even smaller
+https://jlcpcb.com/partdetail/Sunlord-MWSA0503S100MT/C408412 is 5.1 x 5.4mm.
+- [x] TVS at the 12V. SMAJ18A
 - [x] move as much as possible bottom layer components to upper layer, to allow population by JLBPCB
 - [x] adapt layout for changed footprints
 - [x] check/remove/correct the JLCPCB part numbers for all parts. Most parts now 0805.
