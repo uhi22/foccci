@@ -7067,12 +7067,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR074") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
-          (reference "#PWR075") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/539ec63d-ac7e-42ea-858e-ff2bf33430ea"
-          (reference "#PWR074") (unit 1)
-        )
       )
     )
   )
@@ -8899,9 +8893,6 @@
     (pin "8" (uuid 8fd9454f-2925-4bda-baf3-8b1d581f6569))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/539ec63d-ac7e-42ea-858e-ff2bf33430ea"
-          (reference "T1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "T1") (unit 1)
         )

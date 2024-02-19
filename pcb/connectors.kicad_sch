@@ -262,7 +262,6 @@
 
 
   (no_connect (at 78.74 49.53) (uuid 75aaaf74-23d6-4280-895d-7fab1bfae1fe))
-  (no_connect (at 78.74 59.69) (uuid d24cd74c-2515-4955-ba73-3a1ed230cc72))
   (no_connect (at 78.74 52.07) (uuid d5d3bbd7-29a1-493d-b8ee-69015cb50686))
 
   (wire (pts (xy 52.07 52.07) (xy 53.34 52.07))
@@ -360,6 +359,10 @@
   (wire (pts (xy 45.72 43.18) (xy 53.34 43.18))
     (stroke (width 0) (type default))
     (uuid ccd8d0ca-5f8c-4619-ba2b-9d38ebdebd4c)
+  )
+  (wire (pts (xy 78.74 59.69) (xy 82.55 59.69))
+    (stroke (width 0) (type default))
+    (uuid f4534f14-1626-4c3f-85ea-467be4c3810a)
   )
   (wire (pts (xy 53.34 45.72) (xy 53.34 46.99))
     (stroke (width 0) (type default))
@@ -483,6 +486,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "WAKEUP" (shape bidirectional) (at 82.55 59.69 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8bcd7e12-ac22-4b16-b95d-928f3667fa86)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 94.206 59.69 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "LED_RED" (shape input) (at 83.82 64.77 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a046412b-ebf1-4a01-969e-55d9b6fb88c5)
@@ -570,7 +580,7 @@
   (symbol (lib_id "power:GND") (at 49.53 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85094fde-1d74-40c6-bb55-093c8e6bd9dc)
-    (property "Reference" "#PWR048" (at 49.53 81.28 0)
+    (property "Reference" "#PWR093" (at 49.53 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 52.07 78.74 0)
@@ -585,15 +595,6 @@
     (pin "1" (uuid 2f525048-dae9-42ec-b254-b0956c7a0fb7))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
-          (reference "#PWR056") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/93c6207c-4203-4bc7-a590-e5e89c0d3d27"
-          (reference "#PWR068") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/23ec3d7a-4d8b-4fb1-94c6-debe6172b9c6"
           (reference "#PWR093") (unit 1)
         )
@@ -787,7 +788,7 @@
   (symbol (lib_id "power:GND") (at 105.41 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7113a58-12e6-4f63-9d82-cc90ba16e533)
-    (property "Reference" "#PWR048" (at 105.41 62.23 0)
+    (property "Reference" "#PWR083" (at 105.41 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 59.69 0)
@@ -802,15 +803,6 @@
     (pin "1" (uuid ee574cb5-2cb4-4a9e-87ad-b91c3c5b2efd))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
-          (reference "#PWR056") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/93c6207c-4203-4bc7-a590-e5e89c0d3d27"
-          (reference "#PWR068") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/23ec3d7a-4d8b-4fb1-94c6-debe6172b9c6"
           (reference "#PWR083") (unit 1)
         )

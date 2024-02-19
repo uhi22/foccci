@@ -1640,6 +1640,10 @@
     (stroke (width 0) (type default))
     (uuid a4fb940f-ed17-4b0b-a50e-a0da27c41aa6)
   )
+  (wire (pts (xy 171.45 107.95) (xy 176.53 107.95))
+    (stroke (width 0) (type default))
+    (uuid a7008aac-da9a-40ae-a2bf-603726fe6782)
+  )
   (wire (pts (xy 171.45 95.25) (xy 175.26 95.25))
     (stroke (width 0) (type default))
     (uuid a9199766-a3da-4db3-b68b-962bdf1473ad)
@@ -1691,10 +1695,6 @@
   (wire (pts (xy 232.41 80.01) (xy 232.41 78.74))
     (stroke (width 0) (type default))
     (uuid be2a1b1a-e198-48c7-81e4-7a368ad7d51f)
-  )
-  (wire (pts (xy 171.45 107.95) (xy 176.53 107.95))
-    (stroke (width 0) (type default))
-    (uuid be5bd52c-9f18-42eb-a6d4-51a7f273393b)
   )
   (wire (pts (xy 218.44 85.09) (xy 222.25 85.09))
     (stroke (width 0) (type default))
@@ -1937,6 +1937,20 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0aa83195-bfe5-427c-9f73-b04c7092aa69)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 259.9296 59.69 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "KEEP_POWER_ON" (shape output) (at 176.53 110.49 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0d156748-ba44-4417-9a70-16dc0826e850)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 195.4203 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "TRIGGER_WAKEUP" (shape output) (at 176.53 107.95 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0d679756-04d3-49c6-9a66-f57265ba4ef3)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 195.8437 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2357,7 +2371,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 133.35 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 087ad532-978a-4184-9fd4-30b4d35e9906)
-    (property "Reference" "TP5V1" (at 128.27 118.11 90)
+    (property "Reference" "TP27" (at 128.27 118.11 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 128.27 119.38 0)
@@ -2372,12 +2386,6 @@
     (pin "1" (uuid 246393af-7062-4019-9905-300214b070e4))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP27") (unit 1)
         )
@@ -2388,7 +2396,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 133.35 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0da19fd1-c528-46b2-ae00-ede2b7dc1ef2)
-    (property "Reference" "TP5V1" (at 128.27 115.57 90)
+    (property "Reference" "TP26" (at 128.27 115.57 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 128.27 116.84 0)
@@ -2403,12 +2411,6 @@
     (pin "1" (uuid d3db0401-a337-4b04-85bc-2e9cef979a42))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP26") (unit 1)
         )
@@ -2419,7 +2421,7 @@
   (symbol (lib_name "C_Small_13") (lib_id "Device:C_Small") (at 110.49 46.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1233e5e6-1e9f-4880-b109-2ad1c69812fa)
-    (property "Reference" "C61" (at 114.3 46.99 0)
+    (property "Reference" "C60" (at 114.3 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 114.3 49.53 0)
@@ -2441,9 +2443,6 @@
     (pin "2" (uuid ecd93540-26f1-4e5b-8c33-73e3f8186c64))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C61") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "C60") (unit 1)
         )
@@ -2454,7 +2453,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 251.46 157.48 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 176b3d4b-7840-42a3-a378-d98d34558378)
-    (property "Reference" "TP3" (at 256.54 156.21 90)
+    (property "Reference" "UART_RX1" (at 256.54 156.21 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 252.73 153.67 90)
@@ -2469,9 +2468,6 @@
     (pin "1" (uuid 2ca7737c-7c71-4c4e-8626-f475b7248db3))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "UART_RX1") (unit 1)
         )
@@ -2523,7 +2519,7 @@
   (symbol (lib_id "Device:R_Small") (at 53.34 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a02ecb0-ab6c-49e7-8fe4-3f4b07506d79)
-    (property "Reference" "R3" (at 53.34 102.87 90)
+    (property "Reference" "R18" (at 53.34 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 53.34 107.95 90)
@@ -2545,9 +2541,6 @@
     (pin "2" (uuid 47a62b18-ce9e-4982-9dcd-1e306eddda8e))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R18") (unit 1)
         )
@@ -2558,7 +2551,7 @@
   (symbol (lib_id "power:GND") (at 71.12 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bfb3dcc-2316-4391-b5db-1fd32895eb8b)
-    (property "Reference" "#PWR048" (at 77.47 123.19 0)
+    (property "Reference" "#PWR092" (at 77.47 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 120.65 0)
@@ -2573,9 +2566,6 @@
     (pin "1" (uuid d1d0d322-78fb-48af-b31e-1690f5bade5a))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR092") (unit 1)
         )
@@ -2586,7 +2576,7 @@
   (symbol (lib_id "power:GND") (at 71.12 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c19273a-5a73-4240-9a57-5f88d6234734)
-    (property "Reference" "#PWR048" (at 77.47 105.41 0)
+    (property "Reference" "#PWR052" (at 77.47 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 102.87 0)
@@ -2601,9 +2591,6 @@
     (pin "1" (uuid 5fb7c0e8-fefe-4dc1-b544-c86bf97165a2))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR052") (unit 1)
         )
@@ -2614,7 +2601,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 176.53 123.19 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e0b97a6-6a44-4f3f-baaf-dec9895b8ec7)
-    (property "Reference" "TP5V1" (at 181.61 123.19 90)
+    (property "Reference" "PB6" (at 181.61 123.19 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 181.61 121.92 0)
@@ -2629,12 +2616,6 @@
     (pin "1" (uuid f5ca5728-ae9b-4680-9597-dc75b728795a))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "PB6") (unit 1)
         )
@@ -2645,7 +2626,7 @@
   (symbol (lib_id "power:GND") (at 170.18 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f66a07e-626a-42a4-bc5f-fde269e1a67a)
-    (property "Reference" "#PWR048" (at 176.53 57.15 0)
+    (property "Reference" "#PWR043" (at 176.53 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 54.61 0)
@@ -2660,9 +2641,6 @@
     (pin "1" (uuid f5f0b54a-444e-4c98-93a9-5b3945580ae5))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR043") (unit 1)
         )
@@ -2673,7 +2651,7 @@
   (symbol (lib_id "power:GND") (at 64.77 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20f1a56b-3925-40b5-bca5-ec12c05d5527)
-    (property "Reference" "#PWR048" (at 64.77 34.29 0)
+    (property "Reference" "#PWR040" (at 64.77 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 31.75 0)
@@ -2688,9 +2666,6 @@
     (pin "1" (uuid ef035b7a-39f0-41de-8efb-558f0447f210))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR040") (unit 1)
         )
@@ -2733,7 +2708,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 176.53 90.17 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2aadd7c9-c23c-44a9-9be5-ad3e5e765a05)
-    (property "Reference" "TP5V1" (at 181.61 90.17 90)
+    (property "Reference" "TP14" (at 181.61 90.17 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 181.61 88.9 0)
@@ -2748,12 +2723,6 @@
     (pin "1" (uuid 53256b5b-9079-41b8-8c61-bed1639b5d62))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP14") (unit 1)
         )
@@ -2764,7 +2733,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 146.05 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b3f8e9e-78c8-48bf-b994-ab3c09f7bfb4)
-    (property "Reference" "TP5V1" (at 182.88 146.05 90)
+    (property "Reference" "TP38" (at 182.88 146.05 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 182.88 144.78 0)
@@ -2779,12 +2748,6 @@
     (pin "1" (uuid 1c3126a8-b5d3-4c4e-96a1-d889854403a3))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP38") (unit 1)
         )
@@ -2795,7 +2758,7 @@
   (symbol (lib_id "power:GND") (at 248.92 154.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e50ac5d-58c4-4187-ac95-8d472f4e835e)
-    (property "Reference" "#PWR048" (at 242.57 154.94 0)
+    (property "Reference" "#PWR058" (at 242.57 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 154.94 90)
@@ -2810,9 +2773,6 @@
     (pin "1" (uuid fcfcf3ee-f416-44e5-8ede-4616dedb6cda))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR058") (unit 1)
         )
@@ -2823,7 +2783,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 251.46 154.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f24e037-9822-40b9-ab21-1f2644515371)
-    (property "Reference" "TP3" (at 256.54 153.67 90)
+    (property "Reference" "UART_GND1" (at 256.54 153.67 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 252.73 151.13 90)
@@ -2838,9 +2798,6 @@
     (pin "1" (uuid 3a8de312-edb6-4460-8548-bf5b3c7d49d4))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "UART_GND1") (unit 1)
         )
@@ -2851,7 +2808,7 @@
   (symbol (lib_id "power:GND") (at 87.63 71.12 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32bd0a15-995d-4424-bdde-7a87729d9ada)
-    (property "Reference" "#PWR048" (at 81.28 71.12 0)
+    (property "Reference" "#PWR046" (at 81.28 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 73.66 0)
@@ -2866,9 +2823,6 @@
     (pin "1" (uuid 642c5678-c694-455f-bf8b-5caae64366c5))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR046") (unit 1)
         )
@@ -2879,7 +2833,7 @@
   (symbol (lib_id "Device:R_Small") (at 248.92 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36c3c3dc-bf7d-44fc-8aad-9c6188fc47c3)
-    (property "Reference" "R3" (at 248.92 93.98 0)
+    (property "Reference" "R16" (at 248.92 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 248.92 96.52 0)
@@ -2901,9 +2855,6 @@
     (pin "2" (uuid bfbd2c2b-96c8-4c90-8d98-9cca4b5c35ff))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R16") (unit 1)
         )
@@ -2914,7 +2865,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 251.46 152.4 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39721ad9-3392-47ae-8c3c-62ec85f26ff2)
-    (property "Reference" "TP3" (at 256.54 151.13 90)
+    (property "Reference" "UART_TX1" (at 256.54 151.13 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 252.73 148.59 90)
@@ -2929,9 +2880,6 @@
     (pin "1" (uuid 20f11dda-bfb3-46a1-bb2e-57e176787426))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "UART_TX1") (unit 1)
         )
@@ -2942,7 +2890,7 @@
   (symbol (lib_id "Device:R_Small") (at 247.65 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39bb9f38-fa58-4230-b71b-bba4712f9cdd)
-    (property "Reference" "R3" (at 243.84 160.02 90)
+    (property "Reference" "R22" (at 243.84 160.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 248.92 160.02 90)
@@ -2964,9 +2912,6 @@
     (pin "2" (uuid c2096a93-3b33-4aee-ab2e-58960b56c275))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R22") (unit 1)
         )
@@ -2977,7 +2922,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 240.03 120.65 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d52e000-ada1-47d0-8861-ca6946c1227a)
-    (property "Reference" "TP3" (at 245.11 119.38 90)
+    (property "Reference" "SWCLK1" (at 245.11 119.38 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 241.3 116.84 90)
@@ -2992,9 +2937,6 @@
     (pin "1" (uuid efd995a7-0d55-4716-8ef7-d32c8e7c1f7c))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "SWCLK1") (unit 1)
         )
@@ -3005,7 +2947,7 @@
   (symbol (lib_id "power:GND") (at 53.34 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e9ea536-6c1d-49cb-b7f7-1901b2657bb5)
-    (property "Reference" "#PWR048" (at 53.34 34.29 0)
+    (property "Reference" "#PWR039" (at 53.34 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 31.75 0)
@@ -3020,9 +2962,6 @@
     (pin "1" (uuid abc49343-e927-4aaf-a1a4-c40ce55009ff))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR039") (unit 1)
         )
@@ -3065,7 +3004,7 @@
   (symbol (lib_id "Device:R_Small") (at 247.65 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43f056c8-179e-40ee-a095-58ef974b987b)
-    (property "Reference" "R3" (at 243.84 151.13 90)
+    (property "Reference" "R21" (at 243.84 151.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 247.65 149.86 90)
@@ -3087,9 +3026,6 @@
     (pin "2" (uuid 0980394e-ab83-4bc0-988f-3fd3b4991f59))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R21") (unit 1)
         )
@@ -3132,7 +3068,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 176.53 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46569081-fa12-4472-86a0-0aa30a51417e)
-    (property "Reference" "TP5V1" (at 181.61 85.09 90)
+    (property "Reference" "TP12" (at 181.61 85.09 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 181.61 83.82 0)
@@ -3147,12 +3083,6 @@
     (pin "1" (uuid 6c0874c6-09ba-4d2e-86ec-1e32abaa31ae))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP12") (unit 1)
         )
@@ -3163,7 +3093,7 @@
   (symbol (lib_id "power:GND") (at 40.64 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 508c7eaa-13c2-4ad0-815f-be487439d5c8)
-    (property "Reference" "#PWR048" (at 40.64 34.29 0)
+    (property "Reference" "#PWR038" (at 40.64 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 31.75 0)
@@ -3178,9 +3108,6 @@
     (pin "1" (uuid 66d31b19-f260-45fd-9675-d949206f647a))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR038") (unit 1)
         )
@@ -3213,9 +3140,6 @@
     (pin "2" (uuid 597af5cd-86c8-4b63-8a7c-d2db2809544b))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C61") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "C61") (unit 1)
         )
@@ -3226,7 +3150,7 @@
   (symbol (lib_id "power:GND") (at 237.49 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a9ae929-43b0-4fd4-9654-b61dcc39af9e)
-    (property "Reference" "#PWR048" (at 231.14 118.11 0)
+    (property "Reference" "#PWR055" (at 231.14 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 118.11 90)
@@ -3241,9 +3165,6 @@
     (pin "1" (uuid 7b402288-8fa2-4c95-ad80-ee6edd15fec0))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR055") (unit 1)
         )
@@ -3254,7 +3175,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 237.49 135.89 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d57bf41-96d8-4d54-b842-d1fc8a2a92b9)
-    (property "Reference" "TP3" (at 242.57 134.62 90)
+    (property "Reference" "SWO1" (at 242.57 134.62 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 238.76 132.08 90)
@@ -3269,9 +3190,6 @@
     (pin "1" (uuid 4e6e90e8-43e5-412a-808e-351b1affb0c4))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "SWO1") (unit 1)
         )
@@ -3282,7 +3200,7 @@
   (symbol (lib_id "power:GND") (at 71.12 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f31051c-9455-4bc1-8006-48139e45137c)
-    (property "Reference" "#PWR048" (at 77.47 96.52 0)
+    (property "Reference" "#PWR050" (at 77.47 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 93.98 0)
@@ -3297,9 +3215,6 @@
     (pin "1" (uuid 008b93a6-10b0-4a5b-aada-2e73554fa450))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR050") (unit 1)
         )
@@ -3310,7 +3225,7 @@
   (symbol (lib_id "Device:R_Small") (at 233.68 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6094b634-87c6-4075-ba05-7a223521ccf4)
-    (property "Reference" "R3" (at 229.87 45.72 90)
+    (property "Reference" "R12" (at 229.87 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 233.68 44.45 90)
@@ -3332,9 +3247,6 @@
     (pin "2" (uuid 77f9a5ce-34d3-4dec-876e-c34ee5a46ef0))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R12") (unit 1)
         )
@@ -3345,7 +3257,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 128.27 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63015eeb-30c6-4bff-96b7-d550a1265d79)
-    (property "Reference" "TP5V1" (at 120.65 81.28 0)
+    (property "Reference" "TP11" (at 120.65 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 123.19 81.28 0)
@@ -3360,12 +3272,6 @@
     (pin "1" (uuid bbabe1ac-2da0-4640-903a-cff7e8408ec9))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP11") (unit 1)
         )
@@ -3376,7 +3282,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 176.53 87.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63913115-345e-46d1-81ab-855d405f6919)
-    (property "Reference" "TP5V1" (at 181.61 87.63 90)
+    (property "Reference" "TP13" (at 181.61 87.63 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 181.61 86.36 0)
@@ -3391,12 +3297,6 @@
     (pin "1" (uuid 6c45949f-2331-44ad-b93e-f1e828891375))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP13") (unit 1)
         )
@@ -3407,7 +3307,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 138.43 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65fec361-a48e-4fb5-b104-24cb2ee95c01)
-    (property "Reference" "TP5V1" (at 182.88 138.43 90)
+    (property "Reference" "PB12" (at 182.88 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 182.88 137.16 0)
@@ -3422,12 +3322,6 @@
     (pin "1" (uuid aae7b6e7-4154-43d7-acb1-e3f136f2cdda))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "PB12") (unit 1)
         )
@@ -3438,7 +3332,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 173.99 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69854c90-77cb-4d29-9374-397dde3f96fb)
-    (property "Reference" "#FLG01" (at 175.895 59.69 0)
+    (property "Reference" "#FLG07" (at 175.895 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 177.8 59.69 90)
@@ -3453,9 +3347,6 @@
     (pin "1" (uuid 66322f50-af24-422f-aef2-e7871ccf1f84))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#FLG01") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#FLG07") (unit 1)
         )
@@ -3466,7 +3357,7 @@
   (symbol (lib_id "Device:C_Small") (at 92.71 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a96368a-ff13-442b-b251-f358c07a5960)
-    (property "Reference" "C17" (at 86.36 59.69 90)
+    (property "Reference" "C62" (at 86.36 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22pF" (at 88.9 59.69 90)
@@ -3488,9 +3379,6 @@
     (pin "2" (uuid 37a773ae-a346-4e3d-bfa9-1dadfa48b51b))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C17") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "C62") (unit 1)
         )
@@ -3501,7 +3389,7 @@
   (symbol (lib_id "Device:L") (at 161.29 35.56 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7236f966-ebfb-4299-a4c9-43d164fda4a1)
-    (property "Reference" "L10" (at 163.83 29.21 0)
+    (property "Reference" "L12" (at 163.83 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Bead 600" (at 166.37 31.75 0)
@@ -3523,9 +3411,6 @@
     (pin "2" (uuid a2a228f1-a711-45fe-9f96-fbad206ae483))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "L10") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "L12") (unit 1)
         )
@@ -3536,7 +3421,7 @@
   (symbol (lib_id "power:GND") (at 92.71 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 755a84d0-e834-46ed-b1b9-5c6d7c8f5c0c)
-    (property "Reference" "#PWR048" (at 92.71 49.53 0)
+    (property "Reference" "#PWR044" (at 92.71 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 52.07 0)
@@ -3551,9 +3436,6 @@
     (pin "1" (uuid 9b71fde3-de60-47c1-97c4-e18308855a24))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR044") (unit 1)
         )
@@ -3564,7 +3446,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 240.03 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b267212-38a0-4b4b-b44e-973a400642ec)
-    (property "Reference" "TP3" (at 245.11 116.84 90)
+    (property "Reference" "SWGND1" (at 245.11 116.84 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 241.3 114.3 90)
@@ -3579,9 +3461,6 @@
     (pin "1" (uuid 7e35d4b1-a9a0-419e-8580-c872292a310a))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "SWGND1") (unit 1)
         )
@@ -3592,7 +3471,7 @@
   (symbol (lib_id "Device:R_Small") (at 53.34 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8016c54d-33d3-493a-9137-111d17eeefbb)
-    (property "Reference" "R3" (at 53.34 129.54 90)
+    (property "Reference" "R37" (at 53.34 129.54 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 53.34 134.62 90)
@@ -3614,9 +3493,6 @@
     (pin "2" (uuid 93b6ee61-23a5-4d60-ab75-56f8e494054b))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R37") (unit 1)
         )
@@ -3627,7 +3503,7 @@
   (symbol (lib_id "power:GND") (at 110.49 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83ee52d2-926f-484c-bffd-ba04ba6d9ff5)
-    (property "Reference" "#PWR048" (at 110.49 55.88 0)
+    (property "Reference" "#PWR042" (at 110.49 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 53.34 0)
@@ -3642,9 +3518,6 @@
     (pin "1" (uuid 9aeffb1a-2f3d-4ab2-8943-8b9f177dd71a))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR042") (unit 1)
         )
@@ -3655,7 +3528,7 @@
   (symbol (lib_id "power:GND") (at 153.67 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 890b4e36-c700-4eb8-beae-995355c88908)
-    (property "Reference" "#PWR048" (at 153.67 160.02 0)
+    (property "Reference" "#PWR056" (at 153.67 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 157.48 0)
@@ -3670,9 +3543,6 @@
     (pin "1" (uuid 2459ca98-20cc-4aef-a237-49d89ca40b22))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR056") (unit 1)
         )
@@ -3780,7 +3650,7 @@
   (symbol (lib_id "Device:R_Small") (at 233.68 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8aa3d336-ddb8-4c50-a7d0-06e713429c59)
-    (property "Reference" "R3" (at 229.87 39.37 90)
+    (property "Reference" "R11" (at 229.87 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 234.95 38.1 90)
@@ -3802,9 +3672,6 @@
     (pin "2" (uuid 4bd0c7c1-3f1e-4b20-b680-efb4beba5078))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R11") (unit 1)
         )
@@ -3815,7 +3682,7 @@
   (symbol (lib_name "C_Small_13") (lib_id "Device:C_Small") (at 64.77 25.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d0d24da-d00a-4919-9204-a2ef225768c2)
-    (property "Reference" "C61" (at 68.58 25.4 0)
+    (property "Reference" "C58" (at 68.58 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 68.58 27.94 0)
@@ -3837,9 +3704,6 @@
     (pin "2" (uuid 54ace99f-26c8-4d6b-98d9-1715f6a2c9c7))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C61") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "C58") (unit 1)
         )
@@ -3850,7 +3714,7 @@
   (symbol (lib_name "C_Small_13") (lib_id "Device:C_Small") (at 166.37 44.45 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f863e27-9f3b-4731-9c99-0a38f20d6a52)
-    (property "Reference" "C67" (at 166.37 40.64 0)
+    (property "Reference" "C14" (at 166.37 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 168.91 40.64 0)
@@ -3872,12 +3736,6 @@
     (pin "2" (uuid 3fbd2c8f-23d9-43cc-9806-e5f4d291723b))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C67") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "C65") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "C14") (unit 1)
         )
@@ -3888,7 +3746,7 @@
   (symbol (lib_id "Device:R_Small") (at 233.68 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fed8ac8-e972-42a3-8d3e-0b82078a3bfe)
-    (property "Reference" "R3" (at 229.87 58.42 90)
+    (property "Reference" "R14" (at 229.87 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 233.68 57.15 90)
@@ -3910,9 +3768,6 @@
     (pin "2" (uuid af79a647-7446-47fc-be01-cae902e00652))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R14") (unit 1)
         )
@@ -3955,7 +3810,7 @@
   (symbol (lib_id "power:GND") (at 232.41 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95eb2c54-8c1f-4765-80c4-e7e2518a5fa3)
-    (property "Reference" "#PWR048" (at 232.41 104.14 0)
+    (property "Reference" "#PWR051" (at 232.41 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 232.41 100.33 90)
@@ -3970,9 +3825,6 @@
     (pin "1" (uuid da869960-96ab-4136-bd0a-77a86d0479c4))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR051") (unit 1)
         )
@@ -3983,7 +3835,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 176.53 120.65 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ab965d2-42b7-4416-8aa1-d668c3fb9bc3)
-    (property "Reference" "TP5V1" (at 181.61 120.65 90)
+    (property "Reference" "PB5" (at 181.61 120.65 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 181.61 119.38 0)
@@ -3998,12 +3850,6 @@
     (pin "1" (uuid 44a66959-c125-4a9a-af51-44d3c1b5a73e))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "PB5") (unit 1)
         )
@@ -4014,7 +3860,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 140.97 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ae8a5fe-9838-4490-96e7-8affe2028412)
-    (property "Reference" "TP5V1" (at 182.88 140.97 90)
+    (property "Reference" "PB13" (at 182.88 140.97 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 182.88 139.7 0)
@@ -4029,12 +3875,6 @@
     (pin "1" (uuid 1d298541-ddfb-445f-8142-550f8560b897))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "PB13") (unit 1)
         )
@@ -4045,7 +3885,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 241.3 142.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1a71266-d044-4fde-8edb-c1fa8ce96941)
-    (property "Reference" "TP3" (at 246.38 140.97 90)
+    (property "Reference" "uC_NRST1" (at 246.38 140.97 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 242.57 138.43 90)
@@ -4060,9 +3900,6 @@
     (pin "1" (uuid b5e57216-3677-442c-97bb-5f93d6eafd89))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "uC_NRST1") (unit 1)
         )
@@ -4073,7 +3910,7 @@
   (symbol (lib_id "Device:R_Small") (at 233.68 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5b43f62-ff46-41e0-b421-bbc2774725ae)
-    (property "Reference" "R3" (at 229.87 52.07 90)
+    (property "Reference" "R13" (at 229.87 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 233.68 50.8 90)
@@ -4095,9 +3932,6 @@
     (pin "2" (uuid e0359cda-4d64-4663-b621-6490750b5eee))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R13") (unit 1)
         )
@@ -4108,7 +3942,7 @@
   (symbol (lib_id "Device:R_Small") (at 99.06 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a66bd64e-38ca-4c57-8d50-1593e484c5dd)
-    (property "Reference" "R5" (at 99.06 78.74 90)
+    (property "Reference" "R15" (at 99.06 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33" (at 99.06 81.28 90)
@@ -4130,73 +3964,8 @@
     (pin "2" (uuid 2e526cca-319e-4f33-a4c1-9f8f4cca0647))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R5") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 176.53 107.95 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid aec47c2e-ed77-414d-ad0e-6e07d058efd4)
-    (property "Reference" "TP5V1" (at 181.61 107.95 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 181.61 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" (at 176.53 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 176.53 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 16a4c297-137c-4948-8e22-09cb83020f53))
-    (instances
-      (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
-          (reference "TP23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 176.53 110.49 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bb454c02-6e60-43dc-b7a0-83ad99c510d6)
-    (property "Reference" "TP5V1" (at 181.61 110.49 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 181.61 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" (at 176.53 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 176.53 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 287325a3-aeb8-4839-8ccd-db85c3aa7200))
-    (instances
-      (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
-          (reference "TP24") (unit 1)
         )
       )
     )
@@ -4237,7 +4006,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 133.35 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcaabbfc-7b8d-4a9d-9b8e-a18438af8a56)
-    (property "Reference" "TP5V1" (at 128.27 120.65 90)
+    (property "Reference" "TP28" (at 128.27 120.65 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 128.27 121.92 0)
@@ -4252,12 +4021,6 @@
     (pin "1" (uuid a117bb3b-9955-493b-8977-2f92eb743185))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP28") (unit 1)
         )
@@ -4283,9 +4046,6 @@
     (pin "1" (uuid c655d080-3c25-4a05-877b-edbb755fb4ab))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR048") (unit 1)
         )
@@ -4296,7 +4056,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfe51c5c-7cfe-4efc-a089-445159f033f7)
-    (property "Reference" "TP5V1" (at 182.88 128.27 90)
+    (property "Reference" "TP30" (at 182.88 128.27 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 182.88 127 0)
@@ -4311,12 +4071,6 @@
     (pin "1" (uuid 1f127d67-e4c7-4a4b-9876-619b6df0136b))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP30") (unit 1)
         )
@@ -4327,7 +4081,7 @@
   (symbol (lib_name "C_Small_13") (lib_id "Device:C_Small") (at 53.34 25.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c47786de-1e63-4dfa-8584-f56f2f8ef8ed)
-    (property "Reference" "C61" (at 57.15 25.4 0)
+    (property "Reference" "C57" (at 57.15 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 57.15 27.94 0)
@@ -4349,9 +4103,6 @@
     (pin "2" (uuid ddf26636-3b26-42a0-a9d1-764d10d32b99))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C61") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "C57") (unit 1)
         )
@@ -4362,7 +4113,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 240.03 115.57 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9c21d3c-570e-4f60-a9bd-9ba6703a7c37)
-    (property "Reference" "TP3" (at 245.11 114.3 90)
+    (property "Reference" "SWDIO1" (at 245.11 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 241.3 111.76 90)
@@ -4377,9 +4128,6 @@
     (pin "1" (uuid b6b725cc-4816-4016-9b56-3cb5dc912c86))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "SWDIO1") (unit 1)
         )
@@ -4422,7 +4170,7 @@
   (symbol (lib_id "Device:R_Small") (at 53.34 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1e75fb4-2b2f-4c81-8be3-29cc34e57d2b)
-    (property "Reference" "R3" (at 53.34 111.76 90)
+    (property "Reference" "R19" (at 53.34 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 53.34 116.84 90)
@@ -4444,9 +4192,6 @@
     (pin "2" (uuid 3bb34f00-28ae-42ac-89f3-9f2b907fdc02))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R19") (unit 1)
         )
@@ -4483,7 +4228,7 @@
   (symbol (lib_id "power:GND") (at 97.79 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d32373f3-4c40-4041-8e80-94381ea7162d)
-    (property "Reference" "#PWR048" (at 104.14 71.12 0)
+    (property "Reference" "#PWR047" (at 104.14 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 68.58 0)
@@ -4498,9 +4243,6 @@
     (pin "1" (uuid 27935e74-b53a-478c-9258-63752a91434f))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR047") (unit 1)
         )
@@ -4511,7 +4253,7 @@
   (symbol (lib_id "Device:R_Small") (at 53.34 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4735833-1b9d-40bd-a5a5-d4a3b633f010)
-    (property "Reference" "R3" (at 53.34 93.98 90)
+    (property "Reference" "R17" (at 53.34 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 53.34 99.06 90)
@@ -4533,9 +4275,6 @@
     (pin "2" (uuid 89f8a7d8-0779-480d-8a25-1905c7034c6e))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R17") (unit 1)
         )
@@ -4546,7 +4285,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 133.35 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d473bf9f-b24c-41dc-b386-46374f931a25)
-    (property "Reference" "TP5V1" (at 128.27 123.19 90)
+    (property "Reference" "TP29" (at 128.27 123.19 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 128.27 124.46 0)
@@ -4561,12 +4300,6 @@
     (pin "1" (uuid 3e2c36d8-605f-418a-a6ce-e6fcf88e10d4))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP29") (unit 1)
         )
@@ -4577,7 +4310,7 @@
   (symbol (lib_id "power:GND") (at 76.2 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d56eec03-e683-4abe-a13c-883d39b8b48a)
-    (property "Reference" "#PWR048" (at 76.2 34.29 0)
+    (property "Reference" "#PWR041" (at 76.2 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 31.75 0)
@@ -4592,9 +4325,6 @@
     (pin "1" (uuid b861a7cb-7b02-4cbb-bee8-e60a378403de))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR041") (unit 1)
         )
@@ -4605,7 +4335,7 @@
   (symbol (lib_id "Device:C_Small") (at 92.71 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5863a81-f1f7-4f7c-856b-08602c4b2009)
-    (property "Reference" "C17" (at 93.98 83.82 90)
+    (property "Reference" "C63" (at 93.98 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22pF" (at 96.52 85.09 90)
@@ -4627,9 +4357,6 @@
     (pin "2" (uuid d10a7e95-cfe7-4308-bf00-fef64ae7f9d8))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C17") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "C63") (unit 1)
         )
@@ -4640,7 +4367,7 @@
   (symbol (lib_name "C_Small_13") (lib_id "Device:C_Small") (at 76.2 25.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5d36c67-4e50-4892-8af5-ff2e2d34705c)
-    (property "Reference" "C61" (at 80.01 25.4 0)
+    (property "Reference" "C59" (at 80.01 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 80.01 27.94 0)
@@ -4662,9 +4389,6 @@
     (pin "2" (uuid 1cdeb644-372c-443b-a661-087d027e8d6b))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C61") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "C59") (unit 1)
         )
@@ -4675,7 +4399,7 @@
   (symbol (lib_id "power:GND") (at 71.12 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6574a9a-f16b-4a1f-9383-2d83dfec06b7)
-    (property "Reference" "#PWR048" (at 77.47 114.3 0)
+    (property "Reference" "#PWR053" (at 77.47 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 111.76 0)
@@ -4690,9 +4414,6 @@
     (pin "1" (uuid 4030b7a3-e603-43b8-bc65-11fdc1236a40))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR053") (unit 1)
         )
@@ -4703,7 +4424,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 176.53 67.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc9dfa23-90a1-4bf7-865b-17a9697a00ef)
-    (property "Reference" "TP5V1" (at 181.61 67.31 90)
+    (property "Reference" "TP8" (at 181.61 67.31 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 181.61 66.04 0)
@@ -4718,12 +4439,6 @@
     (pin "1" (uuid 8d311272-8176-4b83-bf84-53bad9aa7790))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP8") (unit 1)
         )
@@ -4734,7 +4449,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 130.81 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df38388b-9a72-4e7b-9909-31d554bdbfb9)
-    (property "Reference" "TP5V1" (at 182.88 130.81 90)
+    (property "Reference" "TP31" (at 182.88 130.81 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 182.88 129.54 0)
@@ -4749,12 +4464,6 @@
     (pin "1" (uuid fed32f32-f4b6-4dbd-b2ae-7a2da92ec4ec))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP5V1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/81db238c-e53f-4d52-98ea-36a1df697651"
-          (reference "TP5V1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "TP31") (unit 1)
         )
@@ -4765,7 +4474,7 @@
   (symbol (lib_id "power:GND") (at 123.19 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ecf259ce-e6e7-40f0-96e1-755391378a99)
-    (property "Reference" "#PWR048" (at 116.84 69.85 0)
+    (property "Reference" "#PWR045" (at 116.84 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 72.39 0)
@@ -4780,9 +4489,6 @@
     (pin "1" (uuid 66fdab6c-a3a6-42e0-acf6-de71ed447e98))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR045") (unit 1)
         )
@@ -4793,7 +4499,7 @@
   (symbol (lib_id "Device:Crystal_GND24") (at 92.71 71.12 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee7dc336-7254-41a3-a83f-ed3720dcbe67)
-    (property "Reference" "Y1" (at 81.28 68.58 90)
+    (property "Reference" "Y2" (at 81.28 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "8MHz" (at 80.01 71.12 90)
@@ -4817,9 +4523,6 @@
     (pin "4" (uuid 54309ca7-053a-45da-9dc6-24d669a5ebd9))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "Y1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "Y2") (unit 1)
         )
@@ -4830,7 +4533,7 @@
   (symbol (lib_id "power:GND") (at 156.21 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eef51a30-b051-45c4-b111-db156ff43282)
-    (property "Reference" "#PWR048" (at 156.21 160.02 0)
+    (property "Reference" "#PWR057" (at 156.21 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.75 157.48 0)
@@ -4845,9 +4548,6 @@
     (pin "1" (uuid f1306671-14f6-482f-aabe-0db81998e76f))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR057") (unit 1)
         )
@@ -4858,7 +4558,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 269.24 142.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f13f6a12-6283-40d5-bab1-c67de50fe05b)
-    (property "Reference" "TP3" (at 274.32 140.97 90)
+    (property "Reference" "3V3_uC1" (at 274.32 140.97 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 270.51 138.43 90)
@@ -4873,9 +4573,6 @@
     (pin "1" (uuid 06561aea-f3e3-42f1-b1ee-ddbe91d68ca9))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "3V3_uC1") (unit 1)
         )
@@ -4886,7 +4583,7 @@
   (symbol (lib_id "Device:R_Small") (at 53.34 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5fe3b89-d9d2-47d0-b6c7-1b54d3c7a77e)
-    (property "Reference" "R3" (at 53.34 120.65 90)
+    (property "Reference" "R20" (at 53.34 120.65 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 53.34 125.73 90)
@@ -4908,9 +4605,6 @@
     (pin "2" (uuid 313af54d-7afb-4d7b-9f7c-0a95b7fcad94))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "R20") (unit 1)
         )
@@ -4921,7 +4615,7 @@
   (symbol (lib_name "C_Small_13") (lib_id "Device:C_Small") (at 40.64 25.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6a99886-af5a-4a02-a451-6238580d1ca0)
-    (property "Reference" "C61" (at 44.45 25.4 0)
+    (property "Reference" "C56" (at 44.45 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 44.45 27.94 0)
@@ -4943,9 +4637,6 @@
     (pin "2" (uuid 3313e78e-50f3-45ec-990c-a6a52606f378))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C61") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "C56") (unit 1)
         )
@@ -4956,7 +4647,7 @@
   (symbol (lib_id "power:GND") (at 170.18 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f72ea9d2-6217-4c96-a97b-8bd870d51bd8)
-    (property "Reference" "#PWR048" (at 176.53 44.45 0)
+    (property "Reference" "#PWR049" (at 176.53 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 41.91 0)
@@ -4971,9 +4662,6 @@
     (pin "1" (uuid f97acfd9-2a76-46ee-bd09-f286954b56e6))
     (instances
       (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
           (reference "#PWR049") (unit 1)
         )
