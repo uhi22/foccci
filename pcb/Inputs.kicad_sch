@@ -531,7 +531,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0b0eee43-f344-41c7-ab01-b422ab913b63)
   )
-  (text "Hardware variant detection: R62 can be increased with each hardware version\n10k: Foccci 4.2"
+  (text "Hardware variant detection: R62 can be increased with each hardware version\n10k: Foccci 4.2\n12k: Foccci 4.3"
     (at 73.66 166.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1c78c2c2-dd15-4d10-8338-dfdbde8bde1f)
@@ -1965,7 +1965,7 @@
     (property "Reference" "R62" (at 66.04 165.1 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 66.04 168.91 0)
+    (property "Value" "12k" (at 66.04 168.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 63.5 167.64 0)
@@ -1974,7 +1974,7 @@
     (property "Datasheet" "~" (at 63.5 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C17414" (at 63.5 167.64 0)
+    (property "LCSC" "C22790" (at 63.5 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LINK" "https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414" (at 63.5 167.64 0)
