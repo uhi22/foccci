@@ -58,7 +58,6 @@
   (no_connect (at 46.99 63.5) (uuid 5d572b73-2640-4eb4-949d-5f4147323625))
   (no_connect (at 67.31 59.69) (uuid 630b24ea-c6b9-455a-a379-4fe028c4283d))
   (no_connect (at 113.03 107.95) (uuid 676fdb44-00a2-49e2-a47a-e921ed7ceb89))
-  (no_connect (at 96.52 116.84) (uuid 6870a54b-2287-4457-8b5a-80a6709687a1))
   (no_connect (at 30.48 102.87) (uuid 6d54ab1a-34bf-44a7-ad90-f27b3051e5f5))
   (no_connect (at 67.31 36.83) (uuid 84b68718-4408-4cc6-8354-464b79425682))
   (no_connect (at 46.99 85.09) (uuid 8e60282d-c890-486f-a72e-4d683d322cd5))
@@ -982,31 +981,6 @@
       (project "qca7000"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/97d456cc-2984-45c2-9f4f-55359f773ff4"
           (reference "TP52") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 96.52 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bfc86689-b05e-449c-bb00-35e4ad760017)
-    (property "Reference" "TP19" (at 99.06 112.903 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 99.06 115.443 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "speciallib:TestPoint_Special_THTPad_D1.9mm_Drill1mm" (at 101.6 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 101.6 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bf88a8f0-4154-40b3-84d1-6f01e274936e))
-    (instances
-      (project "qca7000"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/97d456cc-2984-45c2-9f4f-55359f773ff4"
-          (reference "TP19") (unit 1)
         )
       )
     )
