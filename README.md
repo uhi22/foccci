@@ -119,6 +119,7 @@ https://openinverter.org/forum/viewtopic.php?p=57643#p57643
 
 ## V4.2 2024-02-06
 
+![image](doc/foccci_v4.2_2024-02-23_foto.jpg)
 - rx path grounding bug resolved
 - added RF transformer
 - proximity pilot input circuit corrected (330ohm pull-up to 5V instead of 1k to 3.3V)
@@ -129,6 +130,9 @@ https://openinverter.org/forum/viewtopic.php?p=57643#p57643
 - added openinverter logo - and lost it later when transferring the schematics update to the PCB - sorry
 - added mounting holes
 - layout optimizations, footprint and part number corrections
+- Issues:
+    - R56 (PP pull-up) has 33ohms instead of intended 330ohms. Wrong part number C17634.
+
 
 ## V5 work in progress
 
