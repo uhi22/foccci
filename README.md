@@ -132,6 +132,12 @@ https://openinverter.org/forum/viewtopic.php?p=57643#p57643
 - layout optimizations, footprint and part number corrections
 - Issues:
     - R56 (PP pull-up) has 33ohms instead of intended 330ohms. Wrong part number C17634.
+    - missing track between D4 and D7
+    - missing tracks on C39 (IPROPI)
+    - missing track on R63 (IPROPI)
+    - missing tracks on R28 (ADC_PP)
+    - missing ground on R60 (PP_PULLDOWN)
+    
 
 
 ## V5 work in progress
