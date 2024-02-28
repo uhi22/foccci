@@ -531,7 +531,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0b0eee43-f344-41c7-ab01-b422ab913b63)
   )
-  (text "Hardware variant detection: R62 can be increased with each hardware version\n10k: Foccci 4.2\n12k: Foccci 4.3\n15k: Foccci 4.4"
+  (text "Hardware variant detection: R62 can be increased with each hardware version\nTable here: https://openinverter.org/wiki/Fully_Open_CCS_Charge_Controller_(FOCCCI)\n10k: Foccci 4.2\n12k: Foccci 4.3\n15k: Foccci 4.4"
     (at 73.66 166.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1c78c2c2-dd15-4d10-8338-dfdbde8bde1f)
@@ -541,7 +541,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://openinverter.org/forum/viewtopic.php?p=58839#p58839"))
     (uuid 35e84ae7-15fd-4697-918f-5ed2012c1ace)
   )
-  (text "Pull-up to 12V is needed if we want PP \nto enable the controller. Threshold is 2.5V"
+  (text "Pull-up to 12V is needed if we want PP \nto enable the controller. Threshold is 3V"
     (at 135.89 64.77 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 57b31839-dad2-4752-ac1a-4606fed015ba)
