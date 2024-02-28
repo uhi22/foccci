@@ -137,7 +137,10 @@ https://openinverter.org/forum/viewtopic.php?p=57643#p57643
     - missing track on R63 (IPROPI)
     - missing tracks on R28 (ADC_PP)
     - missing ground on R60 (PP_PULLDOWN)
-    
+
+These are the patches:
+![image](doc/foccci_v4.2_patches.jpg)
+   
 
 
 ## V5 work in progress
