@@ -5031,7 +5031,7 @@
     (property "Datasheet" "~" (at 72.39 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C17630" (at 72.39 167.64 0)
+    (property "LCSC" "C23138" (at 72.39 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LINK" "https://jlcpcb.com/partdetail/18318-0805W8F3300T5E/C17630" (at 72.39 167.64 0)
