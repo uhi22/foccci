@@ -1530,6 +1530,9 @@
     (property "LINK" "https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713" (at 190.5 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C17713" (at 190.5 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 33e604cf-e2bd-444d-ba37-cb7bd54e086b))
     (pin "2" (uuid 13021ebb-a031-458b-b2cd-68f69d4907f1))
     (instances

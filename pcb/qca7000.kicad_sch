@@ -5375,7 +5375,7 @@
   (symbol (lib_id "QualcommAtheros:QCA 7000") (at 109.22 130.81 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fb76468-8ab6-4386-adc0-2e919d62910e)
-    (property "Reference" "D8" (at 107.95 130.81 0)
+    (property "Reference" "U7" (at 107.95 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "QCA 7000" (at 109.22 119.38 0)
@@ -5459,7 +5459,7 @@
     (instances
       (project "qca7000"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "D8") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -5555,7 +5555,7 @@
     (property "Datasheet" "~" (at 34.29 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C17767" (at 34.29 123.19 0)
+    (property "LCSC" "C4260" (at 34.29 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LINK" "https://jlcpcb.com/partdetail/18455-0805W8F6201T5E/C17767" (at 34.29 123.19 0)
