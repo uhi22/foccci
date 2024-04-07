@@ -479,6 +479,40 @@ Offer 2023-08-28: 5 PCBs, 5 populated.
 
 [solder_lessons.md](doc/solder_lessons.md)
 
+# Trouble Shooting / FAQ
+
+## How to trouble shoot Foccci/Clara?
+
+For trouble shooting it is recommended to create a log file of the serial output. You need a serial-to-usb converter and connect it to the UART TX line and ground. For recording, you can use e.g. Putty on windows or any console program. The baud rate is 921600. Not each cheap USB-to-serial is able to catch this high speed. So if you get only garbage, try an other adaptor.
+
+Additionally, use the openinverter web interface to observe spot values. As default, the Node ID of Foccci/Clara is 22.
+
+## No communication with the charger possible
+
+Check the following points (discussed here: https://openinverter.org/forum/viewtopic.php?p=64449#p64449 )
+1. Is the 1.2V present and stable?
+2. Does the STM detect the modem? Means: Does it show the QCAs software version?
+3. Does the QCA go to sleep 30s after power-on? This is when the STM says "zero modems found".
+4. Does the QCA stay awake longer than 30s when a central coordinator is present. If not, this means the QCA does not hear the central coordinator, so the RX path is deaf.
+5. Are the RX and TX pins (4 in total) on the QCA at around 1.6V statically? If not, then check for short circuits.
+6. Is the resistance between the RX pins around 500 ohms (measured when not powered)? If not, check for short circuits or bad soldered pads.
+7. Is the resistance between the TX pins around 16kohms (measured when not powered)? If not, check for short circuits or bad soldered pads.
+8. If evse (central coordinator) is connected, do you see packets on the RX pins? Using two osci channels, they should be invers on positive and negative RX pins.
+9. In the web interface, check whether the 5% PWM are shown.
+
+## Clara shows software version "bootloader". Is tis normal?
+
+No. Clara should report something like "[PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS" 
+
+If you see instead something like "[PEVSLAC] received GET_SW.CNF
+For MAC 00:b0:52:00:00:01 software version BootLoader" then the QCA7005 was not able to load the firmware from the SPI flash U1. Some possible root causes are
+* U1 is not populated
+* U1 is not programmed with the software (see above "Programming of the SPI flash")
+* U1 is wrong type.
+* One of the SPI lines between the QCA and the SPI flash are not soldered correctly.
+
+
 # Credits
 
 Thanks to Millisman for the initial board design.
