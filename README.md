@@ -498,7 +498,9 @@ Check the following points (discussed here: https://openinverter.org/forum/viewt
 6. Is the resistance between the RX pins around 500 ohms (measured when not powered)? If not, check for short circuits or bad soldered pads.
 7. Is the resistance between the TX pins around 16kohms (measured when not powered)? If not, check for short circuits or bad soldered pads.
 8. If evse (central coordinator) is connected, do you see packets on the RX pins? Using two osci channels, they should be invers on positive and negative RX pins.
-9. In the web interface, check whether the 5% PWM are shown.
+9. In the web interface or in the serial log, check whether the spot value ControlPilotDuty shows 5% PWM on the control pilot.
+10. In the web interface or in the serial log, check whether the resistance on the ProximityPilot pin is correctly detected. The spot value "ResistanceProxPilot" shall show 10000 ohms (means: infinite) while the charge plug is not connected, and it shall show around 1500 ohms if a CCS2 plug is connected. For CCS1 this should show 150 ohms if the button the plug is not pressed, and 480 ohms if the button on the plug is pressed. (Discussion here: https://openinverter.org/forum/viewtopic.php?p=70435#p70435)
+
 
 ## Clara shows software version "bootloader". Is tis normal?
 
