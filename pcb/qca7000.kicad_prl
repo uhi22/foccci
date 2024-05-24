@@ -35,7 +35,6 @@
       3,
       4,
       5,
-      7,
       9,
       10,
       11,
@@ -67,6 +66,12 @@
     ],
     "visible_layers": "7f03020_80000001",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "qca7000.kicad_prl",
