@@ -899,22 +899,22 @@
 		)
 	)
 	(junction
-		(at 102.87 67.31)
+		(at 102.87 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05aaae59-56f8-4676-b090-97abbf162967")
+		(uuid "02642282-28b8-4108-97b1-06281a7cbe56")
+	)
+	(junction
+		(at 102.87 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ed8cc65-cef9-4d86-8013-2e01568c5db5")
 	)
 	(junction
 		(at 102.87 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d6ad5fb-377d-44eb-a0f3-4d26ac7d196e")
-	)
-	(junction
-		(at 102.87 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c7c141d-9a4e-4f98-8dfa-165ddb225238")
 	)
 	(wire
 		(pts
@@ -928,7 +928,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 72.39) (xy 102.87 69.85)
+			(xy 102.87 54.61) (xy 102.87 64.77)
 		)
 		(stroke
 			(width 0)
@@ -968,6 +968,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 67.31) (xy 83.82 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f3e856-c771-4c33-8f3a-a17a96dd5fbb")
+	)
+	(wire
+		(pts
 			(xy 78.74 52.07) (xy 81.28 52.07)
 		)
 		(stroke
@@ -988,13 +998,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 67.31) (xy 102.87 67.31)
+			(xy 78.74 49.53) (xy 102.87 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2bbd47c3-6602-4f20-a002-9932acc7de07")
+		(uuid "29efa1fe-c5fd-4bde-a428-e82c222813e1")
 	)
 	(wire
 		(pts
@@ -1008,13 +1018,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 64.77) (xy 83.82 64.77)
+			(xy 78.74 64.77) (xy 102.87 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46976c3f-e5f7-4768-9d2b-54d312a98413")
+		(uuid "48a6d3fe-f256-445a-8f36-5bb7bec523e6")
 	)
 	(wire
 		(pts
@@ -1025,16 +1035,6 @@
 			(type default)
 		)
 		(uuid "4b6ccc84-b2a1-4ad8-bdd6-2e342f73552a")
-	)
-	(wire
-		(pts
-			(xy 102.87 54.61) (xy 102.87 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d143e91-3cee-4938-b71d-e2628e396640")
 	)
 	(wire
 		(pts
@@ -1058,13 +1058,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 69.85) (xy 102.87 67.31)
+			(xy 102.87 49.53) (xy 102.87 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5eff36d7-bb86-41ab-940d-051f9ca2398b")
+		(uuid "651bc22e-da2d-4397-ba5f-61c5efa549b4")
+	)
+	(wire
+		(pts
+			(xy 102.87 64.77) (xy 102.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65740c2c-f1c9-499a-9a1d-c8bbfe465ffb")
 	)
 	(wire
 		(pts
@@ -1118,16 +1128,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 69.85) (xy 102.87 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e3c4493-ece7-499b-bcdf-cfe24bbc821c")
-	)
-	(wire
-		(pts
 			(xy 78.74 46.99) (xy 81.28 46.99)
 		)
 		(stroke
@@ -1168,6 +1168,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 69.85) (xy 83.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90fbb21-c79c-4523-944a-d81f6761d4f9")
+	)
+	(wire
+		(pts
 			(xy 45.72 44.45) (xy 53.34 44.45)
 		)
 		(stroke
@@ -1175,16 +1185,6 @@
 			(type default)
 		)
 		(uuid "ccd8d0ca-5f8c-4619-ba2b-9d38ebdebd4c")
-	)
-	(wire
-		(pts
-			(xy 78.74 49.53) (xy 81.28 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4f46c6-c5cd-4386-9dbb-0a4ee4309e04")
 	)
 	(wire
 		(pts
@@ -1209,7 +1209,7 @@
 	)
 	(text "5V for the high-voltage\nmeasurement module."
 		(exclude_from_sim no)
-		(at 92.964 49.53 0)
+		(at 97.282 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1231,7 +1231,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 81.28 49.53 0)
+		(at 83.82 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1241,7 +1241,7 @@
 		)
 		(uuid "14658b96-41af-463d-a62c-531fc17e2418")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.5633 49.53 0)
+			(at 89.1033 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1429,7 @@
 	)
 	(global_label "IN_U_HV"
 		(shape output)
-		(at 83.82 64.77 0)
+		(at 83.82 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1439,7 +1439,7 @@
 		)
 		(uuid "680a76db-c18e-4472-946d-2c24a34ecea8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4253 64.77 0)
+			(at 94.4253 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
