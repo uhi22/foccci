@@ -1837,7 +1837,7 @@
 		)
 		(uuid "0b0eee43-f344-41c7-ab01-b422ab913b63")
 	)
-	(text "Hardware variant detection: R62 can be increased with each hardware version\nTable here: https://openinverter.org/wiki/Fully_Open_CCS_Charge_Controller_(FOCCCI)\n10k: Foccci 4.2\n12k: Foccci 4.3\n15k: Foccci 4.4\n18k: Foccci 4.5"
+	(text "Hardware variant detection: R62 can be increased with each hardware version\nTable here: https://openinverter.org/wiki/Fully_Open_CCS_Charge_Controller_(FOCCCI)\n10k: Foccci 4.2\n12k: Foccci 4.3\n15k: Foccci 4.4\n18k: Foccci 4.5, 4.5b and 5"
 		(exclude_from_sim no)
 		(at 73.66 166.37 0)
 		(effects

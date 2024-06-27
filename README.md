@@ -12,6 +12,13 @@ I'm in a team with Clara, https://github.com/uhi22/ccs32clara, which is dealing 
 
 # News
 
+## 2024-06-27 Foccci Is Gaining Speed
+
+While some folks are integrating Foccci in their vehicles and providing nice pictures for the galery (https://openinverter.org/forum/viewtopic.php?t=5077), we were proudly presenting the project at the
+Augsburg Linux info day (https://openinverter.org/forum/viewtopic.php?t=4800). Sleep and wakeup,
+new, fast contactor driver and a new connector pinout provide more flexibility for the car integration. That will
+be the version 5, which will hopefully pop-up in the shop in July.
+
 ## 2023-12-13 Supercharging works. Halve a dozen boards are spread around the world. 
 
 Johu is charging the Touran on the TESLA Supercharger using the hand-populated V3 board: https://openinverter.org/forum/viewtopic.php?p=64563#p64563 and https://www.youtube.com/watch?v=OKg3VUslol8
@@ -140,12 +147,29 @@ https://openinverter.org/forum/viewtopic.php?p=57643#p57643
 
 These are the patches:
 ![image](doc/foccci_v4.2_patches.jpg)
-   
 
+## V4.3
 
-## V5 work in progress
+fixes the issues of the 4.2
 
-- main goal: sleep-wakeup-logic
+## V4.5
+
+- contactor driver is now the same, fast as the lock motor driver
+- wakeup logic added
+
+## V4.5b
+
+First version with the changed connector pinout. Intermediate version, never produced.
+
+## V5
+
+Functionally identical with V4.5b. The first official version with the new connector pinout.
+- layout fixes (missing connection D20, clearance violations, courtyard violations)
+- QCA JTAG preparation
+- Added openinverter and Foccci logos
+
+![image](doc/foccci_v5_2024-06-27.jpg)
+
 
 # Background
 
@@ -191,18 +215,17 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 - [ ] The use of the LEDs on GPIO0 to 3 is not clear. Are they used in the automotive firmware at all? GPIO3: on the CCM, this is connected to µC.43 via R8 (0 ohms). Measure the pin.
 - [ ] Regarding AMS1117-3.3 for the 3v3 regulators. These are tried and tested, but you may wish to avoid the polarized capacitor by using a more modern regulator. Consider TLV75733PDBV "Stable With a 1-μF Ceramic Output Capacitor"
 - [ ] The STM32F103 seems to meet the requirements and it's popular but be aware that it has a basic ARM core with no FPU. And: Do we need a low-power variant (stm32L4 series)?
-- [ ] Low-power concept is missing. Is the unit permanently powered? Do we need sleep/wakeup via inputs and/or CAN?
 - [ ] The QCA7005 is labelled QCA7000.
 - [ ] missing the JTAG port pull down resistors on the QCA
 - [ ] Could do with one more processor decoupler so that a cap can be dropped right against every package power pin.
 - [ ] Would be worth adding lines to the QCA7005 Reset (so that is can be reset without a power cycle) and the Int pins (just in case it's needed in the future).
 - [ ] Might put a Schottky protection diode on the temperate sense inputs.
-- [ ] Clarify interface (electrically and mechanically)
-    - [ ] Electrically: Interface ideas here: https://openinverter.org/forum/viewtopic.php?p=58697#p58697
 - [ ] supply voltage measurement (to be able to adjust the PWM for contactors according to the supply voltage, and just for info)
 
 
 ## Finished Todos
+- [x] Low-power concept
+- [x] Clarify interface (electrically and mechanically)
 - [x] more copper cooling area for the NCVs
 - [x] analog current feedback from the DRV8874 IPROPI to the controller
 - [x] Add a version indication analog circuit. Discussed here: https://openinverter.org/forum/viewtopic.php?p=66745#p66745
@@ -268,35 +291,8 @@ https://jlcpcb.com/partdetail/Sunlord-MWSA0503S100MT/C408412 is 5.1 x 5.4mm.
 - [x] Add LIM-like current input for HVDC voltage measuring, https://openinverter.org/forum/viewtopic.php?p=58839#p58839
 
 # Interface
-(This is just a draft. Work in progress. This is NOT matching the interface of the current draft board.)
-1. Supply 12V (not decided whether switched or permanent)
-2. Supply Ground. Also wired to PE of the CCS inlet.
-3. CANH
-4. CANL
-5. CP (CCS inlet)
-6. PP (CCS inlet)
-7. Contactor1 (low-side switch 2A permanent, 5A peak)
-8. Contactor2 (low-side switch 2A permanent, 5A peak)
-7. Sensor ground (for temperature sensors and analog inputs)
-8. Temperature1 (CCS inlet) NTC or PT1000
-9. Temperature2 (CCS inlet) NTC or PT1000
-10. Temperature3 (CCS inlet) NTC or PT1000
-11. Analog_in1, connector lock feedback. Internal pull-up, external resistor to ground.
-12. Digital_in1, charge stop button. Internal pull-up, external switch to ground.
-13. HVDC_in (current input for HV DC voltage measurement, LIM compatible)
-14. LED_RED (Charge port/button colored illumination) 12V highside output
-15. LED_GREEN (Charge port/button colored illumination) 12V highside output
-16. LED_BLUE (Charge port/button colored illumination) 12V highside output
-17. Connector Lock Motor 1 (12V=lock)
-18. Connector Lock Motor 2 (12V=unlock)
 
-Optional / to discuss
-19. Input for fuel flap feedback switch
-20. Output for fuel flap opening actuator
-21. Input for HV contactor feedback
-22. Charge port illumination (RGB WS2812?)
-23. GPIO spare (12V capable input and low-side output driver)
-24. Analog input spare (0 to 20V capable input)
+...is described in the wiki: https://openinverter.org/wiki/Foccci
 
 # Connector and Housing
 
@@ -358,8 +354,6 @@ From https://openinverter.org/forum/viewtopic.php?p=58555#p58555
     - SOT-23 5pin
     - https://www.ti.com/lit/ds/symlink/tlv757p.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1688651505013&ref_url=https%253A%252F%252Fwww.mouser.co.uk%252F
 
-## Plan
-- Reverse-polarity diode:  SS54B-HF, 40V, 5A.
 
 # CAN Transceiver
 - SN65HVD234
@@ -518,6 +512,8 @@ For MAC 00:b0:52:00:00:01 software version BootLoader" then the QCA7005 was not 
 # Credits
 
 Thanks to Millisman for the initial board design.
+
+Thanks to Lars @evcreate for sponsoring the Ioniq charge control module.
 
 Thanks to celeron55, mikeselectricstuff, Zieg, catphish, projectgus, chrskly, johu, Infant, muehlpower, crasbe, royhen99, asavage, Pete9008, P.S.Mangelsdorf, grgumxlm, royhen99, MeKe, mstegen, jrbe, Bigpie, xvyDFatih, olegiv, ns0708, f0ld, explorer232, dougyip, Gabriel, tom91, quentin42, maciek16c, apple2, CCSknowitall on the openinverter forum for the helpful discussions, proposals, reviews, tests and questions.
 
