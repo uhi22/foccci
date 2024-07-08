@@ -170,6 +170,9 @@ Functionally identical with V4.5b. The first official version with the new conne
 
 ![image](doc/foccci_v5_2024-06-27.jpg)
 
+- Issues
+    - enable pin of the step-down gets battery voltage, which leads to current draw
+
 
 # Background
 
@@ -204,7 +207,7 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
-
+[ ] do not inject >7V into the enable pin of the step-down
 
 ## Todos for Later
 
