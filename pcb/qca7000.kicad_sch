@@ -7,9 +7,9 @@
 	(title_block
 		(title "QCA7000 modem board")
 		(date "2022-03-03")
-		(rev "2")
+		(rev "5.1")
 		(comment 1 "Originally designed by Sergey Kostyanoy")
-		(comment 2 "Reused by uhi22 (https://github.com/uhi22/QCA7000board)")
+		(comment 2 "Reused by uhi22 (https://github.com/uhi22/foccci)")
 	)
 	(lib_symbols
 		(symbol "C_Small_1"
@@ -7302,22 +7302,10 @@
 		(uuid "0c26d779-9fe9-44d0-ba6c-bebe59fb59bc")
 	)
 	(junction
-		(at 34.29 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d3feb5b-4a10-4ebf-8638-9c0e072a23ad")
-	)
-	(junction
 		(at 54.61 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0dcd58fb-81bd-40b8-a0b1-2dee3c10cd45")
-	)
-	(junction
-		(at 22.86 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1084733e-feff-47cc-8e01-bbf1c31a4653")
 	)
 	(junction
 		(at 22.86 101.6)
@@ -7780,12 +7768,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7079dd6-4ef2-4450-91a0-706e836ded0c")
-	)
-	(junction
-		(at 22.86 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8ab101d-01e0-4bb6-81f4-d8bf7c322295")
 	)
 	(junction
 		(at 90.17 38.1)
@@ -8541,16 +8523,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 82.55) (xy 22.86 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ecf7520-d14b-4b0c-9429-8d430c6bfe38")
-	)
-	(wire
-		(pts
 			(xy 99.06 22.86) (xy 90.17 22.86)
 		)
 		(stroke
@@ -8851,16 +8823,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 111.76) (xy 34.29 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31db804f-fb8d-4a34-b379-915616a7b453")
-	)
-	(wire
-		(pts
 			(xy 34.29 44.45) (xy 41.91 44.45)
 		)
 		(stroke
@@ -8928,16 +8890,6 @@
 			(type default)
 		)
 		(uuid "38de2899-6d00-458e-b64a-6f664235101b")
-	)
-	(wire
-		(pts
-			(xy 25.4 82.55) (xy 22.86 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "390ae60e-252c-4477-8138-693d67db7e7e")
 	)
 	(wire
 		(pts
@@ -9158,26 +9110,6 @@
 			(type default)
 		)
 		(uuid "49e29019-5456-4499-ab59-f0d73351b70f")
-	)
-	(wire
-		(pts
-			(xy 30.48 82.55) (xy 34.29 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a1d73a6-11d8-4e74-9d78-e80d057ecf29")
-	)
-	(wire
-		(pts
-			(xy 34.29 109.22) (xy 34.29 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a6248a4-0686-49fc-928d-283799ffb506")
 	)
 	(wire
 		(pts
@@ -10291,16 +10223,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 111.76) (xy 22.86 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a258cb31-f005-4f60-b8d1-a1a67bbdb9eb")
-	)
-	(wire
-		(pts
 			(xy 123.19 165.1) (xy 123.19 162.56)
 		)
 		(stroke
@@ -10398,16 +10320,6 @@
 			(type default)
 		)
 		(uuid "aad412c3-9988-4cb1-bb90-03454ad1138a")
-	)
-	(wire
-		(pts
-			(xy 22.86 111.76) (xy 22.86 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf57c40-2b9d-4521-8758-a18e08ac054c")
 	)
 	(wire
 		(pts
@@ -10778,16 +10690,6 @@
 			(type default)
 		)
 		(uuid "c562760f-f0fb-4525-9089-04f414f70432")
-	)
-	(wire
-		(pts
-			(xy 34.29 82.55) (xy 34.29 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c57b88f7-660f-46c6-9f44-57d61c401c74")
 	)
 	(wire
 		(pts
@@ -21662,91 +21564,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 27.94 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc6b2bd8-54bc-49e5-81ac-39dc3879915d")
-		(property "Reference" "C29a1"
-			(at 20.32 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6.8pF"
-			(at 22.86 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 27.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 27.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LINK" ""
-			(at 27.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebf6a886-d965-4abc-a6bf-89cc1c98dea4")
-		)
-		(pin "2"
-			(uuid "572e8f48-e139-4ff3-bdce-072685457630")
-		)
-		(instances
-			(project "qca7000"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C29a1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "C_Small_22")
 		(lib_id "Device:C_Small")
 		(at 57.15 101.6 270)
@@ -23529,91 +23346,6 @@
 			(project "qca7000"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 27.94 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6a2c20b-4188-4246-a277-f24b965d1e9e")
-		(property "Reference" "C17a1"
-			(at 27.94 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6.8pF"
-			(at 22.86 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 27.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 27.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LINK" ""
-			(at 27.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5daee16-dd3d-4452-874c-0af99247387d")
-		)
-		(pin "2"
-			(uuid "f40dbe67-86be-44b5-a5a4-ae0fd36ef7cc")
-		)
-		(instances
-			(project "qca7000"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C17a1")
 					(unit 1)
 				)
 			)

@@ -172,7 +172,14 @@ Functionally identical with V4.5b. The first official version with the new conne
 
 - Issues
     - enable pin of the step-down gets battery voltage, which leads to current draw
+    - wrong resistor values R52 and R64 in the BOM
 
+## V5.1
+
+- added D8 at the enable pin of the step-down, to avoid unintended current flow
+- removed spare capacitors on the crystal from schematic
+- propagated the 1k values of R52 and R64 to the board
+- fixed some rotations
 
 # Background
 
