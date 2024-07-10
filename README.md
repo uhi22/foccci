@@ -214,7 +214,8 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for now
 
-[ ] do not inject >7V into the enable pin of the step-down
+[ ] Footprint for L13 leads to complains of JLC, see https://openinverter.org/forum/viewtopic.php?p=72630#p72630
+
 
 ## Todos for Later
 
@@ -234,6 +235,7 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 
 ## Finished Todos
+- [x] do not inject >7V into the enable pin of the step-down
 - [x] Low-power concept
 - [x] Clarify interface (electrically and mechanically)
 - [x] more copper cooling area for the NCVs
