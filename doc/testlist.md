@@ -39,6 +39,7 @@ DemoVoltage 220V, DemoControl=Standalone
 [ ] Stop button terminates the session
 [ ] Connector unlock
 [ ] Red LED if the session is aborted by unpowering the EVSE and PP still 1k5
+[ ] Red LED flashing if the EVSE applies a 50% PWM
 
 ### Web interface
 
@@ -48,3 +49,4 @@ NodeId=22
 [ ] Inlet voltage reacts (Parameter InletVtgSrc=AnalogInput)
 [ ] AdcLockFeedback reacts
 [ ] ResistanceProxPilot ~1500ohms and infinite
+[ ] ControlPilotDuty shows ~5%
