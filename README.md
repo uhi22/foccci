@@ -181,6 +181,13 @@ Functionally identical with V4.5b. The first official version with the new conne
 - propagated the 1k values of R52 and R64 to the board
 - fixed some rotations
 
+## V5.2pre
+
+- removed the RF transformer including symmetric parts of the RX and TX path
+- added fast TVS for protection of RF path
+- three mounting holes changed from 3.2mm to 3.5mm
+- demo placement for alternative 2.54mm headers (not routed, lot of DRC violations!!!)
+
 # Background
 
 The QCA7005 schematic and board was originally designed by Millisman https://github.com/Millisman/QCA7000, then forked to https://github.com/uhi22/QCA7000board and then renamed to https://github.com/uhi22/foccci
@@ -219,7 +226,6 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 ## Todos for Later
 
-- [ ] TVS at the CP    
 - [ ] add optional "Molex Mini-Fit Jr. Header, Dual Row" for the case, that the Deutsch is not needed in certain use cases.
 - [ ] Docu: add details of step-by-step bring-up, incl current consumption, and typical errors
 - [ ] more temperature inputs (6, to support L1, L2, L3, N, DC+ and DC-)
@@ -235,6 +241,8 @@ The QCA7005 schematic and board was originally designed by Millisman https://git
 
 
 ## Finished Todos
+- [x] TVS at the CP
+- [x] Transformerless RF path
 - [x] do not inject >7V into the enable pin of the step-down
 - [x] Low-power concept
 - [x] Clarify interface (electrically and mechanically)

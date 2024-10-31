@@ -2045,12 +2045,6 @@
 		(uuid "68c88335-7b18-446e-a62c-6227e188d685")
 	)
 	(junction
-		(at 57.15 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73fb5497-e133-4767-9bcb-8f43d3982e8d")
-	)
-	(junction
 		(at 99.06 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2219,16 +2213,6 @@
 			(type default)
 		)
 		(uuid "0db16dbb-e253-47b1-a41e-134945842c5c")
-	)
-	(wire
-		(pts
-			(xy 57.15 26.67) (xy 63.5 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e047928-d764-440b-997f-deee91186ca1")
 	)
 	(wire
 		(pts
@@ -2632,16 +2616,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 26.67) (xy 81.28 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e9b043b-9253-4a57-be2d-65129508b972")
-	)
-	(wire
-		(pts
 			(xy 234.95 137.16) (xy 254 137.16)
 		)
 		(stroke
@@ -2649,16 +2623,6 @@
 			(type default)
 		)
 		(uuid "7172f757-df13-400e-a09b-bffcdde7378e")
-	)
-	(wire
-		(pts
-			(xy 68.58 26.67) (xy 73.66 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75dde330-d77e-46e7-9044-7b9fd10e7de4")
 	)
 	(wire
 		(pts
@@ -3383,7 +3347,7 @@
 		)
 		(uuid "169f2cde-b14e-4b54-b880-f7c9eadea8e3")
 	)
-	(text "Todo: TVS etc for protecting the CP"
+	(text "No extra TVS necessary on CP, because:\n- The stateC transistor is self protecting (avalance and reverse diode, and serial resistor)\n- The measurement has clamping and series resistor.\n- The RF part has TVS behind series resistor."
 		(exclude_from_sim no)
 		(at 26.67 24.13 0)
 		(effects
@@ -4034,28 +3998,6 @@
 		(uuid "ccd60221-6cdb-495b-a405-b728858dd5c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 99.06 142.479 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MODEM_RF"
-		(shape input)
-		(at 81.28 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce0d6b7f-c3bf-4939-8f1c-6f057909509c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.1643 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,91 +5099,6 @@
 			(project "qca7000"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/539ec63d-ac7e-42ea-858e-ff2bf33430ea"
 					(reference "C75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 66.04 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38d21c65-1df6-4603-9da1-1e1db3a38a8f")
-		(property "Reference" "C76"
-			(at 66.04 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 66.04 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811061822_FH-Guangdong-Fenghua-Advanced-Tech-0603CG6R8C500NT_C1679.pdf"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C46653"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LINK" "https://jlcpcb.com/partdetail/47657-CL21B102KBCNNNC/C46653"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31fd5fb3-422e-4023-85c6-0b2a6b41c6b0")
-		)
-		(pin "2"
-			(uuid "ee35e25c-3a68-4de9-9875-4c4c87bb7fde")
-		)
-		(instances
-			(project "qca7000"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/539ec63d-ac7e-42ea-858e-ff2bf33430ea"
-					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -7361,91 +7218,6 @@
 			(project "qca7000"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/539ec63d-ac7e-42ea-858e-ff2bf33430ea"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 76.2 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a52b0a61-f318-4844-b2a9-d4c212d6ebf8")
-		(property "Reference" "R25"
-			(at 76.2 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "180"
-			(at 76.2 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 76.2 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf"
-			(at 76.2 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25270"
-			(at 76.2 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LINK" "https://jlcpcb.com/partdetail/26013-0805W8F1800T5E/C25270"
-			(at 76.2 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f2be7a1-5267-42b2-90cf-a35927bfe3c4")
-		)
-		(pin "2"
-			(uuid "36e55fdb-9d76-4b7a-b7cd-71db2532c2e2")
-		)
-		(instances
-			(project "qca7000"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/539ec63d-ac7e-42ea-858e-ff2bf33430ea"
-					(reference "R25")
 					(unit 1)
 				)
 			)

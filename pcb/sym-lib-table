@@ -5,4 +5,5 @@
   (lib (name "EEC-325X4B")(type "Legacy")(uri "${KIPRJMOD}/externLibs/EEC-325X4B/EEC-325X4B.lib")(options "")(descr ""))
   (lib (name "DRV8874QPWPRQ1")(type "Legacy")(uri "${KIPRJMOD}/externLibs/LIB_DRV8874QPWPRQ1/DRV8874QPWPRQ1/KiCad/DRV8874QPWPRQ1.lib")(options "")(descr ""))
   (lib (name "transformerCL4532A-201")(type "KiCad")(uri "${KIPRJMOD}/externLibs/transformerCL4532A-201/transformerCL4532A-201.kicad_sym")(options "")(descr ""))
+  (lib (name "DESD3V3S1BL_7B")(type "KiCad")(uri "${KIPRJMOD}/externLibs/DESD3V3S1BL_7B_TVS_10pF/DESD3V3S1BL_7B.kicad_sym")(options "")(descr ""))
 )

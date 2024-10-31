@@ -1697,7 +1697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
 			(at 44.45 111.76 0)
 			(effects
 				(font
@@ -1740,7 +1740,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a6f78902-2d87-4937-b7af-a3287e937491")
 		(property "Reference" "J20"
@@ -1997,7 +1997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
 			(at 30.48 121.92 0)
 			(effects
 				(font
@@ -2061,7 +2061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
 			(at 30.48 134.62 0)
 			(effects
 				(font
