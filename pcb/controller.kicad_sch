@@ -3305,6 +3305,12 @@
 		(uuid "224a1332-c822-4b08-ac35-f35cd443861d")
 	)
 	(junction
+		(at 198.12 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "288d2bc0-90d2-4920-9d05-9b704e1f442a")
+	)
+	(junction
 		(at 232.41 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3327,6 +3333,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42d04264-ca2f-4bea-a033-078574d3a2f1")
+	)
+	(junction
+		(at 198.12 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44a00e05-fd99-48d3-97c6-b005eeeb24cb")
 	)
 	(junction
 		(at 92.71 64.77)
@@ -3474,6 +3486,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 133.35) (xy 203.2 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b145f0d-dbbe-4d3a-b6ab-78fbf34651ed")
+	)
+	(wire
+		(pts
 			(xy 67.31 96.52) (xy 71.12 96.52)
 		)
 		(stroke
@@ -3484,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 152.4) (xy 251.46 152.4)
+			(xy 50.8 153.67) (xy 52.07 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3704,7 +3726,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 135.89) (xy 177.8 135.89)
+			(xy 171.45 135.89) (xy 198.12 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3804,13 +3826,23 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 157.48) (xy 251.46 157.48)
+			(xy 50.8 158.75) (xy 52.07 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "42966145-7816-48de-8a9d-bb759106a11a")
+	)
+	(wire
+		(pts
+			(xy 198.12 135.89) (xy 203.2 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450d2764-4d89-47eb-96dc-8c4125d787c8")
 	)
 	(wire
 		(pts
@@ -3851,6 +3883,16 @@
 			(type default)
 		)
 		(uuid "557bbbdb-b71a-480a-a203-6516d02f9c2a")
+	)
+	(wire
+		(pts
+			(xy 203.2 130.81) (xy 198.12 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56440661-ef0d-4259-aeee-3b2c4f4e7f1a")
 	)
 	(wire
 		(pts
@@ -3971,6 +4013,16 @@
 			(type default)
 		)
 		(uuid "63804b39-25cc-4472-ace1-558195fb1d65")
+	)
+	(wire
+		(pts
+			(xy 39.37 186.69) (xy 44.45 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670e6093-ba91-4d3e-bd4b-ab76a7190997")
 	)
 	(wire
 		(pts
@@ -4284,6 +4336,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 182.88) (xy 44.45 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c31284b-a796-43c5-b891-dda345b4b07f")
+	)
+	(wire
+		(pts
 			(xy 171.45 82.55) (xy 175.26 82.55)
 		)
 		(stroke
@@ -4324,7 +4386,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 154.94) (xy 251.46 154.94)
+			(xy 49.53 156.21) (xy 52.07 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4371,6 +4433,16 @@
 			(type default)
 		)
 		(uuid "a7008aac-da9a-40ae-a2bf-603726fe6782")
+	)
+	(wire
+		(pts
+			(xy 198.12 130.81) (xy 198.12 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a22034-4ae1-4cbc-9097-2c67430a0e59")
 	)
 	(wire
 		(pts
@@ -4654,7 +4726,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 133.35) (xy 177.8 133.35)
+			(xy 171.45 133.35) (xy 198.12 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4664,7 +4736,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 157.48) (xy 245.11 157.48)
+			(xy 40.64 158.75) (xy 45.72 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4754,7 +4826,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 152.4) (xy 245.11 152.4)
+			(xy 40.64 153.67) (xy 45.72 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4784,6 +4856,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 138.43) (xy 198.12 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc52208-491e-4913-a5f0-9e8c696db715")
+	)
+	(wire
+		(pts
 			(xy 171.45 140.97) (xy 177.8 140.97)
 		)
 		(stroke
@@ -4791,6 +4873,16 @@
 			(type default)
 		)
 		(uuid "eec6a023-c9ba-438c-8ad8-f74cc4b149eb")
+	)
+	(wire
+		(pts
+			(xy 198.12 138.43) (xy 198.12 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08856e2-80d0-496b-9bfa-c199fe2bd8d0")
 	)
 	(wire
 		(pts
@@ -4914,6 +5006,17 @@
 		)
 		(uuid "2472a4f8-dfe5-4993-90cd-876623ee760c")
 	)
+	(text "Spare serial interface UART3, could be used\nfor serial flashing. Discussion:\nhttps://openinverter.org/forum/viewtopic.php?p=76465#p76465"
+		(exclude_from_sim no)
+		(at 24.892 179.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37284d40-9a3b-4945-8c70-3e53ee3f5c6d")
+	)
 	(text "The SWO can be used for tracing.\nhttp://stefanfrings.de/stm32/stm32f1.html#traceswo"
 		(exclude_from_sim no)
 		(at 228.6 129.54 0)
@@ -4928,7 +5031,7 @@
 	)
 	(text "UART for debugging"
 		(exclude_from_sim no)
-		(at 231.14 148.59 0)
+		(at 31.75 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5399,6 +5502,50 @@
 			)
 		)
 	)
+	(global_label "UART3_RX"
+		(shape output)
+		(at 39.37 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4026948e-d894-40ba-932f-36fd4db6cd7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.0715 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART3_RX"
+		(shape input)
+		(at 203.2 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "402c5479-d34e-4989-9798-471b9926b124")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.4985 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3_uC"
 		(shape input)
 		(at 31.75 22.86 180)
@@ -5555,7 +5702,7 @@
 	)
 	(global_label "LED_CTL_GREEN"
 		(shape output)
-		(at 177.8 133.35 0)
+		(at 203.2 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5565,7 +5712,7 @@
 		)
 		(uuid "5ee85300-26f2-481f-8709-73bffd249859")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.5223 133.35 0)
+			(at 220.9223 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5834,7 @@
 	)
 	(global_label "UART4_TX"
 		(shape input)
-		(at 240.03 152.4 180)
+		(at 40.64 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5697,7 +5844,7 @@
 		)
 		(uuid "71ae610d-67a8-4158-98cf-a25716bb8a08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.1133 152.4 0)
+			(at 28.7233 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +5966,7 @@
 	)
 	(global_label "LED_CTL_BLUE"
 		(shape output)
-		(at 177.8 135.89 0)
+		(at 203.2 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5829,7 +5976,7 @@
 		)
 		(uuid "90afa404-5634-4653-b359-09f6e3c68959")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1314 135.89 0)
+			(at 219.5314 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,6 +6338,28 @@
 			)
 		)
 	)
+	(global_label "UART3_TX"
+		(shape output)
+		(at 203.2 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9837676-1ad1-43c8-a642-2d8f8c34fa99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.1961 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CONTACTOR_CONTROL1"
 		(shape output)
 		(at 127 105.41 180)
@@ -6347,7 +6516,7 @@
 	)
 	(global_label "UART4_RX"
 		(shape input)
-		(at 240.03 157.48 180)
+		(at 40.64 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6357,7 +6526,7 @@
 		)
 		(uuid "df4bf950-0333-46ed-84b0-a3957aa21183")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.8109 157.48 0)
+			(at 28.4209 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,6 +6593,28 @@
 		(uuid "f54cdc7a-ee92-4254-b5f1-1796a0b8be0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.0508 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART3_TX"
+		(shape input)
+		(at 39.37 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f58964e6-77e3-4112-870a-746626618723")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.3739 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +6888,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 251.46 157.48 270)
+		(at 52.07 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6705,7 +6896,7 @@
 		(dnp no)
 		(uuid "176b3d4b-7840-42a3-a378-d98d34558378")
 		(property "Reference" "UART_RX1"
-			(at 256.54 156.21 90)
+			(at 57.15 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6905,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 252.73 153.67 90)
+			(at 53.34 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6914,7 @@
 			)
 		)
 		(property "Footprint" "speciallib:TestPoint_Special_THTPad_D1.9mm_Drill1mm"
-			(at 251.46 162.56 0)
+			(at 52.07 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +6923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 162.56 0)
+			(at 52.07 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +6932,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 157.48 0)
+			(at 52.07 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7701,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 154.94 270)
+		(at 49.53 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7518,7 +7709,7 @@
 		(dnp no)
 		(uuid "2e50ac5d-58c4-4187-ac95-8d472f4e835e")
 		(property "Reference" "#PWR058"
-			(at 242.57 154.94 0)
+			(at 43.18 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +7718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 154.94 90)
+			(at 45.72 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +7727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 154.94 0)
+			(at 49.53 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7545,7 +7736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 154.94 0)
+			(at 49.53 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7554,7 +7745,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 154.94 0)
+			(at 49.53 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +7767,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 251.46 154.94 270)
+		(at 52.07 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7584,7 +7775,7 @@
 		(dnp no)
 		(uuid "2f24e037-9822-40b9-ab21-1f2644515371")
 		(property "Reference" "UART_GND1"
-			(at 256.54 153.67 90)
+			(at 57.15 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +7784,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 252.73 151.13 90)
+			(at 53.34 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,7 +7793,7 @@
 			)
 		)
 		(property "Footprint" "speciallib:TestPoint_Special_THTPad_D1.9mm_Drill1mm"
-			(at 251.46 160.02 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +7802,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 160.02 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,7 +7811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 154.94 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,7 +7984,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 251.46 152.4 270)
+		(at 52.07 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7801,7 +7992,7 @@
 		(dnp no)
 		(uuid "39721ad9-3392-47ae-8c3c-62ec85f26ff2")
 		(property "Reference" "UART_TX1"
-			(at 256.54 151.13 90)
+			(at 57.15 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +8001,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 252.73 148.59 90)
+			(at 53.34 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,7 +8010,7 @@
 			)
 		)
 		(property "Footprint" "speciallib:TestPoint_Special_THTPad_D1.9mm_Drill1mm"
-			(at 251.46 157.48 0)
+			(at 52.07 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7828,7 +8019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 157.48 0)
+			(at 52.07 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7837,7 +8028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 152.4 0)
+			(at 52.07 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,7 +8050,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 247.65 157.48 90)
+		(at 48.26 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7867,7 +8058,7 @@
 		(dnp no)
 		(uuid "39bb9f38-fa58-4230-b71b-bba4712f9cdd")
 		(property "Reference" "R22"
-			(at 243.84 160.02 90)
+			(at 44.45 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,7 +8066,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 248.92 160.02 90)
+			(at 49.53 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,7 +8074,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 247.65 157.48 0)
+			(at 48.26 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7892,7 +8083,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf"
-			(at 247.65 157.48 0)
+			(at 48.26 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,7 +8092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 157.48 0)
+			(at 48.26 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,7 +8101,7 @@
 			)
 		)
 		(property "LCSC" "C17557"
-			(at 247.65 157.48 90)
+			(at 48.26 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7919,7 +8110,7 @@
 			)
 		)
 		(property "LINK" "https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"
-			(at 247.65 157.48 0)
+			(at 48.26 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,7 +8355,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 247.65 152.4 90)
+		(at 48.26 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8172,7 +8363,7 @@
 		(dnp no)
 		(uuid "43f056c8-179e-40ee-a095-58ef974b987b")
 		(property "Reference" "R21"
-			(at 243.84 151.13 90)
+			(at 44.45 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,7 +8371,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 247.65 149.86 90)
+			(at 48.26 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +8379,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 247.65 152.4 0)
+			(at 48.26 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +8388,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101920_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf"
-			(at 247.65 152.4 0)
+			(at 48.26 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8397,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 152.4 0)
+			(at 48.26 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +8406,7 @@
 			)
 		)
 		(property "LCSC" "C17557"
-			(at 247.65 152.4 90)
+			(at 48.26 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +8415,7 @@
 			)
 		)
 		(property "LINK" "https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"
-			(at 247.65 152.4 0)
+			(at 48.26 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12310,6 +12501,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 44.45 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1c056be-e113-4950-bd1a-64e761fe09fd")
+		(property "Reference" "TP3"
+			(at 49.784 181.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 49.784 183.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "speciallib:TestPoint_Special_THTPad_D1.9mm_Drill1mm"
+			(at 44.45 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23083097-46b4-4e27-b9af-df454783c565")
+		)
+		(instances
+			(project "qca7000"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 53.34 123.19 90)
 		(unit 1)
@@ -12541,6 +12798,73 @@
 			(project "qca7000"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 44.45 186.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd2fa8b7-4244-4bf2-a957-ca0fd73806ee")
+		(property "Reference" "TP4"
+			(at 49.53 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 49.53 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "speciallib:TestPoint_Special_THTPad_D1.9mm_Drill1mm"
+			(at 44.45 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33ae476f-49eb-4109-bdad-79dba1e0162d")
+		)
+		(instances
+			(project "qca7000"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
