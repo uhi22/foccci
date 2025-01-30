@@ -140,6 +140,198 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030"
+				(at 5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030_0_0"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TMS" bidirectional line)
+				)
+				(pin open_collector line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TCK" output line)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TDO" input line)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -3606,6 +3798,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 140.97) (xy 106.68 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29936427-d0db-45f4-a8e6-361611be9ef8")
+	)
+	(wire
+		(pts
 			(xy 151.13 52.07) (xy 148.59 52.07)
 		)
 		(stroke
@@ -3956,6 +4158,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 143.51) (xy 106.68 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbbdfb6-796d-4e99-b172-263baf33c100")
+	)
+	(wire
+		(pts
 			(xy 101.6 76.2) (xy 104.14 76.2)
 		)
 		(stroke
@@ -4066,7 +4278,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 115.57) (xy 240.03 115.57)
+			(xy 104.14 165.1) (xy 107.95 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4076,7 +4288,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 118.11) (xy 240.03 118.11)
+			(xy 105.41 167.64) (xy 107.95 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4226,7 +4438,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 120.65) (xy 240.03 120.65)
+			(xy 104.14 170.18) (xy 107.95 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4766,6 +4978,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 127) (xy 92.71 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24b7fd0-8f52-4fc5-ad57-8f22cce063fb")
+	)
+	(wire
+		(pts
 			(xy 92.71 76.2) (xy 67.31 76.2)
 		)
 		(stroke
@@ -4773,6 +4995,16 @@
 			(type default)
 		)
 		(uuid "e4e8fbff-05b5-490d-baf6-f93c6d280e88")
+	)
+	(wire
+		(pts
+			(xy 92.71 151.13) (xy 92.71 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50c2cac-2771-48b3-ac8d-6414fed2c9ad")
 	)
 	(wire
 		(pts
@@ -5086,7 +5318,7 @@
 	)
 	(text "Serial Wire Debug\nSWD"
 		(exclude_from_sim no)
-		(at 228.6 113.03 0)
+		(at 96.52 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5171,6 +5403,28 @@
 			(justify right bottom)
 		)
 		(uuid "92b6c703-ea2e-487b-b966-76915897f75e")
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 106.68 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04206f64-004c-44bd-8489-cefd0777fe5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.5314 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SPI1_NSS"
 		(shape input)
@@ -5262,7 +5516,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 236.22 115.57 180)
+		(at 104.14 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5272,7 +5526,7 @@
 		)
 		(uuid "0d70348e-7c50-41da-b7b2-4026e9c867e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.448 115.57 0)
+			(at 95.368 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +5538,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 236.22 120.65 180)
+		(at 104.14 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5294,12 +5548,34 @@
 		)
 		(uuid "16359bf8-474f-4b99-ad8e-08ad477b3df9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.0852 120.65 0)
+			(at 95.0052 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 106.68 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1af56df6-9c52-4769-8a56-47ae144f3618")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8942 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5801,6 +6077,28 @@
 		(uuid "662fe073-ac6c-4415-9baf-56b60961d1ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 259.9296 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_uC"
+		(shape input)
+		(at 92.71 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "677313f8-e91d-4e49-96e4-24c55a988f24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.51 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,6 +7650,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 92.71 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e2450c4-02a2-4041-b40c-24227c1bb755")
+		(property "Reference" "#PWR087"
+			(at 92.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "195503c1-683a-4389-a191-056c04737479")
+		)
+		(instances
+			(project "qca7000"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 170.18 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8135,7 +8499,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 240.03 120.65 270)
+		(at 107.95 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8143,7 +8507,7 @@
 		(dnp no)
 		(uuid "3d52e000-ada1-47d0-8861-ca6946c1227a")
 		(property "Reference" "SWCLK1"
-			(at 245.11 119.38 90)
+			(at 113.03 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +8516,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 241.3 116.84 90)
+			(at 109.22 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8161,7 +8525,7 @@
 			)
 		)
 		(property "Footprint" "speciallib:TestPoint_Special_THTPad_D1.9mm_Drill1mm"
-			(at 240.03 125.73 0)
+			(at 107.95 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +8534,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 125.73 0)
+			(at 107.95 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +8543,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 120.65 0)
+			(at 107.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,6 +9020,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030")
+		(at 95.25 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "546e6d9b-95af-48bb-98d8-1e11a162681e")
+		(property "Reference" "J6"
+			(at 88.9 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030"
+			(at 88.9 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+			(at 95.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b2ca5814-e514-47ab-8dc0-0d0b33f8e16d")
+		)
+		(pin "6"
+			(uuid "8cf51b0b-52a6-4027-8f9a-49e08d1f859e")
+		)
+		(pin "5"
+			(uuid "ec4a9c92-087d-4cde-ae68-58f6d9dd75ef")
+		)
+		(pin "4"
+			(uuid "e194a671-95da-4f6a-b917-13c73cbb60c8")
+		)
+		(pin "2"
+			(uuid "98746668-6ab0-4d37-a323-8dc650bb177f")
+		)
+		(pin "1"
+			(uuid "7401667c-f09a-473e-862c-9ce4661fedd5")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5666e7cf-6b6c-4583-8335-aa3be69ccd45"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_Small_13")
 		(lib_id "Device:C_Small")
 		(at 166.37 57.15 270)
@@ -8743,7 +9189,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 118.11 270)
+		(at 105.41 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8751,7 +9197,7 @@
 		(dnp no)
 		(uuid "5a9ae929-43b0-4fd4-9654-b61dcc39af9e")
 		(property "Reference" "#PWR055"
-			(at 231.14 118.11 0)
+			(at 99.06 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +9206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 118.11 90)
+			(at 101.6 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +9215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 118.11 0)
+			(at 105.41 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +9224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 118.11 0)
+			(at 105.41 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +9233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 118.11 0)
+			(at 105.41 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +9973,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 240.03 118.11 270)
+		(at 107.95 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9535,7 +9981,7 @@
 		(dnp no)
 		(uuid "7b267212-38a0-4b4b-b44e-973a400642ec")
 		(property "Reference" "SWGND1"
-			(at 245.11 116.84 90)
+			(at 113.03 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9990,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 241.3 114.3 90)
+			(at 109.22 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9999,7 @@
 			)
 		)
 		(property "Footprint" "speciallib:TestPoint_Special_THTPad_D1.9mm_Drill1mm"
-			(at 240.03 123.19 0)
+			(at 107.95 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +10008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 123.19 0)
+			(at 107.95 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +10017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 118.11 0)
+			(at 107.95 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11324,7 +11770,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 240.03 115.57 270)
+		(at 107.95 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11332,7 +11778,7 @@
 		(dnp no)
 		(uuid "c9c21d3c-570e-4f60-a9bd-9ba6703a7c37")
 		(property "Reference" "SWDIO1"
-			(at 245.11 114.3 90)
+			(at 113.03 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,7 +11787,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 241.3 111.76 90)
+			(at 109.22 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,7 +11796,7 @@
 			)
 		)
 		(property "Footprint" "speciallib:TestPoint_Special_THTPad_D1.9mm_Drill1mm"
-			(at 240.03 120.65 0)
+			(at 107.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11359,7 +11805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 120.65 0)
+			(at 107.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11368,7 +11814,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 115.57 0)
+			(at 107.95 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
