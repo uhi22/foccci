@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "60b3c113-ef45-4bcd-adcb-63d3c2b44177")
 	(paper "A4")
 	(lib_symbols
 		(symbol "C_Small_13"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,10 +82,10 @@
 			(symbol "C_Small_13_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -90,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -139,11 +143,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -261,10 +270,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:1N4148W"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -362,10 +376,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -374,10 +388,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -423,9 +437,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:BAV99"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -507,6 +524,30 @@
 			(symbol "BAV99_1_1"
 				(polyline
 					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0 0) (xy 0 -2.54)
 					)
 					(stroke
@@ -517,9 +558,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.2032)
@@ -541,41 +593,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -587,24 +604,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -630,11 +629,32 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -700,41 +720,6 @@
 				)
 			)
 			(symbol "SolderJumper_3_Open_0_1"
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -2.032 0)
@@ -759,6 +744,41 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -1.27) (xy 0 -1.016)
@@ -769,6 +789,30 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -793,30 +837,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -876,6 +896,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -955,7 +976,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -972,7 +994,75 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Divider 2:1 to be able to measure up\nto 6.6V with the 3.3V ADC ref."
+		(exclude_from_sim no)
+		(at 182.88 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b0eee43-f344-41c7-ab01-b422ab913b63")
+	)
+	(text "Hardware variant detection: R62 can be increased with each hardware version\nTable here: https://openinverter.org/wiki/Fully_Open_CCS_Charge_Controller_(FOCCCI)\n10k: Foccci 4.2\n12k: Foccci 4.3\n15k: Foccci 4.4\n18k: Foccci 4.5, 4.5b and 5"
+		(exclude_from_sim no)
+		(at 73.66 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c78c2c2-dd15-4d10-8338-dfdbde8bde1f")
+	)
+	(text "Current input for HV DC voltage\nmeasurement as done in LIM, see\nhttps://openinverter.org/forum/viewtopic.php?p=58839#p58839"
+		(exclude_from_sim no)
+		(at 31.75 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+			(href "https://openinverter.org/forum/viewtopic.php?p=58839#p58839")
+		)
+		(uuid "35e84ae7-15fd-4697-918f-5ed2012c1ace")
+	)
+	(text "330 ohms to 5V is the \"offical\" spec"
+		(exclude_from_sim no)
+		(at 114.3 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77717537-8d06-4654-9698-165bbb7e86d1")
+	)
+	(text "Analog inputs, e.g. for use with NTCs to ground\nfor temperature measurement\nor analog feedback contacts or switches."
+		(exclude_from_sim no)
+		(at 30.48 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b260d820-3b89-4a86-9bdd-2908566768b7")
+	)
+	(text "PlugPresent:\n- 1k5 to ground for CCS2\n- 100 ohm to 1k5 for AC (current limit of the cable)\n- 150 ohm (button idle) or 480 ohm (button pressed) for CCS1\n\nSome inlets may contain 2k7 or 3k0 to ground. The optional R60 can be\nused if no external pull down is present.\nDiscussion here: https://openinverter.org/forum/viewtopic.php?p=66305#p66305\n\nWakeup via PP only works without any pull-down resistor"
+		(exclude_from_sim no)
+		(at 133.35 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c279a817-57b4-48ef-acd5-e05cfbc3617a")
 	)
 	(junction
 		(at 168.91 59.69)
@@ -1825,73 +1915,6 @@
 			(type default)
 		)
 		(uuid "ff565607-d561-450b-a9cc-9257671df025")
-	)
-	(text "Divider 2:1 to be able to measure up\nto 6.6V with the 3.3V ADC ref."
-		(exclude_from_sim no)
-		(at 182.88 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b0eee43-f344-41c7-ab01-b422ab913b63")
-	)
-	(text "Hardware variant detection: R62 can be increased with each hardware version\nTable here: https://openinverter.org/wiki/Fully_Open_CCS_Charge_Controller_(FOCCCI)\n10k: Foccci 4.2\n12k: Foccci 4.3\n15k: Foccci 4.4\n18k: Foccci 4.5, 4.5b and 5"
-		(exclude_from_sim no)
-		(at 73.66 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c78c2c2-dd15-4d10-8338-dfdbde8bde1f")
-	)
-	(text "Current input for HV DC voltage\nmeasurement as done in LIM, see\nhttps://openinverter.org/forum/viewtopic.php?p=58839#p58839"
-		(exclude_from_sim no)
-		(at 31.75 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-			(href "https://openinverter.org/forum/viewtopic.php?p=58839#p58839")
-		)
-		(uuid "35e84ae7-15fd-4697-918f-5ed2012c1ace")
-	)
-	(text "330 ohms to 5V is the \"offical\" spec"
-		(exclude_from_sim no)
-		(at 114.3 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77717537-8d06-4654-9698-165bbb7e86d1")
-	)
-	(text "Analog inputs, e.g. for use with NTCs to ground\nfor temperature measurement\nor analog feedback contacts or switches."
-		(exclude_from_sim no)
-		(at 30.48 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b260d820-3b89-4a86-9bdd-2908566768b7")
-	)
-	(text "PlugPresent:\n- 1k5 to ground for CCS2\n- 100 ohm to 1k5 for AC (current limit of the cable)\n- 150 ohm (button idle) or 480 ohm (button pressed) for CCS1\n\nSome inlets may contain 2k7 or 3k0 to ground. The optional R60 can be\nused if no external pull down is present.\nDiscussion here: https://openinverter.org/forum/viewtopic.php?p=66305#p66305\n\nWakeup via PP only works without any pull-down resistor"
-		(exclude_from_sim no)
-		(at 133.35 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c279a817-57b4-48ef-acd5-e05cfbc3617a")
 	)
 	(global_label "ADC123_IN11"
 		(shape output)
