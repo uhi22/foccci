@@ -5347,6 +5347,203 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_Flash:AT25SF081-SSHD-X"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7175,6 +7372,17 @@
 		)
 		(uuid "8eb5e770-d904-422f-814b-21543d34976a")
 	)
+	(text "JTAG interface for the QCA.\nTo use it, disconnect the grounded solder jumpers."
+		(exclude_from_sim no)
+		(at 119.634 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4f08efd-d7cf-4972-bfa7-babeeff5e022")
+	)
 	(text "GPIO_1 must be pulled down."
 		(exclude_from_sim no)
 		(at 218.44 60.96 0)
@@ -7250,12 +7458,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "145f4f32-c0b4-4651-8b0f-281de4006bc3")
-	)
-	(junction
-		(at 116.84 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "154e7ae3-2932-4026-804a-8335b6f57bd2")
 	)
 	(junction
 		(at 41.91 19.05)
@@ -7426,6 +7628,12 @@
 		(uuid "7149c949-15e7-4761-9b51-a967f12b38ce")
 	)
 	(junction
+		(at 124.46 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "735111f7-900c-4cf7-8159-bf49b52f2a60")
+	)
+	(junction
 		(at 95.25 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7442,6 +7650,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75a3a4ca-0cea-47c9-89f3-a07bc4dd2193")
+	)
+	(junction
+		(at 132.08 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75f83086-2039-4f85-8a79-08ca517d280e")
 	)
 	(junction
 		(at 227.33 142.24)
@@ -7648,6 +7862,12 @@
 		(uuid "d8f2bf89-a4c6-46f1-a473-e35792f72630")
 	)
 	(junction
+		(at 124.46 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db3d4046-c3f5-410a-acea-afc7d0a5b732")
+	)
+	(junction
 		(at 99.06 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7690,10 +7910,10 @@
 		(uuid "ed522603-2deb-4d22-9827-014d95f02419")
 	)
 	(junction
-		(at 111.76 105.41)
+		(at 132.08 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f0266bdf-da73-4868-87cf-ba2b5f447cbc")
+		(uuid "f3dc2763-6210-4ca5-bbc8-5cc20c722a84")
 	)
 	(junction
 		(at 163.83 175.26)
@@ -7706,6 +7926,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7eda38b-5ead-4065-ac73-d2f0af7469ed")
+	)
+	(junction
+		(at 132.08 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9948608-4f13-478b-8936-c2fa2ba411dc")
 	)
 	(junction
 		(at 35.56 119.38)
@@ -7738,16 +7964,8 @@
 		(uuid "1cdbec6b-8bb2-4eb6-82ed-727a8dcb1d5c")
 	)
 	(no_connect
-		(at 114.3 58.42)
-		(uuid "4b8667bd-5afc-4bc0-ad0b-6a84a141c0a9")
-	)
-	(no_connect
 		(at 109.22 175.26)
 		(uuid "9d5413ce-b354-456b-9534-74281141d469")
-	)
-	(no_connect
-		(at 109.22 109.22)
-		(uuid "a13801b0-db80-4138-b5b0-c1ad2d01c23a")
 	)
 	(no_connect
 		(at 88.9 109.22)
@@ -7760,10 +7978,6 @@
 	(no_connect
 		(at 91.44 175.26)
 		(uuid "f177265c-cb96-4155-9bf8-2751e60b12b5")
-	)
-	(no_connect
-		(at 114.3 109.22)
-		(uuid "ff28fd7a-9523-43b5-83d3-8af9d81e14a9")
 	)
 	(wire
 		(pts
@@ -7877,6 +8091,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 66.04) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06522b44-8419-4b54-b028-cd1feffe76e8")
+	)
+	(wire
+		(pts
 			(xy 223.52 168.91) (xy 223.52 180.34)
 		)
 		(stroke
@@ -7934,16 +8158,6 @@
 			(type default)
 		)
 		(uuid "09b29227-26ec-497a-89b9-6d87f96b97ca")
-	)
-	(wire
-		(pts
-			(xy 116.84 105.41) (xy 111.76 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a55edc6-e0d9-4420-8d8a-f0e20a631d8e")
 	)
 	(wire
 		(pts
@@ -8047,6 +8261,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 93.98) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6dd77d-1fe1-41eb-896a-c3570ce94c3f")
+	)
+	(wire
+		(pts
+			(xy 111.76 105.41) (xy 111.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d84597a-1442-4700-b4c1-f8ef69f84eaa")
+	)
+	(wire
+		(pts
 			(xy 148.59 175.26) (xy 148.59 184.15)
 		)
 		(stroke
@@ -8054,6 +8288,16 @@
 			(type default)
 		)
 		(uuid "0d9404d9-6e63-4f85-b82c-e411ececa2ee")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 114.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9e4ed6-d4de-4b95-90ba-cf462eb49bb9")
 	)
 	(wire
 		(pts
@@ -8277,6 +8521,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 53.34) (xy 132.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a278d18-ff79-4f31-8b76-f3d40ac04956")
+	)
+	(wire
+		(pts
 			(xy 175.26 170.18) (xy 175.26 168.91)
 		)
 		(stroke
@@ -8297,6 +8551,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 60.96) (xy 124.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1baec5ec-2cd8-4047-a6c5-b511d8b45019")
+	)
+	(wire
+		(pts
 			(xy 177.8 19.05) (xy 180.34 19.05)
 		)
 		(stroke
@@ -8304,6 +8568,16 @@
 			(type default)
 		)
 		(uuid "1bef63d6-9143-4419-8644-25593dc12b4c")
+	)
+	(wire
+		(pts
+			(xy 132.08 66.04) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c37a7a6-7672-4824-97fe-867798ad4a64")
 	)
 	(wire
 		(pts
@@ -8827,16 +9101,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 105.41) (xy 116.84 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "480faaed-f5e4-4eb7-a27a-d9c15a650e90")
-	)
-	(wire
-		(pts
 			(xy 60.96 107.95) (xy 66.04 107.95)
 		)
 		(stroke
@@ -9097,6 +9361,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 55.88) (xy 124.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ee6d12-5e88-4082-ae67-07d5f760f602")
+	)
+	(wire
+		(pts
 			(xy 63.5 119.38) (xy 63.5 128.27)
 		)
 		(stroke
@@ -9227,6 +9501,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 60.96) (xy 124.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641c89f1-9472-400f-9413-2995413b6c54")
+	)
+	(wire
+		(pts
 			(xy 149.86 142.24) (xy 149.86 143.51)
 		)
 		(stroke
@@ -9304,6 +9588,16 @@
 			(type default)
 		)
 		(uuid "68b49883-9722-4a0e-a476-68974b8c8e63")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 124.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f071b5-6a55-4dec-b781-7b615cb3043d")
 	)
 	(wire
 		(pts
@@ -9457,6 +9751,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 63.5) (xy 132.08 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7967cae4-a6fd-4412-b0b4-f1f75df0b665")
+	)
+	(wire
+		(pts
 			(xy 90.17 38.1) (xy 92.71 38.1)
 		)
 		(stroke
@@ -9524,6 +9828,16 @@
 			(type default)
 		)
 		(uuid "831c0ad7-0c57-4e6c-a309-cfb302bd3a7c")
+	)
+	(wire
+		(pts
+			(xy 121.92 53.34) (xy 124.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8435e137-1a77-428c-94c4-f316fc573cfe")
 	)
 	(wire
 		(pts
@@ -9637,7 +9951,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 92.71) (xy 104.14 109.22)
+			(xy 100.33 91.44) (xy 100.33 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9794,6 +10108,26 @@
 			(type default)
 		)
 		(uuid "993ad1ff-237b-4d52-ac85-b7277019f819")
+	)
+	(wire
+		(pts
+			(xy 132.08 58.42) (xy 132.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994a7bc9-0038-4063-b281-50d4c311f737")
+	)
+	(wire
+		(pts
+			(xy 121.92 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b238022-1306-4a18-a268-8931123cba15")
 	)
 	(wire
 		(pts
@@ -10017,6 +10351,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 93.98) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4856ff-fca9-49f0-95e0-be026bca7c98")
+	)
+	(wire
+		(pts
 			(xy 29.21 29.21) (xy 31.75 29.21)
 		)
 		(stroke
@@ -10124,6 +10468,16 @@
 			(type default)
 		)
 		(uuid "b4dffaca-486b-4e40-b646-5c0d7fc875cd")
+	)
+	(wire
+		(pts
+			(xy 124.46 55.88) (xy 124.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57e3c85-0d22-4737-97bd-9077453c6d48")
 	)
 	(wire
 		(pts
@@ -10557,6 +10911,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 105.41) (xy 109.22 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8de1bd-ba7b-4763-af19-5e7816b44fec")
+	)
+	(wire
+		(pts
 			(xy 93.98 107.95) (xy 93.98 109.22)
 		)
 		(stroke
@@ -10654,16 +11018,6 @@
 			(type default)
 		)
 		(uuid "d338e374-32f5-4d84-bdab-e97c514fd4c6")
-	)
-	(wire
-		(pts
-			(xy 106.68 105.41) (xy 111.76 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3401f6a-4711-4b58-b14f-306aa052ca26")
 	)
 	(wire
 		(pts
@@ -10807,6 +11161,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 71.12) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddca7c69-d0aa-4967-a864-8e4c0660b75f")
+	)
+	(wire
+		(pts
 			(xy 213.36 168.91) (xy 213.36 156.21)
 		)
 		(stroke
@@ -10884,6 +11248,16 @@
 			(type default)
 		)
 		(uuid "e0b7c0f1-cf34-403d-bf6c-345287feda04")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e117685f-a622-47e4-9668-5bee3860ad72")
 	)
 	(wire
 		(pts
@@ -11207,16 +11581,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 105.41) (xy 111.76 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa09f275-2941-4800-8ba3-98c08e26226b")
-	)
-	(wire
-		(pts
 			(xy 146.05 148.59) (xy 149.86 148.59)
 		)
 		(stroke
@@ -11315,6 +11679,16 @@
 		)
 		(uuid "fdd22677-a142-4be8-9f55-3bf16ac56df7")
 	)
+	(wire
+		(pts
+			(xy 132.08 68.58) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa588ae-69ef-452d-a4d2-0dde1598358f")
+	)
 	(label "SW_VDD_OUT"
 		(at 149.86 140.97 0)
 		(effects
@@ -11367,6 +11741,28 @@
 			)
 		)
 	)
+	(global_label "QCA_TDO"
+		(shape output)
+		(at 114.3 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0dea5efc-a338-4d93-952a-6ba7f42e4877")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 94.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RESET#"
 		(shape input)
 		(at 265.43 53.34 180)
@@ -11407,6 +11803,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QCA_RTCK"
+		(shape input)
+		(at 121.92 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19d998e1-5ceb-4845-bd46-cd3069a3dabc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.5005 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11587,6 +12005,72 @@
 			)
 		)
 	)
+	(global_label "QCA_TMS"
+		(shape input)
+		(at 111.76 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48b2bbb4-13ed-4c3f-9563-2bd343badfac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 94.1396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QCA_TRST_L"
+		(shape input)
+		(at 106.68 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c8c1207-6cf3-414a-b48f-c239ae79d65e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 91.3577 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QCA_TCK"
+		(shape output)
+		(at 121.92 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5307afb4-3b7b-424c-bd30-82577ff47f6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.7705 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RXIN_N"
 		(shape input)
 		(at 101.6 104.14 90)
@@ -11644,6 +12128,28 @@
 		(uuid "64763523-1709-4938-88df-94bd91783db4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.6655 44.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QCA_RTCK"
+		(shape output)
+		(at 109.22 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "673040eb-cef5-452b-a8cf-8aad79a4b13f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 92.9905 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11732,6 +12238,28 @@
 		(uuid "6b91af5f-6f37-4d0d-a703-de4bee67eb13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.3806 186.8655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QCA_TRST_L"
+		(shape output)
+		(at 121.92 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d539eeb-8ac4-413b-91ed-800d83b69b07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.8677 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11869,6 +12397,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QCA_TDO"
+		(shape input)
+		(at 121.92 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78718875-6fe8-4e4a-bf43-e1d13d89b62e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12093,6 +12643,28 @@
 			)
 		)
 	)
+	(global_label "QCA_TDI"
+		(shape output)
+		(at 121.92 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fd4c6a1-58bd-4aea-bc52-ab3ddaae1cea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.4357 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SERIAL_IO_4_MOSI"
 		(shape input)
 		(at 146.05 130.81 0)
@@ -12216,6 +12788,28 @@
 		(uuid "b15856b1-1bf0-468a-ba14-5917b27fa57a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 187.721 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QCA_TDI"
+		(shape input)
+		(at 119.38 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b31b39bf-b2df-4354-9b56-dba702bb75e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 94.9257 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12445,6 +13039,28 @@
 			)
 		)
 	)
+	(global_label "QCA_TCK"
+		(shape input)
+		(at 116.84 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd2892ca-3934-4610-b4a2-a6110e3c10b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 94.2605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3_D"
 		(shape input)
 		(at 250.19 142.24 0)
@@ -12524,6 +13140,28 @@
 		(uuid "ee996f12-4c4b-4221-afde-977f3f34ee0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 247.2237 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QCA_TMS"
+		(shape output)
+		(at 121.92 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eeb8c45a-23be-436a-a041-175f6218d5c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.6496 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12623,7 +13261,7 @@
 	)
 	(global_label "+1V2_C"
 		(shape input)
-		(at 104.14 92.71 90)
+		(at 100.33 91.44 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12633,7 +13271,7 @@
 		)
 		(uuid "f695f910-c681-4174-aea2-f2c2cf16f3bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.0606 82.9793 90)
+			(at 100.2506 81.7093 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16038,6 +16676,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 128.27 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "48d35c6c-861f-437c-8f2c-916fada2d92b")
+		(property "Reference" "JP9"
+			(at 137.414 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TDI"
+			(at 141.732 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4728b6ee-315b-4b3d-9828-61b8fa9ef865")
+		)
+		(pin "1"
+			(uuid "aedd80c8-ee94-4c67-99d8-afe730a40569")
+		)
+		(instances
+			(project "qca7000"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 58.42 107.95 90)
 		(unit 1)
@@ -16618,7 +17323,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 105.41 180)
+		(at 132.08 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16626,7 +17331,7 @@
 		(dnp no)
 		(uuid "5f9caf24-9814-4be7-a904-e3a4946b75ec")
 		(property "Reference" "#PWR012"
-			(at 111.76 99.06 0)
+			(at 132.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16635,7 +17340,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 101.6 0)
+			(at 134.62 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16644,7 +17349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 105.41 0)
+			(at 132.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16653,7 +17358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 105.41 0)
+			(at 132.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16662,7 +17367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 105.41 0)
+			(at 132.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18171,6 +18876,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 128.27 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b0ea981-0749-479c-998b-473d8b4ea3c4")
+		(property "Reference" "JP8"
+			(at 137.414 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCK"
+			(at 142.24 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ee32429-6d34-4272-bc27-909e1f6e6099")
+		)
+		(pin "1"
+			(uuid "80c82bab-f3e3-43cf-bbfb-cb34a8d2e6cf")
+		)
+		(instances
+			(project "qca7000"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 271.78 50.8 270)
 		(unit 1)
@@ -18231,6 +19003,73 @@
 			(project "qca7000"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "MOSI1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 128.27 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cdb8433-5d67-46d8-b70a-332639743acc")
+		(property "Reference" "JP7"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TDO"
+			(at 142.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 128.27 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 128.27 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3391f23e-4631-47c4-ab5e-27542b593ede")
+		)
+		(pin "1"
+			(uuid "6ec0b62e-8d8a-410e-bc7e-66dde5ed9dd7")
+		)
+		(instances
+			(project "qca7000"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -19183,6 +20022,73 @@
 			(project "qca7000"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 128.27 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a63f9c3f-b7ee-48dc-8702-55cc0d4a705f")
+		(property "Reference" "JP6"
+			(at 137.414 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMS"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7f2723e-f45f-47be-a96f-8be7032bd2e6")
+		)
+		(pin "1"
+			(uuid "790a415f-aa32-46ec-979b-71037893a999")
+		)
+		(instances
+			(project "qca7000"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -20161,7 +21067,7 @@
 				(hide yes)
 			)
 		)
-		(property "LINK" "https://jlcpcb.com/partdetail/18096-0805W8F1000T5E/C17408"
+		(property "LINK" "https://jlcpcb.com/partdetail/18096-0805W8F1000T5E/C17561"
 			(at 33.02 45.72 0)
 			(effects
 				(font
@@ -20780,6 +21686,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 128.27 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1db4456-cd26-43a4-a742-1a3b6a38ee3e")
+		(property "Reference" "JP5"
+			(at 137.414 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RTCK"
+			(at 143.002 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 128.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 128.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f547ad61-6ec8-4cec-92ea-03d3374fbf01")
+		)
+		(pin "1"
+			(uuid "52d53eae-6cc3-43f0-aa1c-1418906d2f3d")
+		)
+		(instances
+			(project "qca7000"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 97.79 198.12 0)
 		(unit 1)
@@ -20840,6 +21813,73 @@
 			(project "qca7000"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 128.27 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d826962a-b9ae-4c2e-814c-308e82713c59")
+		(property "Reference" "JP4"
+			(at 137.668 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TRST_L"
+			(at 143.51 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 128.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 128.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d86d1bf3-6179-4486-aa2f-0bee96c78515")
+		)
+		(pin "1"
+			(uuid "9a1d181c-8e9c-4032-af45-6e7fff3c358b")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -21363,7 +22403,7 @@
 				(hide yes)
 			)
 		)
-		(property "LINK" "https://jlcpcb.com/partdetail/18096-0805W8F1000T5E/C17408"
+		(property "LINK" "https://jlcpcb.com/partdetail/18096-0805W8F1000T5E/C17561"
 			(at 36.83 72.39 0)
 			(effects
 				(font
